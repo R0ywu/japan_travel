@@ -228,6 +228,40 @@ button { font: inherit; cursor: pointer; }
 .card a { text-decoration: none; }
 .card ul { margin: 0; padding-left: 16px; }
 
+/* 天氣總覽 */
+.wx-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
+.wx-summary .card .big { font-size: 20px; }
+.wx-day { border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; overflow: hidden; }
+.wx-day-head { display: grid; grid-template-columns: 64px 44px 1fr auto; gap: 10px; align-items: center; padding: 10px 14px; background: var(--bg); border-left: 5px solid var(--c); }
+.wx-day-head .d { font-weight: 700; color: var(--c); line-height: 1.2; }
+.wx-day-head .d small { display: block; font-weight: 400; color: var(--muted); font-size: 11px; }
+.wx-day-head .ico { font-size: 28px; text-align: center; }
+.wx-day-head .t { font-size: 14px; }
+.wx-day-head .t b { font-size: 18px; }
+.wx-day-head .t .rng { color: var(--muted); font-size: 12px; margin-left: 6px; }
+.wx-day-head .rain { font-size: 13px; white-space: nowrap; }
+.wx-day-head .rain.hi { color: #1565c0; font-weight: 700; }
+.wx-tip { padding: 8px 14px; font-size: 13px; background: #fff; border-top: 1px dashed var(--line); }
+.wx-tip .tag { display: inline-block; background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 1px 9px; font-size: 12px; margin: 2px 4px 2px 0; }
+.wx-tip .tag.rain { background: #e3f0fb; color: #1565c0; }
+.wx-tip .tag.cold { background: #ece6f7; color: #5b4a8a; }
+.wx-tip .tag.warn { background: #fff4d6; color: #8a5a00; }
+.wx-rows { padding: 4px 14px 10px; }
+.wx-row { display: grid; grid-template-columns: 1fr 28px 70px 56px 76px; gap: 8px; align-items: center; font-size: 12px; padding: 4px 0; border-top: 1px solid var(--line); }
+.wx-row:first-child { border-top: 0; }
+.wx-row .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wx-row .nm small { color: var(--muted); }
+.wx-row .ico { text-align: center; font-size: 16px; }
+.wx-row .num { text-align: right; font-variant-numeric: tabular-nums; }
+.wx-legend { font-size: 11px; color: var(--muted); margin-top: 8px; }
+@media (max-width: 860px) {
+  .wx-day-head { grid-template-columns: 56px 36px 1fr; }
+  .wx-day-head .rain { grid-column: 3; justify-self: start; }
+  .wx-row { grid-template-columns: 1fr 24px 64px 48px; }
+  .wx-row .wind { display: none; }
+  #btn-weather { padding: 5px 8px; }
+}
+
 .foot { font-size: 11px; padding: 8px 16px; text-align: center; }
 
 /* Mobile */

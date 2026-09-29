@@ -23,6 +23,9 @@
       </div>
     </div>
     <div class="topbar-actions">
+      <button id="btn-weather" class="btn ghost" type="button" aria-controls="weather-drawer" aria-expanded="false">
+        🌤️ 天氣・穿搭
+      </button>
       <button id="btn-info" class="btn ghost" type="button" aria-controls="info-drawer" aria-expanded="false">
         ✈️ 航班・飯店・聯絡
       </button>
@@ -78,6 +81,13 @@
       <button class="detail-close" id="info-close" type="button" aria-label="關閉">✕</button>
     </div>
     <div id="info-body"></div>
+  </aside>
+  <aside id="weather-drawer" class="drawer" hidden>
+    <div class="drawer-head">
+      <h2>五日天氣總覽・穿搭建議</h2>
+      <button class="detail-close" id="weather-close" type="button" aria-label="關閉">✕</button>
+    </div>
+    <div id="weather-body"><p class="muted">載入中…</p></div>
   </aside>
   <div id="backdrop" class="backdrop" hidden></div>
 

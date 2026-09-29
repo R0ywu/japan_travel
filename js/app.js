@@ -496,6 +496,114 @@
     if (el) el.innerHTML = `<b>${fmtKm(dist)}</b>・約 ${fmtMin(dur)}${est ? ' <span class="muted">(直線估算)</span>' : ''}`;
   }
 
+  /* ---------- 天氣總覽（Open-Meteo，一次抓全部地點） ---------- */
+  let wxLoaded = false;
+  async function loadWeatherOverview() {
+    const body = $('#weather-body');
+    if (wxLoaded) return;
+    const { days, places, meta } = state.data;
+    // 每天的代表地點：景點與當晚飯店（排除桃園）；藏王另加山頂（海拔 1,661 m）
+    const pts = [];
+    days.forEach(d => d.stops.forEach(s => {
+      const p = places[s.place];
+      if (p.id === 'taoyuan-t1') return;
+      if (p.kind === 'hotel' && s.time !== '入住') return; // 早上出發的飯店不重複算
+      pts.push({ day: d.day, date: d.date, p, label: p.name_zh, lat: p.lat, lng: p.lng });
+      if (p.id === 'zao-ropeway') pts.push({ day: d.day, date: d.date, p, label: '藏王 地藏山頂駅（海拔 1,661 m）', lat: p.lat, lng: p.lng, elevation: 1661, summit: true });
+    }));
+    const key = 'wx-overview|' + meta.start;
+    let rows = null;
+    try { const c = JSON.parse(sessionStorage.getItem(key)); if (c && Date.now() - c.t < 3 * 3600 * 1000) rows = c.rows; } catch {}
+    if (!rows) {
+      try {
+        const q = (arr, k) => arr.map(x => x[k]).join(',');
+        const daily = 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,wind_speed_10m_max';
+        const base = `&daily=${daily}&timezone=Asia%2FTokyo&start_date=${meta.start}&end_date=${meta.end}`;
+        // 地面點一次批次抓；山頂點另外抓（需指定海拔）
+        const ground = pts.filter(x => !x.elevation), summits = pts.filter(x => x.elevation);
+        const fetchJson = async u => { const r = await fetch(u); if (!r.ok) throw new Error(r.status); const j = await r.json(); return Array.isArray(j) ? j : [j]; };
+        const jg = await fetchJson(`${METEO}?latitude=${q(ground, 'lat')}&longitude=${q(ground, 'lng')}${base}`);
+        const js_ = summits.length ? await fetchJson(`${METEO}?latitude=${q(summits, 'lat')}&longitude=${q(summits, 'lng')}&elevation=${q(summits, 'elevation')}${base}`) : [];
+        const results = new Map(); ground.forEach((x, i) => results.set(x, jg[i])); summits.forEach((x, i) => results.set(x, js_[i]));
+        rows = pts.map(pt => {
+          const jj = results.get(pt);
+          const dd = jj && jj.daily; if (!dd) return { ...pt, ok: false };
+          const k = dd.time.indexOf(pt.date); if (k < 0) return { ...pt, ok: false };
+          return { ...pt, ok: true, code: dd.weather_code[k], max: dd.temperature_2m_max[k], min: dd.temperature_2m_min[k], pop: dd.precipitation_probability_max[k], rain: dd.precipitation_sum[k], wind: dd.wind_speed_10m_max[k] };
+        }).map(({ p, ...rest }) => rest);
+        try { sessionStorage.setItem(key, JSON.stringify({ t: Date.now(), rows })); } catch {}
+      } catch (e) {
+        body.innerHTML = `<p class="muted">天氣資料載入失敗（${esc(e.message)}）。Open-Meteo 只提供未來 16 天預報，或目前離線。</p>`;
+        return;
+      }
+    }
+    renderWeatherOverview(rows);
+    wxLoaded = true;
+  }
+
+  function packingTips(dmin, dmax, pop, rain, wind, hasSummit, summitMin) {
+    const tags = [];
+    if (dmin != null) {
+      if (dmin < 5) tags.push(['cold', '🧥 羽絨／厚外套＋圍巾']);
+      else if (dmin < 10) tags.push(['cold', '🧥 厚外套＋發熱衣']);
+      else if (dmin < 15) tags.push(['', '🧶 薄外套或針織']);
+      else tags.push(['', '👕 長袖即可']);
+      if (dmax != null && dmax - dmin >= 10) tags.push(['', '🧅 早晚溫差大，洋蔥式穿法']);
+    }
+    if (pop != null) {
+      if (pop >= 60 || (rain != null && rain >= 5)) tags.push(['rain', '☔ 雨傘必帶（可考慮雨衣）']);
+      else if (pop >= 40) tags.push(['rain', '🌂 帶折傘備用']);
+    }
+    if (wind != null && wind >= 40) tags.push(['warn', '💨 風大，外套要防風']);
+    if (hasSummit && summitMin != null) tags.push(['cold', `🏔 藏王山頂約 ${Math.round(summitMin)}°C，纜車上去要多一件`]);
+    return tags;
+  }
+
+  function renderWeatherOverview(rows) {
+    const { days } = state.data;
+    const body = $('#weather-body');
+    const ok = rows.filter(r => r.ok);
+    if (!ok.length) { body.innerHTML = '<p class="muted">此行程日期尚未在預報範圍內（Open-Meteo 提供未來 16 天）。出發前一週再打開會有資料。</p>'; return; }
+    const allMin = Math.min(...ok.map(r => r.min)), allMax = Math.max(...ok.map(r => r.max));
+    const rainyDays = days.filter(d => ok.some(r => r.day === d.day && !r.summit && r.pop >= 50)).map(d => `10/${d.date.slice(8)}`);
+    const dayBlocks = days.map(d => {
+      const rs = ok.filter(r => r.day === d.day);
+      if (!rs.length) return `<div class="wx-day" style="--c:${color(d.day)}"><div class="wx-day-head"><div class="d">Day ${d.day}<small>${d.date.slice(5).replace('-', '/')}（${d.weekday}）</small></div><div class="ico">📅</div><div class="t muted">尚無預報</div></div></div>`;
+      const ground = rs.filter(r => !r.summit);
+      const dmin = Math.min(...ground.map(r => r.min)), dmax = Math.max(...ground.map(r => r.max));
+      const pop = Math.max(...ground.map(r => r.pop ?? 0)), rain = Math.max(...ground.map(r => r.rain ?? 0)), wind = Math.max(...ground.map(r => r.wind ?? 0));
+      // 代表天氣：取降雨機率最高地點的 weather code（保守）
+      const rep = ground.reduce((a, b) => ((b.pop ?? 0) > (a.pop ?? 0) ? b : a), ground[0]);
+      const [ico, txt] = WMO[rep.code] || ['🌡️', '—'];
+      const summit = rs.find(r => r.summit);
+      const tags = packingTips(dmin, dmax, pop, rain, wind, !!summit, summit && summit.min);
+      return `<div class="wx-day" style="--c:${color(d.day)}">
+        <div class="wx-day-head">
+          <div class="d">Day ${d.day}<small>${d.date.slice(5).replace('-', '/')}（${d.weekday}）</small></div>
+          <div class="ico">${ico}</div>
+          <div class="t"><b>${Math.round(dmin)}° – ${Math.round(dmax)}°C</b><span class="rng">${txt}・溫差 ${Math.round(dmax - dmin)}°</span></div>
+          <div class="rain${pop >= 50 ? ' hi' : ''}">☔ ${pop}%${rain >= 1 ? `・${rain.toFixed(1)} mm` : ''}</div>
+        </div>
+        <div class="wx-tip">${tags.map(([c, t]) => `<span class="tag ${c}">${t}</span>`).join('')}</div>
+        <div class="wx-rows">${rs.map(r => { const [i2, t2] = WMO[r.code] || ['🌡️', '—']; return `<div class="wx-row">
+            <div class="nm">${esc(r.label)}${r.summit ? '' : ''} <small>${t2}</small></div>
+            <div class="ico">${i2}</div>
+            <div class="num">${Math.round(r.min)}° – ${Math.round(r.max)}°</div>
+            <div class="num">☔ ${r.pop ?? '–'}%</div>
+            <div class="num wind">💨 ${Math.round(r.wind)} km/h</div>
+          </div>`; }).join('')}</div>
+      </div>`;
+    }).join('');
+    body.innerHTML = `
+      <div class="wx-summary">
+        <div class="card"><h4>全程最低溫</h4><div class="big">${Math.round(allMin)}°C</div><div class="muted">${esc(ok.reduce((a, b) => b.min < a.min ? b : a).label)}</div></div>
+        <div class="card"><h4>全程最高溫</h4><div class="big">${Math.round(allMax)}°C</div><div class="muted">${esc(ok.reduce((a, b) => b.max > a.max ? b : a).label)}</div></div>
+        <div class="card"><h4>降雨機率 ≥50% 的日子</h4><div class="big">${rainyDays.length ? rainyDays.join('、') : '無'}</div><div class="muted">${rainyDays.length ? '這幾天雨傘放包包' : '折傘備用即可'}</div></div>
+      </div>
+      ${dayBlocks}
+      <p class="wx-legend">資料：Open-Meteo 每日預報（每天更新，出發前 3 天內最準）。每日氣溫取當天所有停留點的最低／最高；降雨機率取最高值（保守）。藏王山頂為海拔 1,661 m 的估算，比山麓低約 8–10°C。</p>`;
+  }
+
   /* ---------- info drawer ---------- */
   function buildInfoDrawer() {
     const { meta, days, places } = state.data;
@@ -530,6 +638,12 @@
     const openInfo = () => { $('#info-drawer').hidden = false; $('#backdrop').hidden = false; $('#btn-info').setAttribute('aria-expanded', 'true'); };
     const closeInfo = () => { $('#info-drawer').hidden = true; $('#backdrop').hidden = true; $('#btn-info').setAttribute('aria-expanded', 'false'); };
     $('#btn-info').addEventListener('click', openInfo);
+    const openWx = () => { $('#weather-drawer').hidden = false; $('#backdrop').hidden = false; $('#btn-weather').setAttribute('aria-expanded', 'true'); loadWeatherOverview(); };
+    const closeWx = () => { $('#weather-drawer').hidden = true; $('#backdrop').hidden = true; $('#btn-weather').setAttribute('aria-expanded', 'false'); };
+    $('#btn-weather').addEventListener('click', openWx);
+    $('#weather-close').addEventListener('click', closeWx);
+    $('#backdrop').addEventListener('click', closeWx);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeWx(); });
     $('#info-close').addEventListener('click', closeInfo);
     $('#backdrop').addEventListener('click', closeInfo);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeInfo(); closeDetail(); } });
