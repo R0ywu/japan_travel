@@ -147,6 +147,10 @@ button { font: inherit; cursor: pointer; }
 .shop-超市 { border-color: #1565c0; }
 .shop-藥妝 { border-color: #c62828; }
 .shop-唐吉訶德 { border-color: #f9a825; background: #fff8e1; }
+.shop-地酒, .dot-地酒 { border-color: #6a4c93; }
+.shop.far { opacity: .85; }
+.far-toggle { display: block; width: 100%; margin: 6px 0 2px; border: 1px dashed var(--line); background: var(--bg); border-radius: 8px; padding: 6px; font-size: 12px; color: var(--muted); }
+.far-toggle:hover { color: var(--accent); border-color: var(--accent); }
 .shopnote { background: #fff4d6; border: 1px solid #f0d9a0; border-radius: 10px; padding: 8px 12px; font-size: 13px; margin: 8px 0; }
 .shop .dist { font-size: 11px; color: var(--muted); font-weight: 400; margin-left: 6px; }
 .legend { position: absolute; left: 10px; bottom: 10px; z-index: 500; background: rgba(255,255,255,.92); border-radius: 10px; padding: 8px 12px; font-size: 12px; box-shadow: var(--shadow); }

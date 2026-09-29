@@ -5,8 +5,9 @@
   'use strict';
 
   const DAY_COLORS = ['#b23a2b', '#d9742b', '#c98a2b', '#4f7d5a', '#3e6a8a'];
-  const TYPE_ICON = { '餐廳': '🍴', '咖啡': '☕', '伴手禮': '🎁', '溫泉': '♨', '其他': '📍' };
-  const SHOP_ICON = { '便利商店': '🏪', '超市': '🛒', '藥妝': '💊', '唐吉訶德': '🐧' };
+  const TYPE_ICON = { '餐廳': '🍴', '咖啡': '☕', '伴手禮': '🎁', '溫泉': '♨', '其他': '📍', '地酒': '🍶' };
+  const SHOP_ICON = { '便利商店': '🏪', '超市': '🛒', '藥妝': '💊', '唐吉訶德': '🐧', '地酒': '🍶' };
+  const NEAR_LIMIT = 1500; // 公尺；超過的視為「較遠」，預設不顯示
   const OSRM = 'https://router.project-osrm.org/route/v1/driving/';
   const METEO = 'https://api.open-meteo.com/v1/forecast';
   const WMO = {
@@ -24,6 +25,7 @@
     day: 1,
     showNearby: true,
     showShopping: true,
+    showFar: false,   // 是否顯示 1.5 km 以外的店家
     shopMarkersS: {}, // shoppingKey -> marker
     layers: {},       // day -> { spots, route, nearby, bounds }
     markers: {},      // `${day}:${idx}` -> marker
@@ -112,13 +114,14 @@
     const { days, places } = state.data;
     days.forEach(d => {
       const spots = L.layerGroup(), route = L.layerGroup(), nearby = L.layerGroup(), shopping = L.layerGroup();
+      const nearbyFar = L.layerGroup(), shoppingFar = L.layerGroup();
       const hotel = d.hotel ? places[d.hotel] : null;
       if (hotel && hotel.shopping) {
         hotel.shopping.forEach(sh => {
           const key = `${hotel.id}|${sh.name_ja}`;
           const sm = L.marker([sh.lat, sh.lng], { icon: shopIcon(sh.type), title: sh.name_zh });
           sm.bindPopup(popupShopping(sh, hotel));
-          sm.addTo(shopping);
+          sm.addTo(sh.far ? shoppingFar : shopping);
           state.shopMarkersS[key] = { marker: sm, day: d.day };
         });
       }
@@ -141,14 +144,14 @@
           if (state.shopMarkers[key] && state.shopMarkers[key].day === d.day) return;
           const sm = L.marker([sh.lat, sh.lng], { icon: dotIcon(sh.type), title: sh.name_zh });
           sm.bindPopup(popupShop(sh, p));
-          sm.addTo(nearby);
+          sm.addTo(sh.far ? nearbyFar : nearby);
           if (!state.shopMarkers[key]) state.shopMarkers[key] = { marker: sm, day: d.day };
         });
       });
       // 先畫直線（OSRM 回來後替換成真實路線）
       const straight = busSegments(d).map(seg => L.polyline(seg.latlngs, { color: color(d.day), weight: 4, opacity: .55, dashArray: '6 8' }));
       straight.forEach(l => l.addTo(route));
-      state.layers[d.day] = { spots, route, nearby, shopping, bounds: pts.length ? L.latLngBounds(pts) : null, straight };
+      state.layers[d.day] = { spots, route, nearby, shopping, nearbyFar, shoppingFar, bounds: pts.length ? L.latLngBounds(pts) : null, straight };
     });
   }
 
@@ -178,7 +181,7 @@
     return `<b>${TYPE_ICON[sh.type] || ''} ${esc(sh.name_zh)}</b><span class="muted">${esc(sh.name_ja)}</span>
       <div>${rate}</div>
       <div style="margin-top:4px">${esc(sh.note)}</div>
-      <div class="muted" style="margin-top:4px;font-size:11px">鄰近：${esc(near.name_zh)}</div>
+      <div class="muted" style="margin-top:4px;font-size:11px">離 ${esc(near.name_zh)} ${sh.dist_m != null ? fmtDist(sh.dist_m) : '—'}${sh.far ? '（較遠，需搭車）' : ''}</div>
       <div class="pop-actions"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps</a>${sh.nav_url ? `<a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">導航</a>` : ''}</div>`;
   }
 
@@ -195,7 +198,9 @@
     days.forEach(d => {
       const L_ = state.layers[d.day];
       const on = state.mode === 'all' || state.day === d.day;
-      toggle(L_.spots, on); toggle(L_.route, on); toggle(L_.nearby, on && state.showNearby); toggle(L_.shopping, on && state.showShopping);
+      toggle(L_.spots, on); toggle(L_.route, on);
+      toggle(L_.nearby, on && state.showNearby); toggle(L_.nearbyFar, on && state.showNearby && state.showFar);
+      toggle(L_.shopping, on && state.showShopping); toggle(L_.shoppingFar, on && state.showShopping && state.showFar);
     });
     // UI
     $('#mode-all').classList.toggle('active', state.mode === 'all');
@@ -323,13 +328,15 @@
     const p = state.data.places[s.place];
     const body = $('#detail-body');
     const kindLabel = { spot: '景點', hotel: '住宿', airport: '機場' }[p.kind];
+    const farNear = p.nearby.filter(s => s.far).length;
+    const farShop = (p.shopping || []).filter(s => s.far).length;
     const shops = p.nearby.map((sh, i) => {
       const rate = sh.rating ? `<span class="rate">★ ${sh.rating}<small class="muted"> ${esc(sh.rating_source || '')}</small></span>` : '';
       const hasPos = sh.lat != null && sh.lng != null;
-      return `<div class="shop" data-shop="${i}" title="${hasPos ? '在地圖上顯示' : '未查到座標'}">
+      return `<div class="shop${sh.far ? ' far' : ''}" data-shop="${i}" title="${hasPos ? '在地圖上顯示' : '未查到座標'}"${sh.far && !state.showFar ? ' hidden' : ''}>
         <span class="dot dot-${esc(sh.type)}">${TYPE_ICON[sh.type] || '📍'}</span>
         <div>
-          <div class="nm">${esc(sh.name_zh)} ${rate}</div>
+          <div class="nm">${esc(sh.name_zh)} ${rate}${sh.dist_m != null ? `<span class="dist">${fmtDist(sh.dist_m)}・步行約 ${Math.max(1, Math.round(sh.dist_m / 80))} 分</span>` : ''}</div>
           <div class="nt">${esc(sh.note)}</div>
           <div class="lk"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps ↗</a>${sh.nav_url ? ` <a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">導航 ↗</a>` : ''}${hasPos ? ' <span class="muted">・點此列在地圖定位</span>' : ' <span class="muted">（座標未查到，請用連結搜尋）</span>'}</div>
         </div>
@@ -358,15 +365,22 @@
       ${p.tips && p.tips.length ? `<h3>實用提醒</h3><ul>${p.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
       ${p.shopping && p.shopping.length ? `<h3>飯店周邊採購（依距離排序）</h3>
         ${p.shopping_note ? `<div class="shopnote">🛍 ${esc(p.shopping_note)}</div>` : ''}
-        <div class="shops shopping">${p.shopping.map((sh, i) => `<div class="shop" data-shopping="${i}" title="在地圖上顯示">
+        <div class="shops shopping">${p.shopping.map((sh, i) => `<div class="shop${sh.far ? ' far' : ''}" data-shopping="${i}" title="在地圖上顯示"${sh.far && !state.showFar ? ' hidden' : ''}>
           <span class="dot shopmark shop-${esc(sh.type)}">${SHOP_ICON[sh.type] || '🛍'}</span>
           <div>
             <div class="nm">${esc(sh.name_zh)}<span class="dist">${fmtDist(sh.dist_m)}・步行約 ${sh.walk_min} 分</span></div>
             ${sh.note ? `<div class="nt">${esc(sh.note)}</div>` : ''}
             <div class="lk"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps ↗</a> <a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">步行導航 ↗</a></div>
-          </div></div>`).join('')}</div>` : ''}
-      ${p.nearby.length ? `<h3>周邊推薦餐飲・店家（${p.nearby.length}）</h3><div class="shops">${shops}</div>` : ''}
+          </div></div>`).join('')}</div>
+        ${farShop ? `<button type="button" class="far-toggle" data-far>${state.showFar ? '隱藏' : '顯示'}較遠的 ${farShop} 家（超過 1.5 km，需搭車）</button>` : ''}` : ''}
+      ${p.nearby.length ? `<h3>周邊推薦餐飲・店家（${p.nearby.length - farNear}${farNear ? ` + 較遠 ${farNear}` : ''}）</h3><div class="shops">${shops}</div>
+        ${farNear ? `<button type="button" class="far-toggle" data-far>${state.showFar ? '隱藏' : '顯示'}較遠的 ${farNear} 家（超過 1.5 km，需搭車）</button>` : ''}` : ''}
     `;
+    body.querySelectorAll('.far-toggle').forEach(b => b.addEventListener('click', () => {
+      state.showFar = !state.showFar;
+      applyView(false);
+      openDetail(day, idx); // 重新渲染清單
+    }));
     body.querySelectorAll('.shop[data-shopping]').forEach(el => el.addEventListener('click', e => {
       if (e.target.tagName === 'A') return;
       const sh = p.shopping[+el.dataset.shopping];
