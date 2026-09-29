@@ -264,7 +264,7 @@
     "伴手禮（萩之月、毛豆麻糬等）在航廈內店家很齊，離境前留 30-40 分鐘採買即可；出境管制區內另有店家，如だし廊 GoLD 只在出境後區域（Tabelog，2026 年查證）。"
    ],
    "website": "https://www.sendai-airport.co.jp/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.13828,140.92999",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF",
    "nearby": [
     {
      "name_zh": "だし廊 GoLD（機場店）",
@@ -275,7 +275,8 @@
      "lat": 38.13828,
      "lng": 140.92999,
      "note": "航廈 2F 出境後區域，只有搭機旅客能進。招牌是雞高湯醬油拉麵與貝類鹽味拉麵，約 1,000-1,999 日圓，7:00-20:30 每日營業。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%81%97%E5%BB%8A%20-GoLD-%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%81%97%E5%BB%8A%20-GoLD-%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999"
     },
     {
      "name_zh": "菓匠三全 萩之月（機場店）",
@@ -286,7 +287,8 @@
      "lat": 38.13828,
      "lng": 140.92999,
      "note": "仙台代表伴手禮萩之月的機場店（ANA FESTA 資訊有列），適合離境前買。營業時間依航班而定，評分未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E8%90%A9%E3%81%AE%E6%9C%88%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E8%90%A9%E3%81%AE%E6%9C%88%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999"
     },
     {
      "name_zh": "閖上港朝市",
@@ -297,7 +299,8 @@
      "lat": 38.16938,
      "lng": 140.95327,
      "note": "名取市閖上的海鮮朝市，離機場車程約 10 分鐘，可吃海鮮丼、買海產。營業日與時間請查官網，評分未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%82%8A%E3%81%82%E3%81%92%E6%B8%AF%E6%9C%9D%E5%B8%82"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%82%8A%E3%81%82%E3%81%92%E6%B8%AF%E6%9C%9D%E5%B8%82",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16938,140.95327"
     },
     {
      "name_zh": "永旺夢樂城名取",
@@ -308,10 +311,18 @@
      "lat": 38.16409,
      "lng": 140.89543,
      "note": "機場附近最大的購物中心，有超市與餐飲，適合抵達日補給。營業時間約 10:00-21:00（未逐項查證），評分未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%90%8D%E5%8F%96"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%90%8D%E5%8F%96",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16409,140.89543"
     }
    ],
-   "kind": "airport"
+   "kind": "airport",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sendai_Airport_Building_front.jpg/800px-Sendai_Airport_Building_front.jpg",
+    "credit": "ブルーノ・プラス / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Sendai_Airport_Building_front.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF"
+   }
   },
   "dormy-inn-express-sendai-seaside": {
    "id": "dormy-inn-express-sendai-seaside",
@@ -326,7 +337,7 @@
     "免費停車位 251 台（含鄰地），不必預約；電話 022-388-5489。早餐與宵夜供應請以官網公告為準。"
    ],
    "website": "https://dormy-hotels.com/dormyinn/hotels/sendai_ex/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.27068,140.98978",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%BC%E3%83%9F%E3%83%BC%E3%82%A4%E3%83%B3%20EXPRESS%20%E4%BB%99%E5%8F%B0%E3%82%B7%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89",
    "nearby": [
     {
      "name_zh": "麒麟啤酒港仙台（工廠餐廳）",
@@ -337,7 +348,8 @@
      "lat": 38.26554,
      "lng": 140.99244,
      "note": "位在麒麟啤酒仙台工廠內，可喝工廠現釀啤酒配豬肋排、西班牙燉飯。約 1,000-3,999 日圓，週一多公休，依工廠行事曆而異。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%AA%E3%83%B3%20%E3%83%93%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%99%E5%8F%B0"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%AA%E3%83%B3%20%E3%83%93%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%99%E5%8F%B0",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26554,140.99244"
     },
     {
      "name_zh": "牛舌 港之小十郎",
@@ -359,7 +371,8 @@
      "lat": 38.27587,
      "lng": 140.99026,
      "note": "園區內有一風堂、味よし（拉麵，Tabelog 3.27）等餐廳，很適合下班後吃晚餐。營業時間約 10:00-20:00，餐飲較晚（未逐項查證）。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%20%E4%BB%99%E5%8F%B0%E6%B8%AF"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%20%E4%BB%99%E5%8F%B0%E6%B8%AF",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27587,140.99026"
     },
     {
      "name_zh": "凱因茲廚房 仙台港",
@@ -374,7 +387,14 @@
     }
    ],
    "phone": "+81-22-388-5489",
-   "kind": "hotel"
+   "kind": "hotel",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27068,140.98978",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Shiogama_and_sendai_from_an_aeroplane.jpg/800px-Shiogama_and_sendai_from_an_aeroplane.jpg",
+    "credit": "Prosperosity / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Shiogama_and_sendai_from_an_aeroplane.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E6%B8%AF"
+   }
   },
   "akiu-otaki": {
    "id": "akiu-otaki",
@@ -389,7 +409,7 @@
     "停車場約 200 台；大眾運輸只有假日班次的宮城交通巴士與 JR 愛子站轉乘市營巴士，自駕最方便。入場費與開放時間資料不完整，出發前請洽秋保溫泉觀光案內所 022-398-2323。"
    ],
    "website": "https://www.sentabi.jp/spots/34",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.27488,140.60282",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E4%BF%9D%E5%A4%A7%E6%BB%9D",
    "nearby": [
     {
      "name_zh": "秋保草庵（蕎麥麵）",
@@ -400,7 +420,8 @@
      "lat": 38.27178,
      "lng": 140.60831,
      "note": "離瀑布約 1 公里的蕎麥麵店，約 1,000-1,999 日圓。營業日與時間請出發前確認，未逐項查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E4%BF%9D%E8%8D%89%E5%BA%B5"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E4%BF%9D%E8%8D%89%E5%BA%B5",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27178,140.60831"
     },
     {
      "name_zh": "大瀑布 Restaurant House（義式廚房 M）",
@@ -422,7 +443,8 @@
      "lat": 38.22749,
      "lng": 140.7222,
      "note": "秋保排隊名物手作御萩，1,000 日圓以下，9:00-19:00，每月第 2、4 個週三公休。只能外帶，常提早賣完。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BB%E5%A9%A6%E3%81%AE%E5%BA%97%20%E3%81%95%E3%81%84%E3%81%A1"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BB%E5%A9%A6%E3%81%AE%E5%BA%97%20%E3%81%95%E3%81%84%E3%81%A1",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.22749,140.7222"
     },
     {
      "name_zh": "KOMOREBI gelato",
@@ -436,7 +458,14 @@
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=KOMOREBI%20gelato"
     }
    ],
-   "kind": "spot"
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27488,140.60282",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Akiu_Falls_2008.jpg/800px-Akiu_Falls_2008.jpg",
+    "credit": "Crown of Lenten rose / CC BY 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Akiu_Falls_2008.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E4%BF%9D%E5%A4%A7%E6%BB%9D"
+   }
   },
   "michinoku-lakewood-park": {
    "id": "michinoku-lakewood-park",
@@ -451,7 +480,7 @@
     "官網公布 2026 年 Autumn Festa 到 10/25，「みちのくふるさと秋灯り」夜間活動日期有 10/3-4、10/10-12，煙火在 10/3 與 10/11，公園要走很多路，建議預留半天。"
    ],
    "website": "https://michinoku-park.info/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.18339,140.67202",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%BD%E5%96%B6%E3%81%BF%E3%81%A1%E3%81%AE%E3%81%8F%E6%9D%9C%E3%81%AE%E6%B9%96%E7%95%94%E5%85%AC%E5%9C%92",
    "nearby": [
     {
      "name_zh": "蕎麥麵處 舌つづみ",
@@ -498,7 +527,14 @@
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B7%E3%83%99%E3%83%BC%E3%83%AB%20%E3%83%8F%E3%83%BC%E3%83%84%E3%83%A9%E3%83%B3%E3%83%89%20%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%83%86%E3%83%A9%E3%82%B9"
     }
    ],
-   "kind": "spot"
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.18339,140.67202",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg/800px-Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg",
+    "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%96%B6%E3%81%BF%E3%81%A1%E3%81%AE%E3%81%8F%E6%9D%9C%E3%81%AE%E6%B9%96%E7%95%94%E5%85%AC%E5%9C%92"
+   }
   },
   "zao-ropeway": {
    "id": "zao-ropeway",
@@ -513,7 +549,7 @@
     "山麓線約 7 分鐘、山頂線約 10 分鐘；山頂氣溫低，10 月上旬要帶外套，風大時可能停駛。這裡屬山形縣，與宮城的住宿之間要走藏王 Echo Line 或山形道，行程請預留車程。"
    ],
    "website": "https://zaoropeway.co.jp/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.16112,140.39472",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%20%E8%94%B5%E7%8E%8B%E5%B1%B1%E9%BA%93%E9%A7%85",
    "nearby": [
     {
      "name_zh": "藏王溫泉大露天風呂",
@@ -524,7 +560,8 @@
      "lat": 38.16609,
      "lng": 140.40188,
      "note": "藏王溫泉代表性的大型露天浴場，位於溫泉街上方。營業期間與費用未查證，請洽官網。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16609,140.40188"
     },
     {
      "name_zh": "かしぇる（蕎麥／成吉思汗烤羊）",
@@ -535,7 +572,8 @@
      "lat": 38.16713,
      "lng": 140.39627,
      "note": "Tabelog 3.29，蕎麥麵與成吉思汗烤羊肉，位在蔵王溫泉 196。營業時間未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%97%E3%81%87%E3%82%8B%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%97%E3%81%87%E3%82%8B%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16713,140.39627"
     },
     {
      "name_zh": "ろばた（成吉思汗烤羊）",
@@ -546,7 +584,8 @@
      "lat": 38.16766,
      "lng": 140.39697,
      "note": "藏王溫泉老店，成吉思汗烤羊肉為招牌，也提供住宿。評分未查證，營業時間請洽官網 t023.com。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%8D%E3%81%B0%E3%81%9F%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%8D%E3%81%B0%E3%81%9F%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16766,140.39697"
     },
     {
      "name_zh": "三五郎小屋",
@@ -560,7 +599,14 @@
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%94%E9%83%8E%E5%B0%8F%E5%B1%8B"
     }
    ],
-   "kind": "spot"
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16112,140.39472",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Yamagata-zao_ski_1_%28200712%29.jpg/800px-Yamagata-zao_ski_1_%28200712%29.jpg",
+    "credit": "E-190 / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Yamagata-zao_ski_1_%28200712%29.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%94%B5%E7%8E%8B%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4"
+   }
   },
   "mercure-miyagi-zao": {
    "id": "mercure-miyagi-zao",
@@ -575,7 +621,7 @@
     "從仙台站西口搭高速巴士約 70 分鐘，機場搭計程車約 80 分鐘，自駕從白石 IC 約 30 分鐘；晚餐建議先訂飯店餐廳，因周邊步行範圍內餐廳不多。"
    ],
    "website": "https://mercure-miyagizao-resortandspa.jp/en/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.13157,140.56071",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A1%E3%83%AB%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%AB%E5%AE%AE%E5%9F%8E%E8%94%B5%E7%8E%8B%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%26%E3%82%B9%E3%83%91",
    "nearby": [
     {
      "name_zh": "藏王手打蕎麥 新楽",
@@ -586,7 +632,8 @@
      "lat": 38.12391,
      "lng": 140.57837,
      "note": "用當地湧泉水做的粗麵，冷鴨南蠻約 1,200 日圓。11:00-15:00、16:30-19:00，週三公休（遇假日營業）；離飯店車程約 5 分鐘。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%20%E6%89%8B%E6%89%93%E3%81%A1%E3%81%9D%E3%81%B0%20%E6%96%B0%E6%A5%BD"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%20%E6%89%8B%E6%89%93%E3%81%A1%E3%81%9D%E3%81%B0%20%E6%96%B0%E6%A5%BD",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12391,140.57837"
     },
     {
      "name_zh": "賛久庵",
@@ -597,7 +644,8 @@
      "lat": 38.12437,
      "lng": 140.57241,
      "note": "蕎麥、炸豬排的定食食堂，也附咖啡。營業時間未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B3%9B%E4%B9%85%E5%BA%B5"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B3%9B%E4%B9%85%E5%BA%B5",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12437,140.57241"
     },
     {
      "name_zh": "神の湯（遠刈田溫泉共同浴場）",
@@ -608,7 +656,8 @@
      "lat": 38.12421,
      "lng": 140.57724,
      "note": "遠刈田溫泉的共同浴場，泡溫泉順便逛溫泉街。費用與營業時間未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E3%81%AE%E6%B9%AF"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E3%81%AE%E6%B9%AF",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12421,140.57724"
     },
     {
      "name_zh": "ぶなの森",
@@ -619,11 +668,19 @@
      "lat": 38.12024,
      "lng": 140.58886,
      "note": "義式披薩與義大利麵，位在遠刈田溫泉旭町，評分偏低，僅當備選。營業時間未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%AA%E3%81%AE%E6%A3%AE"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%AA%E3%81%AE%E6%A3%AE",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12024,140.58886"
     }
    ],
    "phone": "+81-224-34-3600",
-   "kind": "hotel"
+   "kind": "hotel",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13157,140.56071",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg/800px-%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg",
+    "credit": "Piccolo / CC BY 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89"
+   }
   },
   "matsushima": {
    "id": "matsushima",
@@ -638,7 +695,7 @@
     "福浦橋 252 公尺，大人 300 日圓，4-10 月 8:30-17:00（來源：松島町官網）。瑞巖寺 10 月 8:30-16:30，大人 1,000 日圓，無專用停車場（來源：瑞巖寺官網）；五大堂免費，開放時間未查證。"
    ],
    "website": "https://www.matsushima-kanko.com/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.36972,141.06421",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%20%E4%BA%94%E5%A4%A7%E5%A0%82",
    "nearby": [
     {
      "name_zh": "松島壽司幸",
@@ -649,7 +706,8 @@
      "lat": 38.37064,
      "lng": 141.06131,
      "note": "特上海鮮丼約 2,600 日圓，晚餐可到 21:00，週三、週四公休。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%20%E5%AF%BF%E5%8F%B8%E5%B9%B8"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%20%E5%AF%BF%E5%8F%B8%E5%B9%B8",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37064,141.06131"
     },
     {
      "name_zh": "丼松島",
@@ -660,7 +718,8 @@
      "lat": 38.36846,
      "lng": 141.05956,
      "note": "松島海岸站步行 1 分鐘，海鮮丼與在地料理，約 1,000-1,999 日圓，每日營業。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BC%E6%9D%BE%E5%B3%B6"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BC%E6%9D%BE%E5%B3%B6",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.36846,141.05956"
     },
     {
      "name_zh": "松島魚市場",
@@ -671,7 +730,8 @@
      "lat": 38.37208,
      "lng": 141.06357,
      "note": "鮪魚蔥花丼約 950 日圓、海鮮散壽司 1,900 日圓，2 樓 120 席，每日營業，午餐尖峰易排隊。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E3%81%95%E3%81%8B%E3%81%AA%E5%B8%82%E5%A0%B4"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E3%81%95%E3%81%8B%E3%81%AA%E5%B8%82%E5%A0%B4",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37208,141.06357"
     },
     {
      "name_zh": "三取茶屋",
@@ -682,7 +742,8 @@
      "lat": 38.3703,
      "lng": 141.06559,
      "note": "限量松島穴子丼約 1,780 日圓，也有牡蠣，晚餐 17:00-21:00，週三公休。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%82%93%E3%81%A8%E3%82%8A%E8%8C%B6%E5%B1%8B"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%82%93%E3%81%A8%E3%82%8A%E8%8C%B6%E5%B1%8B",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.3703,141.06559"
     },
     {
      "name_zh": "洗心庵",
@@ -696,7 +757,14 @@
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%97%E5%BF%83%E5%BA%B5"
     }
    ],
-   "kind": "spot"
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.36972,141.06421",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Matsushima_miyagi_z.JPG/800px-Matsushima_miyagi_z.JPG",
+    "credit": "Chensiyuan / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Matsushima_miyagi_z.JPG",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B3%B6"
+   }
   },
   "sendai-ichibancho": {
    "id": "sendai-ichibancho",
@@ -711,7 +779,7 @@
     "若你指的是仙台站的「牛たん通り」或其他「一番街」，請告知；此處以一番町拱廊處理。多數牛舌店晚餐 17:00 後才熱鬧，建議先訂位。"
    ],
    "website": "https://machi-kuru.com/st/8",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.261,140.8717",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%82%89%E3%82%93%E3%81%A9%E3%83%BC%E3%82%80%E4%B8%80%E7%95%AA%E7%94%BA",
    "nearby": [
     {
      "name_zh": "VELVET",
@@ -722,7 +790,8 @@
      "lat": 38.25825,
      "lng": 140.87268,
      "note": "サンモール一番町內的麵包咖啡，1,000 日圓以下。麵包 7:30-19:00、咖啡 7:30-18:00，不定休。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%AB%E3%83%99%E3%83%83%E3%83%88"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%AB%E3%83%99%E3%83%83%E3%83%88",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25825,140.87268"
     },
     {
      "name_zh": "牛たん けやき 仙台一番町本店",
@@ -733,7 +802,8 @@
      "lat": 38.26096,
      "lng": 140.87166,
      "note": "厚切牛舌定食，約 3,000-3,999 日圓。平日 11:00-15:00、17:00-22:00，全年無休。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%20%E3%81%91%E3%82%84%E3%81%8D%20%E4%BB%99%E5%8F%B0%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%20%E3%81%91%E3%82%84%E3%81%8D%20%E4%BB%99%E5%8F%B0%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26096,140.87166"
     },
     {
      "name_zh": "牛たん徳茂 一番町店",
@@ -744,7 +814,8 @@
      "lat": 38.26313,
      "lng": 140.87126,
      "note": "炭火厚切牛舌，午餐 1,000-1,999、晚餐 2,000-2,999 日圓；週一至週六 11:00-22:30，週日至 21:30。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%E5%BE%B3%E8%8C%82%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%E5%BE%B3%E8%8C%82%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26313,140.87126"
     },
     {
      "name_zh": "蕎麥神田 東一屋 一番町店",
@@ -755,7 +826,8 @@
      "lat": 38.26249,
      "lng": 140.871,
      "note": "站食蕎麥，冷狐狸蕎麥有免費天婦羅屑，1,000 日圓以下。Tabelog 載平日 7:00-01:00、週日與假日休，出發前再確認。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E3%81%AE%E7%A5%9E%E7%94%B0%20%E6%9D%B1%E4%B8%80%E5%B1%8B%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E3%81%AE%E7%A5%9E%E7%94%B0%20%E6%9D%B1%E4%B8%80%E5%B1%8B%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26249,140.871"
     },
     {
      "name_zh": "蔵の庄 一番町本店",
@@ -766,10 +838,18 @@
      "lat": 38.26138,
      "lng": 140.8718,
      "note": "爐端燒與宮城地酒居酒屋，約 4,000-4,999 日圓，16:00-23:30，適合晚餐。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26138,140.8718"
     }
    ],
-   "kind": "spot"
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.261,140.8717",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Vlandome_Ichibancho_in_September_2022.jpg/800px-Vlandome_Ichibancho_in_September_2022.jpg",
+    "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Vlandome_Ichibancho_in_September_2022.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%80%E7%95%AA%E7%94%BA%20%28%E4%BB%99%E5%8F%B0%E5%B8%82%29"
+   }
   },
   "koko-hotel-sendai-south": {
    "id": "koko-hotel-sendai-south",
@@ -784,7 +864,7 @@
     "從機場搭仙台機場線到仙台站，再由西口步行約 7 分鐘；房間為基本型商務旅館，旅客評價在仙台住宿約 3.27（4travel）。"
    ],
    "website": "https://www.koko-hotels.com/sendai-south/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.25744,140.87913",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=KOKO%20HOTEL%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%20South",
    "nearby": [
     {
      "name_zh": "たんや善治郎 仙台站前本店",
@@ -795,7 +875,8 @@
      "lat": 38.26189,
      "lng": 140.88066,
      "note": "炭火厚切牛舌，晚餐約 3,000-3,999 日圓。11:00-23:00、最後點餐 22:30，全年無休，飯店步行約 8-10 分鐘。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E6%9C%AC%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26189,140.88066"
     },
     {
      "name_zh": "たんや善治郎 牛たん通り店",
@@ -817,7 +898,8 @@
      "lat": 38.25862,
      "lng": 140.87851,
      "note": "飯店附近的傳統市場，生鮮與小吃，適合隔天早晨逛。營業時間各店不同，評分未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E6%9C%9D%E5%B8%82"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E6%9C%9D%E5%B8%82",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25862,140.87851"
     },
     {
      "name_zh": "蔵の庄 一番町本店",
@@ -828,7 +910,8 @@
      "lat": 38.26138,
      "lng": 140.8718,
      "note": "爐端燒居酒屋，16:00-23:30，適合晚餐小酌，飯店步行約 10 分鐘。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26138,140.8718"
     },
     {
      "name_zh": "飯店旁便利商店",
@@ -843,7 +926,14 @@
     }
    ],
    "phone": "+81-22-266-8873",
-   "kind": "hotel"
+   "kind": "hotel",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25744,140.87913",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sendai_Station_20230806.jpg/800px-Sendai_Station_20230806.jpg",
+    "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Sendai_Station_20230806.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E9%A7%85"
+   }
   },
   "senbei-diy": {
    "id": "senbei-diy",
@@ -858,7 +948,7 @@
     "營業時間網頁載 9:00-17:00，停車場 60 台免費；松島觀光協會另有「海鮮せんべい手焼き体験」頁面（id=240）因無法讀取未能核對，是否為同一店家未確認。"
    ],
    "website": "https://www.kaisen-shiogama.com/",
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.33467,141.04904",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84%E5%A1%A9%E7%AB%88",
    "nearby": [
     {
      "name_zh": "松島蒲鉾本舗 總本店（笹魚板手燒體驗）",
@@ -891,11 +981,19 @@
      "lat": 38.37022,
      "lng": 141.06051,
      "note": "萩之月品牌的松島店，適合買伴手禮。營業時間與評分未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E6%9D%BE%E5%B3%B6"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E6%9D%BE%E5%B3%B6",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37022,141.06051"
     }
    ],
    "inferred": true,
-   "kind": "spot"
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.33467,141.04904",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Marine_Gate_Shiogama_2022-10-31.jpg/800px-Marine_Gate_Shiogama_2022-10-31.jpg",
+    "credit": "七厩拓 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Marine_Gate_Shiogama_2022-10-31.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%88%E5%A1%A9%E9%87%9C"
+   }
   },
   "goshikinuma": {
    "id": "goshikinuma",
@@ -921,7 +1019,8 @@
      "lat": 37.65763,
      "lng": 140.08905,
      "note": "五色沼入口附近的義式餐廳，午餐義大利麵、牛排約 1,000–1,999 日圓，Tabelog 3.42（該區最高）。週二公休，旺季建議先確認營業時間。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%AB%20%E3%83%AC%E3%82%AC%E3%83%BC%E3%83%AD"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%AB%20%E3%83%AC%E3%82%AC%E3%83%BC%E3%83%AD",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.65763,140.08905"
     },
     {
      "name_zh": "Museum Cafe",
@@ -965,11 +1064,19 @@
      "lat": 37.66029,
      "lng": 140.08292,
      "note": "五色沼入口附近的便利商店，可補給飲料點心與上廁所。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.66029,140.08292"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.65164,140.08895",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E8%89%B2%E6%B2%BC%E5%85%A5%E5%8F%A3",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.65164,140.08895",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mt.Bandai.jpg/800px-Mt.Bandai.jpg",
+    "credit": "EXECUTOR / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Mt.Bandai.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%A3%90%E6%A2%AF%E9%AB%98%E5%8E%9F"
+   }
   },
   "tsuruga-castle": {
    "id": "tsuruga-castle",
@@ -994,7 +1101,8 @@
      "lat": 37.48692,
      "lng": 139.9308,
      "note": "位於城內的茶室，可品嚐抹茶與和菓子，約 999 日圓內。8:30–17:00（最後受理 16:30），需另購共通券進場。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AE%A4%E9%BA%9F%E9%96%A3"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AE%A4%E9%BA%9F%E9%96%A3",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.48692,139.9308"
     },
     {
      "name_zh": "田季野",
@@ -1005,7 +1113,8 @@
      "lat": 37.49623,
      "lng": 139.93095,
      "note": "會津鄉土料理名店，招牌蒸籠飯（わっぱ飯）與山菜料理，午晚餐約 2,000–2,999 日圓。離鶴ヶ城約 1 公里，用餐時段常排隊。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49623,139.93095"
     },
     {
      "name_zh": "櫻鍋 鶴我",
@@ -1016,7 +1125,8 @@
      "lat": 37.49491,
      "lng": 139.9307,
      "note": "馬肉專門店，馬刺與櫻鍋拼盤是招牌，午餐約 1,000–1,999、晚餐約 5,000–5,999 日圓。營業日與座位請先確認。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%8F%E3%82%89%E9%8D%8B%20%E9%B6%B4%E6%88%91"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%8F%E3%82%89%E9%8D%8B%20%E9%B6%B4%E6%88%91",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49491,139.9307"
     },
     {
      "name_zh": "籠太",
@@ -1027,7 +1137,8 @@
      "lat": 37.49492,
      "lng": 139.93254,
      "note": "以雞高湯的鄉土蒸籠飯聞名，晚餐約 5,000–5,999 日圓。屬居酒屋型態，建議事先預約。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B1%A0%E5%A4%AA"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B1%A0%E5%A4%AA",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49492,139.93254"
     },
     {
      "name_zh": "喜多方拉麵專門店 喜鈴",
@@ -1041,8 +1152,15 @@
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E5%A4%9A%E6%96%B9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%B0%82%E9%96%80%E5%BA%97%20%E5%96%9C%E9%88%B4"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.48774,139.92977",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E3%83%B6%E5%9F%8E",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.48774,139.92977",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg/800px-%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg",
+    "credit": "くろふね / CC BY 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E6%9D%BE%E5%9F%8E"
+   }
   },
   "suehiro-kaeigura": {
    "id": "suehiro-kaeigura",
@@ -1068,7 +1186,8 @@
      "lat": 37.49793,
      "lng": 139.92318,
      "note": "位於嘉永藏內的酒藏咖啡，提供咖啡與日本酒甜點，約 1,000–1,999 日圓。10:00–16:30，週三及第 1、3 個週四公休。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E5%96%AB%E8%8C%B6%20%E6%9D%8F"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E5%96%AB%E8%8C%B6%20%E6%9D%8F",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49793,139.92318"
     },
     {
      "name_zh": "太郎庵 七日町菓房",
@@ -1079,7 +1198,8 @@
      "lat": 37.5004,
      "lng": 139.92069,
      "note": "會津知名和菓子店，可買饅頭、羊羹等伴手禮，離末廣約 500 公尺。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%83%8E%E5%BA%B5%20%E4%B8%83%E6%97%A5%E7%94%BA%E8%8F%93%E6%88%BF"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%83%8E%E5%BA%B5%20%E4%B8%83%E6%97%A5%E7%94%BA%E8%8F%93%E6%88%BF",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5004,139.92069"
     },
     {
      "name_zh": "田季野",
@@ -1090,11 +1210,19 @@
      "lat": 37.49623,
      "lng": 139.93095,
      "note": "鄉土料理蒸籠飯、馬肉料理名店，約 2,000–2,999 日圓。離嘉永藏步行約 15 分鐘。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49623,139.93095"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.49793,139.92318",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0%20%E5%98%89%E6%B0%B8%E8%94%B5",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49793,139.92318",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg/800px-%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg",
+    "credit": "皓月旗 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0"
+   }
   },
   "ouchi-juku": {
    "id": "ouchi-juku",
@@ -1119,7 +1247,8 @@
      "lat": 37.3325,
      "lng": 139.86049,
      "note": "蔥蕎麥名店，高遠蕎麥約 1,500 日圓；另有水蕎麥。官網營業約 9:30–16:00，尖峰需排隊。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%BE%A4%E5%B1%8B"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%BE%A4%E5%B1%8B",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.3325,139.86049"
     },
     {
      "name_zh": "蕎麥處 米家",
@@ -1141,7 +1270,8 @@
      "lat": 37.33338,
      "lng": 139.86039,
      "note": "以核桃蕎麥（くるみそば）聞名，約 1,000–1,999 日圓；週四、五公休。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E6%9C%AC%E5%B1%8B"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E6%9C%AC%E5%B1%8B",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33338,139.86039"
     },
     {
      "name_zh": "本家 玉屋",
@@ -1152,7 +1282,8 @@
      "lat": 37.33476,
      "lng": 139.86129,
      "note": "位於約 400 年歷史的老屋，提供蔥蕎麥，約 1,000–1,999 日圓，位置靠近見晴台方向。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E6%9C%AC%E5%AE%B6%E7%8E%89%E5%B1%8B"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E6%9C%AC%E5%AE%B6%E7%8E%89%E5%B1%8B",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33476,139.86129"
     },
     {
      "name_zh": "大內宿町並み展示館",
@@ -1163,11 +1294,19 @@
      "lat": 37.33419,
      "lng": 139.86077,
      "note": "館內展示宿場町歷史與茅葺建築資料，適合吃完蕎麥後補充背景知識。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF%E7%94%BA%E4%B8%A6%E3%81%BF%E5%B1%95%E7%A4%BA%E9%A4%A8"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF%E7%94%BA%E4%B8%A6%E3%81%BF%E5%B1%95%E7%A4%BA%E9%A4%A8",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33419,139.86077"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.33363,139.86066",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33363,139.86066",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ja-fukushima-ohuchijuku-4.jpg/800px-Ja-fukushima-ohuchijuku-4.jpg",
+    "credit": "ja:User:Fluffy nns. Uploaded by 百楽兎 / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Ja-fukushima-ohuchijuku-4.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%86%85%E5%AE%BF"
+   }
   },
   "hotel-listel-inawashiro": {
    "id": "hotel-listel-inawashiro",
@@ -1193,7 +1332,8 @@
      "lat": 37.54249,
      "lng": 140.14953,
      "note": "飯店內的法式餐廳，適合不想外出的晚餐。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%A0%E3%83%8D%E3%83%83%E3%83%88"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%A0%E3%83%8D%E3%83%83%E3%83%88",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.54249,140.14953"
     },
     {
      "name_zh": "7-Eleven 猪苗代站前通店",
@@ -1204,7 +1344,8 @@
      "lat": 37.55405,
      "lng": 140.10624,
      "note": "最近查到的便利商店，離飯店約 4.5 公里，車程約 10 分鐘，適合買宵夜與飲料。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E9%A7%85%E9%80%9A%E3%82%8A%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E9%A7%85%E9%80%9A%E3%82%8A%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.55405,140.10624"
     },
     {
      "name_zh": "道之驛 猪苗代",
@@ -1215,11 +1356,19 @@
      "lat": 37.53764,
      "lng": 140.10736,
      "note": "販賣猪苗代農產品與會津伴手禮。營業時間請以官方為準，可順路採買。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53764,140.10736"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.54249,140.14953",
-   "kind": "hotel"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%86%E3%83%AB%E3%83%AA%E3%82%B9%E3%83%86%E3%83%AB%E7%8C%AA%E8%8B%97%E4%BB%A3",
+   "kind": "hotel",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.54249,140.14953",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg/800px-%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg",
+    "credit": "Go.n2020 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4"
+   }
   },
   "lake-inawashiro": {
    "id": "lake-inawashiro",
@@ -1266,7 +1415,8 @@
      "lat": 37.53599,
      "lng": 140.07475,
      "note": "喜多方拉麵、餃子與自助吧；週二公休，離天鏡閣約 2–3 公里。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E4%BA%AC%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%A4%A8%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E4%BA%AC%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%A4%A8%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53599,140.07475"
     },
     {
      "name_zh": "道之驛 猪苗代",
@@ -1277,11 +1427,19 @@
      "lat": 37.53764,
      "lng": 140.10736,
      "note": "販售猪苗代農產與會津伴手禮。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53764,140.10736"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.52132,140.04357",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E9%8F%A1%E9%96%A3",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.52132,140.04357",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tenkyokaku.jpg/800px-Tenkyokaku.jpg",
+    "credit": "DCyokohama at Japanese Wikipedia / CC BY 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Tenkyokaku.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E9%8F%A1%E9%96%A3"
+   }
   },
   "orchard-marusei": {
    "id": "orchard-marusei",
@@ -1318,11 +1476,19 @@
      "lat": 37.83265,
      "lng": 140.45218,
      "note": "飯坂溫泉的共同浴場，離果園約 4 公里，泡湯費用與時間請以現場為準。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%AF%96%E6%B9%96%E6%B9%AF"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%AF%96%E6%B9%96%E6%B9%AF",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.83265,140.45218"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.82182,140.43148",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%8B%E3%81%9B%E3%81%84%E6%9E%9C%E6%A8%B9%E5%9C%92",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.82182,140.43148",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Iizaka_Onsen_26-Aug-2018.jpg/800px-Iizaka_Onsen_26-Aug-2018.jpg",
+    "credit": "皓月旗 / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Iizaka_Onsen_26-Aug-2018.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%9D%82%E6%B8%A9%E6%B3%89"
+   }
   },
   "genbikei-gorge": {
    "id": "genbikei-gorge",
@@ -1347,7 +1513,8 @@
      "lat": 38.9443,
      "lng": 141.0443,
      "note": "1868 年創業的空飛ぶだんご名店，3 串 600 日圓、5 串 900 日圓，約 9:30–15:00。現做糰子搭配茶，是嚴美溪必吃體驗。（座標為溪谷對岸推估）",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%83%AD%E5%85%AC%E5%B1%8B"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%83%AD%E5%85%AC%E5%B1%8B",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9443,141.0443"
     },
     {
      "name_zh": "Polano 冰淇淋",
@@ -1369,11 +1536,19 @@
      "lat": 38.9454,
      "lng": 141.0512,
      "note": "嚴美溪附近道の駅內的餅料理食堂，午餐約 1,000–1,999 日圓，可買一關名物「餅」相關伴手禮。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9A%E3%83%83%E3%82%BF%E3%83%B3%E3%81%8F%E3%82%93"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9A%E3%83%83%E3%82%BF%E3%83%B3%E3%81%8F%E3%82%93",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9454,141.0512"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.9446,141.0457",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8E%B3%E7%BE%8E%E6%B8%93",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9446,141.0457",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg/800px-230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg",
+    "credit": "663highland / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%8E%B3%E7%BE%8E%E6%B8%93"
+   }
   },
   "chusonji": {
    "id": "chusonji",
@@ -1399,7 +1574,8 @@
      "lat": 38.99654,
      "lng": 141.11122,
      "note": "平泉町蕎麥麵名店，特色是手磨、口感粗獷的「古典そば」，並有店主推薦的日本酒。營業日請出發前確認。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E6%B0%B4%E5%BA%B5"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E6%B0%B4%E5%BA%B5",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99654,141.11122"
     },
     {
      "name_zh": "夢乃風（わんこそば）",
@@ -1410,7 +1586,8 @@
      "lat": 38.99534,
      "lng": 141.11159,
      "note": "以盛り出し式わんこそば與前沢牛相關餐點受注目，午餐約 2,000–2,999 日圓，約 10:00–18:00。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A2%E4%B9%83%E9%A2%A8"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A2%E4%B9%83%E9%A2%A8",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99534,141.11159"
     },
     {
      "name_zh": "站前芭蕉館（わんこそば）",
@@ -1421,7 +1598,8 @@
      "lat": 38.9884,
      "lng": 141.11706,
      "note": "盛り出し式わんこそば（約 24 碗）配料豐富，午餐約 1,000–1,999 日圓，位於平泉站前。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A7%85%E5%89%8D%E8%8A%AD%E8%95%89%E9%A4%A8"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A7%85%E5%89%8D%E8%8A%AD%E8%95%89%E9%A4%A8",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9884,141.11706"
     },
     {
      "name_zh": "蕎麥處義家（月見坂）",
@@ -1432,7 +1610,8 @@
      "lat": 38.9991,
      "lng": 141.1065,
      "note": "位於中尊寺月見坂參道旁，供應わんこそば（約 12 碗）與天丼套餐，約 10:30–15:00。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%E7%BE%A9%E5%AE%B6"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%E7%BE%A9%E5%AE%B6",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9991,141.1065"
     },
     {
      "name_zh": "平泉レストハウス（前沢牛午餐）",
@@ -1443,11 +1622,19 @@
      "lat": 38.99875,
      "lng": 141.10863,
      "note": "館內 Restaurant Gen 供應前沢牛午餐（約 9:30–16:30），美食廣場有三種わんこそば。評分偏低但方便。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E6%B3%89%E3%83%AC%E3%82%B9%E3%83%88%E3%83%8F%E3%82%A6%E3%82%B9"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E6%B3%89%E3%83%AC%E3%82%B9%E3%83%88%E3%83%8F%E3%82%A6%E3%82%B9",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99875,141.10863"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39.00145,141.09983",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B0%8A%E5%AF%BA",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.00145,141.09983",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg/800px-230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
+    "credit": "663highland / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B0%8A%E5%AF%BA"
+   }
   },
   "aeon-ezuriko": {
    "id": "aeon-ezuriko",
@@ -1473,11 +1660,19 @@
      "lat": 39.30092,
      "lng": 141.07732,
      "note": "位於上江釣子，供應俄羅斯料理、咖啡與起司蛋糕，約 2,000–2,999 日圓；營業日請確認。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AD%E3%82%A4%E3%82%AB"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AD%E3%82%A4%E3%82%AB",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.30092,141.07732"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39.29323,141.09312",
-   "kind": "spot"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E6%B1%9F%E9%87%A3%E5%AD%90%E5%BA%97",
+   "kind": "spot",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.29323,141.09312",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg/800px-Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg",
+    "credit": "Yoshi Canopus / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B8%8A%E5%B8%82"
+   }
   },
   "hanamaki-airport": {
    "id": "hanamaki-airport",
@@ -1501,7 +1696,8 @@
      "lat": 39.42861,
      "lng": 141.13528,
      "note": "位於機場航廈內，午餐約 1,000–1,999 日圓，可吃到岩手鄉土料理與定食。候機最方便。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%A6%E8%8A%B1%E5%B7%BB%E5%A4%A7%E9%A3%9F%E5%A0%82"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%A6%E8%8A%B1%E5%B7%BB%E5%A4%A7%E9%A3%9F%E5%A0%82",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528"
     },
     {
      "name_zh": "Hana Airport Shop&Cafe",
@@ -1512,11 +1708,19 @@
      "lat": 39.42861,
      "lng": 141.13528,
      "note": "機場航廈內的咖啡與麵包店，適合候機時休息。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%8A%20%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%20%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%26%E3%82%AB%E3%83%95%E3%82%A7"
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%8A%20%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%20%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%26%E3%82%AB%E3%83%95%E3%82%A7",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528"
     }
    ],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39.42861,141.13528",
-   "kind": "airport"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%A6%E8%8A%B1%E5%B7%BB%E7%A9%BA%E6%B8%AF",
+   "kind": "airport",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hanamaki_airport_terminal.jpg/800px-Hanamaki_airport_terminal.jpg",
+    "credit": "ブルーノ・プラス / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Hanamaki_airport_terminal.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E5%B7%BB%E7%A9%BA%E6%B8%AF"
+   }
   },
   "taoyuan-t1": {
    "id": "taoyuan-t1",
@@ -1531,8 +1735,15 @@
    ],
    "website": "https://www.taoyuan-airport.com/",
    "nearby": [],
-   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25.0805,121.23697",
-   "kind": "airport"
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%B8%80%E8%88%AA%E5%BB%88",
+   "kind": "airport",
+   "nav_url": "https://www.google.com/maps/dir/?api=1&destination=25.0805,121.23697",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Taoyuan_International_Airport.jpg/800px-Taoyuan_International_Airport.jpg",
+    "credit": "毛貓大少爺 / CC BY-SA 2.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Taoyuan_International_Airport.jpg",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%A1%83%E5%9C%92%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF"
+   }
   }
  }
 }
