@@ -347,8 +347,15 @@
     const panel = $('#detail');
     panel.hidden = false;
     panel.scrollTop = 0;
+    panel.classList.remove('expanded');
+    setSheetLabel(false);
     panel.classList.remove('in'); void panel.offsetWidth; panel.classList.add('in');
     loadWeather(p, d.date);
+  }
+  function setSheetLabel(expanded) {
+    const b = $('#sheet-toggle');
+    b.textContent = expanded ? '收合 ▾' : '展開 ▴';
+    b.setAttribute('aria-expanded', expanded);
   }
   function closeDetail() {
     $('#detail').hidden = true;
@@ -449,6 +456,10 @@
     $('#mode-day').addEventListener('click', () => { state.mode = 'day'; closeDetail(); applyView(true); });
     $('#toggle-nearby').addEventListener('change', e => { state.showNearby = e.target.checked; applyView(false); });
     $('#detail-close').addEventListener('click', closeDetail);
+    $('#sheet-toggle').addEventListener('click', () => {
+      const on = $('#detail').classList.toggle('expanded');
+      setSheetLabel(on);
+    });
     const openInfo = () => { $('#info-drawer').hidden = false; $('#backdrop').hidden = false; $('#btn-info').setAttribute('aria-expanded', 'true'); };
     const closeInfo = () => { $('#info-drawer').hidden = true; $('#backdrop').hidden = true; $('#btn-info').setAttribute('aria-expanded', 'false'); };
     $('#btn-info').addEventListener('click', openInfo);
