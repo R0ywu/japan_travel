@@ -1,0 +1,1538 @@
+{
+ "meta": {
+  "title": "花卷東北賞楓五日",
+  "subtitle": "藏王360度紅葉纜車・秋保瀑布・會津若松・大內宿・五色沼・中尊寺・嚴美溪糰子・手作仙貝・大吟釀・季節採果・溫泉",
+  "code": "26JSO06ITA",
+  "source_url": "https://www.gounitravel.com/html/meet/26/26jso06ita.htm",
+  "start": "2026-10-06",
+  "end": "2026-10-10",
+  "flights": [
+   {
+    "dir": "去程",
+    "no": "台灣虎航 IT254",
+    "date": "10/6（二）",
+    "dep": "桃園 TPE 13:45",
+    "arr": "仙台 SDJ 18:10",
+    "duration": "3 小時 25 分"
+   },
+   {
+    "dir": "回程",
+    "no": "台灣虎航 IT259",
+    "date": "10/10（六）",
+    "dep": "花卷 HNA 18:00",
+    "arr": "桃園 TPE 21:00",
+    "duration": "4 小時"
+   }
+  ],
+  "meeting": {
+   "place": "桃園機場 第一航廈 台灣虎航【7】號櫃台",
+   "time": "10/06（二）11:15"
+  },
+  "leader": {
+   "name": "楊振斌 先生",
+   "phone_tw": "+886 930 578 708",
+   "phone_jp": "+81 80 7618 4917"
+  },
+  "notes": [
+   "小費建議：每日新台幣 300 元（導遊／領隊／司機）",
+   "不可脫隊延回，脫隊延回請用個人票處理",
+   "行李加購（單程每人）：5kg 350 元、10kg 700 元、15kg 1,050 元、20kg 1,400 元",
+   "若藏王纜車無法搭乘，將改前往白石城或金蛇水神社，並退費 ¥1,000",
+   "出團人數：最低 16 人、最高 41 人；含旅行業責任保險（意外死殘 250 萬、意外醫療 10 萬）"
+  ]
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-10-06",
+   "weekday": "二",
+   "title": "桃園機場 → 仙台空港",
+   "meals": {
+    "breakfast": "自理",
+    "lunch": "自理",
+    "dinner": "機上精緻餐食"
+   },
+   "hotel": "dormy-inn-express-sendai-seaside",
+   "stops": [
+    {
+     "place": "taoyuan-t1",
+     "time": "11:15 集合／13:45 起飛",
+     "travel": "flight",
+     "travel_note": "IT254 飛行 3 小時 25 分"
+    },
+    {
+     "place": "sendai-airport",
+     "time": "18:10 抵達",
+     "travel": "bus"
+    },
+    {
+     "place": "dormy-inn-express-sendai-seaside",
+     "time": "入住",
+     "travel": null
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "2026-10-07",
+   "weekday": "三",
+   "title": "秋保大瀑布 → 陸奧森林湖畔公園 → 藏王賞楓纜車",
+   "meals": {
+    "breakfast": "飯店內",
+    "lunch": "藏王和風旬彩風味御膳",
+    "dinner": "飯店內自助百匯"
+   },
+   "hotel": "mercure-miyagi-zao",
+   "stops": [
+    {
+     "place": "dormy-inn-express-sendai-seaside",
+     "time": "出發",
+     "travel": "bus"
+    },
+    {
+     "place": "akiu-otaki",
+     "note": "日本三大名瀑",
+     "travel": "bus"
+    },
+    {
+     "place": "michinoku-lakewood-park",
+     "note": "★四季繽紛花海：楓葉／波波草",
+     "travel": "bus"
+    },
+    {
+     "place": "zao-ropeway",
+     "note": "360 度紅葉狩；若無法搭乘改白石城或金蛇水神社",
+     "travel": "bus"
+    },
+    {
+     "place": "mercure-miyagi-zao",
+     "time": "入住",
+     "travel": null
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "2026-10-08",
+   "weekday": "四",
+   "title": "五色沼 → 會津若松城 → 末廣酒造 → 大內宿",
+   "meals": {
+    "breakfast": "飯店內",
+    "lunch": "會津名物料理《輪箱飯》",
+    "dinner": "飯店內百匯自助"
+   },
+   "hotel": "hotel-listel-inawashiro",
+   "stops": [
+    {
+     "place": "mercure-miyagi-zao",
+     "time": "出發",
+     "travel": "bus"
+    },
+    {
+     "place": "goshikinuma",
+     "note": "米其林一星自然探勝路，沼群楓紅",
+     "travel": "bus"
+    },
+    {
+     "place": "tsuruga-castle",
+     "note": "日本唯一紅瓦鶴城",
+     "travel": "bus"
+    },
+    {
+     "place": "suehiro-kaeigura",
+     "note": "百年釀酒傳統清酒",
+     "travel": "bus"
+    },
+    {
+     "place": "ouchi-juku",
+     "note": "日本三大合掌村，江戶時代驛站村落",
+     "travel": "bus"
+    },
+    {
+     "place": "hotel-listel-inawashiro",
+     "time": "入住",
+     "travel": null
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "2026-10-09",
+   "weekday": "五",
+   "title": "猪苗代湖 → 觀光果園採果 → 松島 → 手燒仙貝 DIY → 免稅店 → 仙台一番街",
+   "meals": {
+    "breakfast": "飯店內",
+    "lunch": "日式燒烤餐",
+    "dinner": "自理（逛街）"
+   },
+   "hotel": "koko-hotel-sendai-south",
+   "stops": [
+    {
+     "place": "hotel-listel-inawashiro",
+     "time": "出發",
+     "travel": "bus"
+    },
+    {
+     "place": "lake-inawashiro",
+     "note": "日本第四大湖，絕美秋楓天境湖",
+     "travel": "bus"
+    },
+    {
+     "place": "orchard-marusei",
+     "note": "味覺之秋：觀光果園採果（果園為推測）",
+     "travel": "bus"
+    },
+    {
+     "place": "matsushima",
+     "note": "遊覽船、五大堂、結緣橋",
+     "travel": "bus"
+    },
+    {
+     "place": "senbei-diy",
+     "note": "★東北名物：手燒仙貝 DIY（店家為推測）→ 免稅店",
+     "travel": "bus"
+    },
+    {
+     "place": "sendai-ichibancho",
+     "note": "晚餐自理，逛街",
+     "travel": "bus"
+    },
+    {
+     "place": "koko-hotel-sendai-south",
+     "time": "入住",
+     "travel": null
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "2026-10-10",
+   "weekday": "六",
+   "title": "嚴美溪谷 → 中尊寺 → AEON MALL → 花卷空港",
+   "meals": {
+    "breakfast": "飯店內",
+    "lunch": "岩手豬肉陶板燒御膳",
+    "dinner": "機上精緻餐食"
+   },
+   "hotel": null,
+   "stops": [
+    {
+     "place": "koko-hotel-sendai-south",
+     "time": "出發",
+     "travel": "bus"
+    },
+    {
+     "place": "genbikei-gorge",
+     "note": "東北第一美溪 ★特別贈送「郭公糰子」",
+     "travel": "bus"
+    },
+    {
+     "place": "chusonji",
+     "note": "世界文化遺產，金色堂",
+     "travel": "bus"
+    },
+    {
+     "place": "aeon-ezuriko",
+     "note": "東北購物樂（地點為推測）",
+     "travel": "bus"
+    },
+    {
+     "place": "hanamaki-airport",
+     "time": "18:00 起飛",
+     "travel": "flight",
+     "travel_note": "IT259 飛行 4 小時"
+    },
+    {
+     "place": "taoyuan-t1",
+     "time": "21:00 抵達",
+     "travel": null
+    }
+   ]
+  }
+ ],
+ "places": {
+  "sendai-airport": {
+   "id": "sendai-airport",
+   "name_zh": "仙台機場",
+   "name_ja": "仙台空港",
+   "name_en": "Sendai Airport",
+   "lat": 38.13828,
+   "lng": 140.92999,
+   "intro": "仙台機場位於名取市與岩沼市之間，是東北地區的主要空港，2007 年開通的仙台機場線讓機場到仙台站只要約 25 分鐘。航廈 2 樓有多家牛舌、拉麵與伴手禮店，3 樓有展望台可看飛機起降。機場本身不賞楓，10 月上旬適合當抵達與離境的據點。",
+   "tips": [
+    "仙台機場線到仙台站約 25 分鐘，班次密，抵達當天可直接搭到市區（來源：機場官網 sendai-airport.co.jp，2026 年查證）。",
+    "伴手禮（萩之月、毛豆麻糬等）在航廈內店家很齊，離境前留 30-40 分鐘採買即可；出境管制區內另有店家，如だし廊 GoLD 只在出境後區域（Tabelog，2026 年查證）。"
+   ],
+   "website": "https://www.sendai-airport.co.jp/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.13828,140.92999",
+   "nearby": [
+    {
+     "name_zh": "だし廊 GoLD（機場店）",
+     "name_ja": "だし廊 -GoLD- 仙台空港店",
+     "type": "餐廳",
+     "rating": 3.57,
+     "rating_source": "Tabelog",
+     "lat": 38.13828,
+     "lng": 140.92999,
+     "note": "航廈 2F 出境後區域，只有搭機旅客能進。招牌是雞高湯醬油拉麵與貝類鹽味拉麵，約 1,000-1,999 日圓，7:00-20:30 每日營業。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%81%97%E5%BB%8A%20-GoLD-%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97"
+    },
+    {
+     "name_zh": "菓匠三全 萩之月（機場店）",
+     "name_ja": "菓匠三全 萩の月 仙台空港店",
+     "type": "伴手禮",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.13828,
+     "lng": 140.92999,
+     "note": "仙台代表伴手禮萩之月的機場店（ANA FESTA 資訊有列），適合離境前買。營業時間依航班而定，評分未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E8%90%A9%E3%81%AE%E6%9C%88%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97"
+    },
+    {
+     "name_zh": "閖上港朝市",
+     "name_ja": "ゆりあげ港朝市",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.16938,
+     "lng": 140.95327,
+     "note": "名取市閖上的海鮮朝市，離機場車程約 10 分鐘，可吃海鮮丼、買海產。營業日與時間請查官網，評分未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%82%8A%E3%81%82%E3%81%92%E6%B8%AF%E6%9C%9D%E5%B8%82"
+    },
+    {
+     "name_zh": "永旺夢樂城名取",
+     "name_ja": "イオンモール名取",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.16409,
+     "lng": 140.89543,
+     "note": "機場附近最大的購物中心，有超市與餐飲，適合抵達日補給。營業時間約 10:00-21:00（未逐項查證），評分未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%90%8D%E5%8F%96"
+    }
+   ],
+   "kind": "airport"
+  },
+  "dormy-inn-express-sendai-seaside": {
+   "id": "dormy-inn-express-sendai-seaside",
+   "name_zh": "DORMY INN EXPRESS SENDAI SEASIDE",
+   "name_ja": "天然温泉 海神の湯 ドーミーインEXPRESS仙台シーサイド",
+   "name_en": "Dormy Inn Express Sendai Seaside",
+   "lat": 38.27068,
+   "lng": 140.98978,
+   "intro": "位於仙台市宮城野區中野三丁目，靠近仙台港，2017 年 8 月開業，有天然溫泉大浴場「海神之湯」。停車場約 251 台免費，適合自駕。房價親民，附近有三井 Outlet Park 仙台港與麒麟啤酒工廠，晚餐與逛街都方便。",
+   "tips": [
+    "地址：仙台市宮城野區中野 3-4-9；離機場與仙台站開車各約 25 分鐘，JR 中野榮站步行約 20 分鐘，建議自駕或搭計程車（來源：官網 dormy-hotels.com，2026 年查證）。",
+    "免費停車位 251 台（含鄰地），不必預約；電話 022-388-5489。早餐與宵夜供應請以官網公告為準。"
+   ],
+   "website": "https://dormy-hotels.com/dormyinn/hotels/sendai_ex/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.27068,140.98978",
+   "nearby": [
+    {
+     "name_zh": "麒麟啤酒港仙台（工廠餐廳）",
+     "name_ja": "キリン ビアポート仙台",
+     "type": "餐廳",
+     "rating": 3.37,
+     "rating_source": "Tabelog",
+     "lat": 38.26554,
+     "lng": 140.99244,
+     "note": "位在麒麟啤酒仙台工廠內，可喝工廠現釀啤酒配豬肋排、西班牙燉飯。約 1,000-3,999 日圓，週一多公休，依工廠行事曆而異。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%AA%E3%83%B3%20%E3%83%93%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%99%E5%8F%B0"
+    },
+    {
+     "name_zh": "牛舌 港之小十郎",
+     "name_ja": "仙台牛たん 港の小十郎",
+     "type": "餐廳",
+     "rating": 3.33,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "居酒屋風牛舌店，日本酒選擇不少，適合晚餐小酌。座標與營業日未查證，建議出發前用 Google 地圖確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E7%89%9B%E3%81%9F%E3%82%93%20%E6%B8%AF%E3%81%AE%E5%B0%8F%E5%8D%81%E9%83%8E"
+    },
+    {
+     "name_zh": "三井 Outlet Park 仙台港（美食區）",
+     "name_ja": "三井アウトレットパーク 仙台港",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.27587,
+     "lng": 140.99026,
+     "note": "園區內有一風堂、味よし（拉麵，Tabelog 3.27）等餐廳，很適合下班後吃晚餐。營業時間約 10:00-20:00，餐飲較晚（未逐項查證）。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%20%E4%BB%99%E5%8F%B0%E6%B8%AF"
+    },
+    {
+     "name_zh": "凱因茲廚房 仙台港",
+     "name_ja": "カインズキッチン 仙台港",
+     "type": "餐廳",
+     "rating": 3.02,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "飯店步行約 300 公尺，輕食、拉麵、章魚燒，價位低。評分偏低，只當備案；座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%82%A4%E3%83%B3%E3%82%BA%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%20%E4%BB%99%E5%8F%B0%E6%B8%AF"
+    }
+   ],
+   "phone": "+81-22-388-5489",
+   "kind": "hotel"
+  },
+  "akiu-otaki": {
+   "id": "akiu-otaki",
+   "name_zh": "秋保大瀑布",
+   "name_ja": "秋保大滝",
+   "name_en": "Akiu Otaki Falls",
+   "lat": 38.27488,
+   "lng": 140.60282,
+   "intro": "落差 55 公尺、寬 6 公尺的直瀑，名列日本瀑布百選，並被指定為國家名勝（1942 年），常與華嚴瀑布、那智瀑布並稱日本三大名瀑。瀑布上方有滝見台可一眼看盡，也能走下步道到潭邊感受水霧。10 月上旬楓葉才剛開始轉色，見頃約 10 月中旬到 11 月上旬。",
+   "tips": [
+    "滝見台步行約 5-10 分鐘，走到瀑潭約 20-30 分鐘且路陡，要穿好走的鞋（來源：せんだい旅日和 sentabi.jp，2026 年查證）。",
+    "停車場約 200 台；大眾運輸只有假日班次的宮城交通巴士與 JR 愛子站轉乘市營巴士，自駕最方便。入場費與開放時間資料不完整，出發前請洽秋保溫泉觀光案內所 022-398-2323。"
+   ],
+   "website": "https://www.sentabi.jp/spots/34",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.27488,140.60282",
+   "nearby": [
+    {
+     "name_zh": "秋保草庵（蕎麥麵）",
+     "name_ja": "秋保草庵",
+     "type": "餐廳",
+     "rating": 3.36,
+     "rating_source": "Tabelog",
+     "lat": 38.27178,
+     "lng": 140.60831,
+     "note": "離瀑布約 1 公里的蕎麥麵店，約 1,000-1,999 日圓。營業日與時間請出發前確認，未逐項查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E4%BF%9D%E8%8D%89%E5%BA%B5"
+    },
+    {
+     "name_zh": "大瀑布 Restaurant House（義式廚房 M）",
+     "name_ja": "大滝れすとはうす（イタリアンキッチンえむ）",
+     "type": "餐廳",
+     "rating": 3.14,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "瀑布周邊的義大利麵、咖啡簡餐，走完步道後的休息處。座標與營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BB%9D%E3%82%8C%E3%81%99%E3%81%A8%E3%81%AF%E3%81%86%E3%81%99%EF%BC%88%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E3%81%88%E3%82%80%EF%BC%89"
+    },
+    {
+     "name_zh": "主婦之店 佐一（秋保御萩）",
+     "name_ja": "主婦の店 さいち",
+     "type": "伴手禮",
+     "rating": 3.28,
+     "rating_source": "Tabelog",
+     "lat": 38.22749,
+     "lng": 140.7222,
+     "note": "秋保排隊名物手作御萩，1,000 日圓以下，9:00-19:00，每月第 2、4 個週三公休。只能外帶，常提早賣完。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BB%E5%A9%A6%E3%81%AE%E5%BA%97%20%E3%81%95%E3%81%84%E3%81%A1"
+    },
+    {
+     "name_zh": "KOMOREBI gelato",
+     "name_ja": "KOMOREBI gelato",
+     "type": "咖啡",
+     "rating": 3.46,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "柴田牧場直營，用低溫殺菌鮮乳做的冰淇淋，1,000 日圓以下。10:00-16:00，週一與週五至週日營業、週二至週四公休。座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=KOMOREBI%20gelato"
+    }
+   ],
+   "kind": "spot"
+  },
+  "michinoku-lakewood-park": {
+   "id": "michinoku-lakewood-park",
+   "name_zh": "國營陸奧森林湖畔公園",
+   "name_ja": "国営みちのく杜の湖畔公園",
+   "name_en": "Michinoku Lakewood National Government Park",
+   "lat": 38.18339,
+   "lng": 140.67202,
+   "intro": "位於宮城縣柴田郡川崎町、釜房湖畔的國營公園，面積約 350 公頃，分成北、南與里山三區。10 月上旬正好是黃花波斯菊與宮城野萩的盛期，柯奇亞（掃帚草）開始轉紅，10 月中旬至 11 月上旬才是柯奇亞見頃。2026 年秋季花祭會辦到 10 月 25 日，另有夜間點燈活動。",
+   "tips": [
+    "門票大人 450 日圓、65 歲以上 210 日圓、中小學生免費；汽車停車 400 日圓；開園 9:30-17:00（11-2 月到 16:00），原則週二休（遇假日順延，部分季節無休）（來源：るるぶ&more 與公園官網，2026 年查證）。",
+    "官網公布 2026 年 Autumn Festa 到 10/25，「みちのくふるさと秋灯り」夜間活動日期有 10/3-4、10/10-12，煙火在 10/3 與 10/11，公園要走很多路，建議預留半天。"
+   ],
+   "website": "https://michinoku-park.info/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.18339,140.67202",
+   "nearby": [
+    {
+     "name_zh": "蕎麥麵處 舌つづみ",
+     "name_ja": "そば処 舌つづみ",
+     "type": "餐廳",
+     "rating": 3.23,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "川崎町內的蕎麥麵與烏龍麵店，家常價位。營業日未查證，座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E8%88%8C%E3%81%A4%E3%81%A5%E3%81%BF"
+    },
+    {
+     "name_zh": "Café Maru",
+     "name_ja": "カフェ マル",
+     "type": "咖啡",
+     "rating": 3.15,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "川崎町的咖啡店，適合逛完公園休息。營業時間與座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%95%E3%82%A7%20%E3%83%9E%E3%83%AB"
+    },
+    {
+     "name_zh": "大勝食堂",
+     "name_ja": "大勝食堂",
+     "type": "餐廳",
+     "rating": 3.13,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "當地食堂兼蕎麥麵，價位低。此區 Tabelog 高分店少，評分皆偏低，請以 Google 評價再判斷。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%8B%9D%E9%A3%9F%E5%A0%82"
+    },
+    {
+     "name_zh": "Shibale Hearts Land Factory Terrace",
+     "name_ja": "シベール ハーツランド ファクトリーテラス",
+     "type": "伴手禮",
+     "rating": 3.07,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "山形老牌西點 Shibale 的川崎工廠店，適合買伴手禮，座標與營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B7%E3%83%99%E3%83%BC%E3%83%AB%20%E3%83%8F%E3%83%BC%E3%83%84%E3%83%A9%E3%83%B3%E3%83%89%20%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%83%86%E3%83%A9%E3%82%B9"
+    }
+   ],
+   "kind": "spot"
+  },
+  "zao-ropeway": {
+   "id": "zao-ropeway",
+   "name_zh": "藏王賞楓纜車（蔵王ロープウェイ）",
+   "name_ja": "蔵王ロープウェイ",
+   "name_en": "Zao Ropeway",
+   "lat": 38.16112,
+   "lng": 140.39472,
+   "intro": "位於山形縣山形市藏王溫泉，分山麓線與山頂線，山頂線用 Funitel 系統搭到海拔 1,661 公尺的地藏山頂站。秋天可從空中俯瞰由山頂往下逐步轉紅的楓葉，冬天則是知名樹冰景。官網未寫明見頃日期，一般說法是山頂在 9 月底到 10 月上旬轉色，山下較晚，出發前請查官網 Facebook。",
+   "tips": [
+    "票價（官網）：山麓線單程 1,200 日圓、往返 2,200；山頂線單程 2,200、往返 4,400（大人）；運行時間山麓線 8:30-17:00、山頂線 8:45-16:45，可能變動（來源：zaoropeway.co.jp，2026 年查證）。",
+    "山麓線約 7 分鐘、山頂線約 10 分鐘；山頂氣溫低，10 月上旬要帶外套，風大時可能停駛。這裡屬山形縣，與宮城的住宿之間要走藏王 Echo Line 或山形道，行程請預留車程。"
+   ],
+   "website": "https://zaoropeway.co.jp/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.16112,140.39472",
+   "nearby": [
+    {
+     "name_zh": "藏王溫泉大露天風呂",
+     "name_ja": "蔵王温泉大露天風呂",
+     "type": "溫泉",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.16609,
+     "lng": 140.40188,
+     "note": "藏王溫泉代表性的大型露天浴場，位於溫泉街上方。營業期間與費用未查證，請洽官網。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82"
+    },
+    {
+     "name_zh": "かしぇる（蕎麥／成吉思汗烤羊）",
+     "name_ja": "かしぇる 蔵王温泉",
+     "type": "餐廳",
+     "rating": 3.29,
+     "rating_source": "Tabelog",
+     "lat": 38.16713,
+     "lng": 140.39627,
+     "note": "Tabelog 3.29，蕎麥麵與成吉思汗烤羊肉，位在蔵王溫泉 196。營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%97%E3%81%87%E3%82%8B%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89"
+    },
+    {
+     "name_zh": "ろばた（成吉思汗烤羊）",
+     "name_ja": "ろばた 蔵王温泉",
+     "type": "餐廳",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.16766,
+     "lng": 140.39697,
+     "note": "藏王溫泉老店，成吉思汗烤羊肉為招牌，也提供住宿。評分未查證，營業時間請洽官網 t023.com。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%8D%E3%81%B0%E3%81%9F%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89"
+    },
+    {
+     "name_zh": "三五郎小屋",
+     "name_ja": "三五郎小屋",
+     "type": "餐廳",
+     "rating": 3.3,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "Tabelog 3.30，咖哩、披薩、牛丼一類的簡餐，位於藏王高原一帶。座標與營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%94%E9%83%8E%E5%B0%8F%E5%B1%8B"
+    }
+   ],
+   "kind": "spot"
+  },
+  "mercure-miyagi-zao": {
+   "id": "mercure-miyagi-zao",
+   "name_zh": "MERCURE MIYAGI ZAO RESORT & SPA",
+   "name_ja": "メルキュール宮城蔵王リゾート＆スパ",
+   "name_en": "Mercure Miyagi Zao Resort & Spa",
+   "lat": 38.13157,
+   "lng": 140.56071,
+   "intro": "位於宮城縣藏王町遠刈田溫泉，靠近藏王 Echo Line 入口的度假飯店，館內有大浴場與餐廳，戶外停車場 285 台免費。適合作為藏王一帶的住宿據點。飯店官網公布 2025-26 年冬季 Echo Line 封路到 2026 年 4 月 24 日，10 月上旬道路通常已開放，但仍請出發前確認。",
+   "tips": [
+    "Check-in 15:00、check-out 11:00；地址：蔵王町遠刈田温泉字鬼石原 1-1；館內有桌球、遊戲角、狗狗運動場（來源：飯店官網，2026 年查證）。",
+    "從仙台站西口搭高速巴士約 70 分鐘，機場搭計程車約 80 分鐘，自駕從白石 IC 約 30 分鐘；晚餐建議先訂飯店餐廳，因周邊步行範圍內餐廳不多。"
+   ],
+   "website": "https://mercure-miyagizao-resortandspa.jp/en/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.13157,140.56071",
+   "nearby": [
+    {
+     "name_zh": "藏王手打蕎麥 新楽",
+     "name_ja": "蔵王 手打ちそば 新楽",
+     "type": "餐廳",
+     "rating": 3.54,
+     "rating_source": "Tabelog",
+     "lat": 38.12391,
+     "lng": 140.57837,
+     "note": "用當地湧泉水做的粗麵，冷鴨南蠻約 1,200 日圓。11:00-15:00、16:30-19:00，週三公休（遇假日營業）；離飯店車程約 5 分鐘。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%20%E6%89%8B%E6%89%93%E3%81%A1%E3%81%9D%E3%81%B0%20%E6%96%B0%E6%A5%BD"
+    },
+    {
+     "name_zh": "賛久庵",
+     "name_ja": "賛久庵",
+     "type": "餐廳",
+     "rating": 3.27,
+     "rating_source": "Tabelog",
+     "lat": 38.12437,
+     "lng": 140.57241,
+     "note": "蕎麥、炸豬排的定食食堂，也附咖啡。營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B3%9B%E4%B9%85%E5%BA%B5"
+    },
+    {
+     "name_zh": "神の湯（遠刈田溫泉共同浴場）",
+     "name_ja": "遠刈田温泉 神の湯",
+     "type": "溫泉",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.12421,
+     "lng": 140.57724,
+     "note": "遠刈田溫泉的共同浴場，泡溫泉順便逛溫泉街。費用與營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E3%81%AE%E6%B9%AF"
+    },
+    {
+     "name_zh": "ぶなの森",
+     "name_ja": "ぶなの森",
+     "type": "餐廳",
+     "rating": 3.22,
+     "rating_source": "Tabelog",
+     "lat": 38.12024,
+     "lng": 140.58886,
+     "note": "義式披薩與義大利麵，位在遠刈田溫泉旭町，評分偏低，僅當備選。營業時間未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%AA%E3%81%AE%E6%A3%AE"
+    }
+   ],
+   "phone": "+81-224-34-3600",
+   "kind": "hotel"
+  },
+  "matsushima": {
+   "id": "matsushima",
+   "name_zh": "松島（遊覽船・五大堂・福浦橋）",
+   "name_ja": "松島（島巡り観光船・五大堂・福浦橋）",
+   "name_en": "Matsushima",
+   "lat": 38.36972,
+   "lng": 141.06421,
+   "intro": "松島是日本三景之一，松島灣內散布約 260 座小島。搭島巡遊覽船 50 分鐘可繞一圈，岸邊的五大堂有透橋，瑞巖寺是國寶禪寺，福浦橋則是 252 公尺的朱紅橋，被稱為「相遇之橋」。10 月上旬楓葉尚早，松島以海景與牡蠣、穴子丼為主，紅葉約 11 月中旬。",
+   "tips": [
+    "仁王丸遊覽船大人 1,500 日圓、小學生 750，全程 50 分鐘，9:00-16:00 每小時一班（來源：松島島巡り観光船 matsushima.or.jp，2026 年查證）；二樓展望席加收 600 日圓。",
+    "福浦橋 252 公尺，大人 300 日圓，4-10 月 8:30-17:00（來源：松島町官網）。瑞巖寺 10 月 8:30-16:30，大人 1,000 日圓，無專用停車場（來源：瑞巖寺官網）；五大堂免費，開放時間未查證。"
+   ],
+   "website": "https://www.matsushima-kanko.com/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.36972,141.06421",
+   "nearby": [
+    {
+     "name_zh": "松島壽司幸",
+     "name_ja": "松島 寿司幸",
+     "type": "餐廳",
+     "rating": 3.56,
+     "rating_source": "Tabelog",
+     "lat": 38.37064,
+     "lng": 141.06131,
+     "note": "特上海鮮丼約 2,600 日圓，晚餐可到 21:00，週三、週四公休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%20%E5%AF%BF%E5%8F%B8%E5%B9%B8"
+    },
+    {
+     "name_zh": "丼松島",
+     "name_ja": "丼松島",
+     "type": "餐廳",
+     "rating": 3.5,
+     "rating_source": "Tabelog",
+     "lat": 38.36846,
+     "lng": 141.05956,
+     "note": "松島海岸站步行 1 分鐘，海鮮丼與在地料理，約 1,000-1,999 日圓，每日營業。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BC%E6%9D%BE%E5%B3%B6"
+    },
+    {
+     "name_zh": "松島魚市場",
+     "name_ja": "松島さかな市場",
+     "type": "餐廳",
+     "rating": 3.49,
+     "rating_source": "Tabelog",
+     "lat": 38.37208,
+     "lng": 141.06357,
+     "note": "鮪魚蔥花丼約 950 日圓、海鮮散壽司 1,900 日圓，2 樓 120 席，每日營業，午餐尖峰易排隊。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E3%81%95%E3%81%8B%E3%81%AA%E5%B8%82%E5%A0%B4"
+    },
+    {
+     "name_zh": "三取茶屋",
+     "name_ja": "さんとり茶屋",
+     "type": "餐廳",
+     "rating": 3.48,
+     "rating_source": "Tabelog",
+     "lat": 38.3703,
+     "lng": 141.06559,
+     "note": "限量松島穴子丼約 1,780 日圓，也有牡蠣，晚餐 17:00-21:00，週三公休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%82%93%E3%81%A8%E3%82%8A%E8%8C%B6%E5%B1%8B"
+    },
+    {
+     "name_zh": "洗心庵",
+     "name_ja": "洗心庵",
+     "type": "咖啡",
+     "rating": 3.37,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "位在寺院附近，提供甜點、蕎麥與天婦羅丼，約 1,000-1,999 日圓，每日營業。座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%97%E5%BF%83%E5%BA%B5"
+    }
+   ],
+   "kind": "spot"
+  },
+  "sendai-ichibancho": {
+   "id": "sendai-ichibancho",
+   "name_zh": "仙台一番街（一番町商店街）",
+   "name_ja": "仙台一番町商店街（サンモール一番町・ぶらんどーむ一番町・クリスロード）",
+   "name_en": "Sendai Ichibancho Shopping Arcades",
+   "lat": 38.261,
+   "lng": 140.8717,
+   "intro": "「仙台一番街」在資料中無單一官方名稱，這裡採一番町一帶的連通拱廊商店街：サンモール一番町、ぶらんどーむ一番町（1993 年完成，高 18 公尺的拱廊）與東西向的クリスロード。從武士町演變而來，混合精品與百年老店，適合吃牛舌、逛街，10 月上旬是室內行程，不受天氣影響。",
+   "tips": [
+    "拱廊有遮蓋，雨天也能逛；ぶらんどーむ一番町商店街連絡電話 022-265-5146（來源：まちくる仙台 machi-kuru.com，2026 年查證）。",
+    "若你指的是仙台站的「牛たん通り」或其他「一番街」，請告知；此處以一番町拱廊處理。多數牛舌店晚餐 17:00 後才熱鬧，建議先訂位。"
+   ],
+   "website": "https://machi-kuru.com/st/8",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.261,140.8717",
+   "nearby": [
+    {
+     "name_zh": "VELVET",
+     "name_ja": "ベルベット",
+     "type": "咖啡",
+     "rating": 3.53,
+     "rating_source": "Tabelog",
+     "lat": 38.25825,
+     "lng": 140.87268,
+     "note": "サンモール一番町內的麵包咖啡，1,000 日圓以下。麵包 7:30-19:00、咖啡 7:30-18:00，不定休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%AB%E3%83%99%E3%83%83%E3%83%88"
+    },
+    {
+     "name_zh": "牛たん けやき 仙台一番町本店",
+     "name_ja": "牛たん けやき 仙台一番町本店",
+     "type": "餐廳",
+     "rating": 3.52,
+     "rating_source": "Tabelog",
+     "lat": 38.26096,
+     "lng": 140.87166,
+     "note": "厚切牛舌定食，約 3,000-3,999 日圓。平日 11:00-15:00、17:00-22:00，全年無休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%20%E3%81%91%E3%82%84%E3%81%8D%20%E4%BB%99%E5%8F%B0%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97"
+    },
+    {
+     "name_zh": "牛たん徳茂 一番町店",
+     "name_ja": "牛たん徳茂 一番町店",
+     "type": "餐廳",
+     "rating": 3.48,
+     "rating_source": "Tabelog",
+     "lat": 38.26313,
+     "lng": 140.87126,
+     "note": "炭火厚切牛舌，午餐 1,000-1,999、晚餐 2,000-2,999 日圓；週一至週六 11:00-22:30，週日至 21:30。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%E5%BE%B3%E8%8C%82%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97"
+    },
+    {
+     "name_zh": "蕎麥神田 東一屋 一番町店",
+     "name_ja": "そばの神田 東一屋 一番町店",
+     "type": "餐廳",
+     "rating": 3.48,
+     "rating_source": "Tabelog",
+     "lat": 38.26249,
+     "lng": 140.871,
+     "note": "站食蕎麥，冷狐狸蕎麥有免費天婦羅屑，1,000 日圓以下。Tabelog 載平日 7:00-01:00、週日與假日休，出發前再確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E3%81%AE%E7%A5%9E%E7%94%B0%20%E6%9D%B1%E4%B8%80%E5%B1%8B%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97"
+    },
+    {
+     "name_zh": "蔵の庄 一番町本店",
+     "name_ja": "蔵の庄 一番町本店",
+     "type": "餐廳",
+     "rating": 3.47,
+     "rating_source": "Tabelog",
+     "lat": 38.26138,
+     "lng": 140.8718,
+     "note": "爐端燒與宮城地酒居酒屋，約 4,000-4,999 日圓，16:00-23:30，適合晚餐。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97"
+    }
+   ],
+   "kind": "spot"
+  },
+  "koko-hotel-sendai-south": {
+   "id": "koko-hotel-sendai-south",
+   "name_zh": "KOKO HOTEL SENDAI STATION SOUTH",
+   "name_ja": "KOKO HOTEL 仙台駅前 South",
+   "name_en": "KOKO HOTEL Sendai Station South",
+   "lat": 38.25744,
+   "lng": 140.87913,
+   "intro": "位在仙台市青葉區中央四丁目 7-1，離 JR 仙台站西口步行約 5-7 分鐘，適合早上搭車出發。飯店裝潢新，房間簡潔，早餐另購約 1,100 日圓，附近步行 30 秒有便利商店，對面有藥妝店。離仙台朝市與一番町也近，晚餐與宵夜選擇多。",
+   "tips": [
+    "地址：仙台市青葉區中央 4-7-1；合約停車場 30 台（16:00-11:00），尺寸有限制，無法預約（來源：JTB，2026 年查證）。",
+    "從機場搭仙台機場線到仙台站，再由西口步行約 7 分鐘；房間為基本型商務旅館，旅客評價在仙台住宿約 3.27（4travel）。"
+   ],
+   "website": "https://www.koko-hotels.com/sendai-south/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.25744,140.87913",
+   "nearby": [
+    {
+     "name_zh": "たんや善治郎 仙台站前本店",
+     "name_ja": "たんや善治郎 仙台駅前本店",
+     "type": "餐廳",
+     "rating": 3.55,
+     "rating_source": "Tabelog",
+     "lat": 38.26189,
+     "lng": 140.88066,
+     "note": "炭火厚切牛舌，晚餐約 3,000-3,999 日圓。11:00-23:00、最後點餐 22:30，全年無休，飯店步行約 8-10 分鐘。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E6%9C%AC%E5%BA%97"
+    },
+    {
+     "name_zh": "たんや善治郎 牛たん通り店",
+     "name_ja": "たんや善治郎 牛たん通り店",
+     "type": "餐廳",
+     "rating": 3.6,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "仙台站 3F 牛たん通り，10:00-21:30（最後點餐 21:00），不接受訂位。座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E7%89%9B%E3%81%9F%E3%82%93%E9%80%9A%E3%82%8A%E5%BA%97"
+    },
+    {
+     "name_zh": "仙台朝市",
+     "name_ja": "仙台朝市",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.25862,
+     "lng": 140.87851,
+     "note": "飯店附近的傳統市場，生鮮與小吃，適合隔天早晨逛。營業時間各店不同，評分未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E6%9C%9D%E5%B8%82"
+    },
+    {
+     "name_zh": "蔵の庄 一番町本店",
+     "name_ja": "蔵の庄 一番町本店",
+     "type": "餐廳",
+     "rating": 3.47,
+     "rating_source": "Tabelog",
+     "lat": 38.26138,
+     "lng": 140.8718,
+     "note": "爐端燒居酒屋，16:00-23:30，適合晚餐小酌，飯店步行約 10 分鐘。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97"
+    },
+    {
+     "name_zh": "飯店旁便利商店",
+     "name_ja": "コンビニ 仙台駅前 中央四丁目",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": null,
+     "lng": null,
+     "note": "4travel 有提到飯店步行 30 秒有便利商店，店名未確認，建議入住時詢問櫃台。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%20%E4%B8%AD%E5%A4%AE%E5%9B%9B%E4%B8%81%E7%9B%AE"
+    }
+   ],
+   "phone": "+81-22-266-8873",
+   "kind": "hotel"
+  },
+  "senbei-diy": {
+   "id": "senbei-diy",
+   "name_zh": "手燒仙貝 DIY 體驗（推測：海鮮せんべい塩竈）",
+   "name_ja": "海鮮せんべい塩竈 手焼き体験",
+   "name_en": "Kaisen Senbei Shiogama – Hand-baked Senbei Experience",
+   "lat": 38.33467,
+   "lng": 141.04904,
+   "intro": "這是推測性建議：在松島相鄰的鹽竈市，「海鮮せんべい塩竈」官網有手燒仙貝體驗，用專用筆以醬油畫圖寫字再烤，約 10 分鐘，1 次 1 枚 100 日圓，最多 8 人。工廠可見學，有 50 種以上海鮮仙貝，離松島約 10 公里，可與松島同天安排；營業與實施狀況需電洽確認。",
+   "tips": [
+    "體驗 100 日圓一枚（官網 kaisen-shiogama.com，2026 年查證，但 Tabelog 與旅遊網頁另載 300 日圓 3 枚、且註記 2021 年曾暫停，資訊不一致，請先確認）。",
+    "營業時間網頁載 9:00-17:00，停車場 60 台免費；松島觀光協會另有「海鮮せんべい手焼き体験」頁面（id=240）因無法讀取未能核對，是否為同一店家未確認。"
+   ],
+   "website": "https://www.kaisen-shiogama.com/",
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.33467,141.04904",
+   "nearby": [
+    {
+     "name_zh": "松島蒲鉾本舗 總本店（笹魚板手燒體驗）",
+     "name_ja": "松島蒲鉾本舗 総本店",
+     "type": "伴手禮",
+     "rating": 3.22,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "松島本地魚板店，官網有笹魚板手燒體驗，可替代仙貝 DIY。約 999 日圓以下，座標與體驗費用未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E8%92%B2%E9%89%BE%E6%9C%AC%E8%88%97%20%E7%B7%8F%E6%9C%AC%E5%BA%97"
+    },
+    {
+     "name_zh": "阿部蒲鉾店 松島寺町店",
+     "name_ja": "阿部蒲鉾店 松島寺町店",
+     "type": "伴手禮",
+     "rating": 3.18,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "松島本地魚板店，可買笹魚板，1,000 日圓以下，座標未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%83%A8%E8%92%B2%E9%89%BE%E5%BA%97%20%E6%9D%BE%E5%B3%B6%E5%AF%BA%E7%94%BA%E5%BA%97"
+    },
+    {
+     "name_zh": "菓匠三全 松島",
+     "name_ja": "菓匠三全 松島",
+     "type": "伴手禮",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.37022,
+     "lng": 141.06051,
+     "note": "萩之月品牌的松島店，適合買伴手禮。營業時間與評分未查證。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E6%9D%BE%E5%B3%B6"
+    }
+   ],
+   "inferred": true,
+   "kind": "spot"
+  },
+  "goshikinuma": {
+   "id": "goshikinuma",
+   "name_zh": "五色沼自然探勝路",
+   "name_ja": "五色沼自然探勝路",
+   "name_en": "Goshikinuma Nature Trail",
+   "lat": 37.65164,
+   "lng": 140.08895,
+   "intro": "1888 年磐梯山噴發後形成的大小湖沼群，毘沙門沼、赤沼、青沼、柳沼等因礦物質與水深不同，呈現翡翠綠、乳藍等色彩，曾獲米其林綠色指南一星。步道約 3.6–4 公里、平緩好走，全程林蔭如綠色隧道。10 月上旬多在轉色初期，楓紅高峰通常在 10 月中旬到 11 月上旬，可能綠葉夾雜零星紅葉。",
+   "tips": [
+    "步道全長約 4 公里、單程約 1 小時 10 分至 1 個半小時，可從「五色沼入口」走到「裏磐梯高原駅」，需安排遊覽車在終點接送（裏磐梯觀光協會，2026 查）",
+    "10 月上旬多為轉色初期，楓紅例年見頃 10 月中旬–11 月上旬（tenki.jp 例年資料）；早晚溫差大，建議帶薄外套",
+    "步道免費；毘沙門沼入口端有遊客中心與停車場，山區氣候多變，宜穿好走的鞋"
+   ],
+   "website": "https://www.urabandai-inf.com/",
+   "nearby": [
+    {
+     "name_zh": "Il Regalo（義式餐廳）",
+     "name_ja": "イル レガーロ",
+     "type": "餐廳",
+     "rating": 3.42,
+     "rating_source": "Tabelog",
+     "lat": 37.65763,
+     "lng": 140.08905,
+     "note": "五色沼入口附近的義式餐廳，午餐義大利麵、牛排約 1,000–1,999 日圓，Tabelog 3.42（該區最高）。週二公休，旺季建議先確認營業時間。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%AB%20%E3%83%AC%E3%82%AC%E3%83%BC%E3%83%AD"
+    },
+    {
+     "name_zh": "Museum Cafe",
+     "name_ja": "ミュージアムカフェ",
+     "type": "咖啡",
+     "rating": 3.26,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "北鹽原村的咖啡店，Tabelog 3.26，價位約 999 日圓內，適合走完步道後喝杯咖啡休息。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%E3%82%AB%E3%83%95%E3%82%A7"
+    },
+    {
+     "name_zh": "Taka 食堂",
+     "name_ja": "タカ食堂",
+     "type": "餐廳",
+     "rating": 3.18,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "當地定食食堂，午餐約 1,000–1,999 日圓；週一至週三公休，走訪前務必確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%82%AB%E9%A3%9F%E5%A0%82"
+    },
+    {
+     "name_zh": "山之驛食堂",
+     "name_ja": "山の駅食堂",
+     "type": "餐廳",
+     "rating": 3.15,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "招牌為拉麵與炸豬排，午餐約 1,000–1,999 日圓；週四公休。裏磐梯一帶評價 3.5 以上的店很少，此為實用備選。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E3%81%AE%E9%A7%85%E9%A3%9F%E5%A0%82"
+    },
+    {
+     "name_zh": "7-Eleven（五色沼入口附近）",
+     "name_ja": "セブン-イレブン",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 37.66029,
+     "lng": 140.08292,
+     "note": "五色沼入口附近的便利商店，可補給飲料點心與上廁所。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.65164,140.08895",
+   "kind": "spot"
+  },
+  "tsuruga-castle": {
+   "id": "tsuruga-castle",
+   "name_zh": "會津若松城（鶴ヶ城）",
+   "name_ja": "会津若松城（鶴ヶ城）",
+   "name_en": "Tsuruga Castle",
+   "lat": 37.48774,
+   "lng": 139.92977,
+   "intro": "會津藩的象徵，1384 年創建，戊辰戰爭時歷經一個月籠城仍屹立，因此有「不落之城」美名。現存天守為 1965 年重建，2011 年更換為日本唯一的紅瓦天守，內部是展示館，頂樓可眺望會津盆地。城內還有茶室麟閣。10 月上旬楓葉尚未變紅，多為綠意，紅葉高峰約在 11 月上旬，此行以城景與歷史為主。",
+   "tips": [
+    "天守閣 8:30–17:00（最後入場 16:30），全年無休；天守閣＋麟閣共通券 520 日圓、單買天守閣 410 日圓（鶴ヶ城官方，2026）",
+    "城區腹地大，加上登天守約需 60–90 分鐘；官方另有秋季限定御城印 500 日圓（2026 年 9 月公告）"
+   ],
+   "website": "https://www.tsurugajo.com/",
+   "nearby": [
+    {
+     "name_zh": "茶室麟閣",
+     "name_ja": "茶室麟閣",
+     "type": "咖啡",
+     "rating": 3.46,
+     "rating_source": "Tabelog",
+     "lat": 37.48692,
+     "lng": 139.9308,
+     "note": "位於城內的茶室，可品嚐抹茶與和菓子，約 999 日圓內。8:30–17:00（最後受理 16:30），需另購共通券進場。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AE%A4%E9%BA%9F%E9%96%A3"
+    },
+    {
+     "name_zh": "田季野",
+     "name_ja": "田季野",
+     "type": "餐廳",
+     "rating": 3.54,
+     "rating_source": "Tabelog",
+     "lat": 37.49623,
+     "lng": 139.93095,
+     "note": "會津鄉土料理名店，招牌蒸籠飯（わっぱ飯）與山菜料理，午晚餐約 2,000–2,999 日圓。離鶴ヶ城約 1 公里，用餐時段常排隊。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E"
+    },
+    {
+     "name_zh": "櫻鍋 鶴我",
+     "name_ja": "さくら鍋 鶴我",
+     "type": "餐廳",
+     "rating": 3.6,
+     "rating_source": "Tabelog",
+     "lat": 37.49491,
+     "lng": 139.9307,
+     "note": "馬肉專門店，馬刺與櫻鍋拼盤是招牌，午餐約 1,000–1,999、晚餐約 5,000–5,999 日圓。營業日與座位請先確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%8F%E3%82%89%E9%8D%8B%20%E9%B6%B4%E6%88%91"
+    },
+    {
+     "name_zh": "籠太",
+     "name_ja": "籠太",
+     "type": "餐廳",
+     "rating": 3.59,
+     "rating_source": "Tabelog",
+     "lat": 37.49492,
+     "lng": 139.93254,
+     "note": "以雞高湯的鄉土蒸籠飯聞名，晚餐約 5,000–5,999 日圓。屬居酒屋型態，建議事先預約。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B1%A0%E5%A4%AA"
+    },
+    {
+     "name_zh": "喜多方拉麵專門店 喜鈴",
+     "name_ja": "喜多方ラーメン専門店 喜鈴",
+     "type": "餐廳",
+     "rating": 3.45,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "喜多方風格拉麵，午餐約 1,000–1,999 日圓；週二公休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E5%A4%9A%E6%96%B9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%B0%82%E9%96%80%E5%BA%97%20%E5%96%9C%E9%88%B4"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.48774,139.92977",
+   "kind": "spot"
+  },
+  "suehiro-kaeigura": {
+   "id": "suehiro-kaeigura",
+   "name_zh": "末廣酒造 嘉永藏",
+   "name_ja": "末廣酒造 嘉永蔵",
+   "name_en": "Suehiro Shuzo Kaeigura",
+   "lat": 37.49793,
+   "lng": 139.92318,
+   "intro": "創業於 1850 年（嘉永 3 年）的會津老牌酒廠，嘉永藏為保留江戶時代建築的酒藏，可免費參觀釀造過程與資料館，並可試飲數種清酒與梅酒。館內附設藏喫茶「杏」與直賣所，適合買伴手禮。離七日町車站約 500 公尺，適合順路安排半小時左右的行程。",
+   "tips": [
+    "參觀導覽約 30 分鐘，免預約（團體需預約）；3–11 月整點場次 10、11、13、14、15、16 時（酒廠官網，2026 查）",
+    "商店 9:30–16:30，每月第 2 個週三公休；藏喫茶「杏」10:00–16:30（LO 16:00），週三與第 1、3 個週四公休",
+    "試飲含酒精，開車者不可飲用"
+   ],
+   "website": "https://sake-suehiro.co.jp/",
+   "nearby": [
+    {
+     "name_zh": "藏喫茶 杏",
+     "name_ja": "蔵喫茶 杏",
+     "type": "咖啡",
+     "rating": 3.37,
+     "rating_source": "Tabelog",
+     "lat": 37.49793,
+     "lng": 139.92318,
+     "note": "位於嘉永藏內的酒藏咖啡，提供咖啡與日本酒甜點，約 1,000–1,999 日圓。10:00–16:30，週三及第 1、3 個週四公休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E5%96%AB%E8%8C%B6%20%E6%9D%8F"
+    },
+    {
+     "name_zh": "太郎庵 七日町菓房",
+     "name_ja": "太郎庵 七日町菓房",
+     "type": "伴手禮",
+     "rating": null,
+     "rating_source": null,
+     "lat": 37.5004,
+     "lng": 139.92069,
+     "note": "會津知名和菓子店，可買饅頭、羊羹等伴手禮，離末廣約 500 公尺。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%83%8E%E5%BA%B5%20%E4%B8%83%E6%97%A5%E7%94%BA%E8%8F%93%E6%88%BF"
+    },
+    {
+     "name_zh": "田季野",
+     "name_ja": "田季野",
+     "type": "餐廳",
+     "rating": 3.54,
+     "rating_source": "Tabelog",
+     "lat": 37.49623,
+     "lng": 139.93095,
+     "note": "鄉土料理蒸籠飯、馬肉料理名店，約 2,000–2,999 日圓。離嘉永藏步行約 15 分鐘。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.49793,139.92318",
+   "kind": "spot"
+  },
+  "ouchi-juku": {
+   "id": "ouchi-juku",
+   "name_zh": "大內宿",
+   "name_ja": "大内宿",
+   "name_en": "Ouchi-juku",
+   "lat": 37.33363,
+   "lng": 139.86066,
+   "intro": "江戶時代會津西街道上的宿場町，茅葺屋沿街並列，被指定為國家重要傳統建造物群保存地區。招牌是「蔥蕎麥（高遠蕎麥）」，以整根長蔥當筷子吃，也有現烤五平餅、串糰子。可登上盡頭的見晴台俯瞰全景。10 月上旬楓葉尚早，例年見頃約 10 月下旬到 11 月中旬。",
+   "tips": [
+    "逛街加用餐約 2–3 小時；三澤屋高遠蕎麥 1,500 日圓，9:30–16:00（官網，2026 查），但 Tabelog 標示週三公休，建議先確認",
+    "10 月上旬是旅遊旺季，午餐尖峰排隊久，建議避開 12–13 時；蔥蕎麥需用蔥當筷子咬著吃"
+   ],
+   "website": "https://ouchi-juku.com/",
+   "nearby": [
+    {
+     "name_zh": "三澤屋",
+     "name_ja": "三澤屋",
+     "type": "餐廳",
+     "rating": 3.49,
+     "rating_source": "Tabelog",
+     "lat": 37.3325,
+     "lng": 139.86049,
+     "note": "蔥蕎麥名店，高遠蕎麥約 1,500 日圓；另有水蕎麥。官網營業約 9:30–16:00，尖峰需排隊。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%BE%A4%E5%B1%8B"
+    },
+    {
+     "name_zh": "蕎麥處 米家",
+     "name_ja": "そば処 米家",
+     "type": "餐廳",
+     "rating": 3.46,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "手拉蔥蕎麥，冷熱皆有，使用當地蕎麥粉，約 1,000–1,999 日圓。位於大內宿街道上。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E7%B1%B3%E5%AE%B6"
+    },
+    {
+     "name_zh": "山本屋",
+     "name_ja": "山本屋",
+     "type": "餐廳",
+     "rating": 3.44,
+     "rating_source": "Tabelog",
+     "lat": 37.33338,
+     "lng": 139.86039,
+     "note": "以核桃蕎麥（くるみそば）聞名，約 1,000–1,999 日圓；週四、五公休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E6%9C%AC%E5%B1%8B"
+    },
+    {
+     "name_zh": "本家 玉屋",
+     "name_ja": "そば処 本家玉屋",
+     "type": "餐廳",
+     "rating": 3.42,
+     "rating_source": "Tabelog",
+     "lat": 37.33476,
+     "lng": 139.86129,
+     "note": "位於約 400 年歷史的老屋，提供蔥蕎麥，約 1,000–1,999 日圓，位置靠近見晴台方向。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E6%9C%AC%E5%AE%B6%E7%8E%89%E5%B1%8B"
+    },
+    {
+     "name_zh": "大內宿町並み展示館",
+     "name_ja": "大内宿町並み展示館",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 37.33419,
+     "lng": 139.86077,
+     "note": "館內展示宿場町歷史與茅葺建築資料，適合吃完蕎麥後補充背景知識。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF%E7%94%BA%E4%B8%A6%E3%81%BF%E5%B1%95%E7%A4%BA%E9%A4%A8"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.33363,139.86066",
+   "kind": "spot"
+  },
+  "hotel-listel-inawashiro": {
+   "id": "hotel-listel-inawashiro",
+   "name_zh": "HOTEL LISTEL INAWASHIRO",
+   "name_ja": "ホテルリステル猪苗代",
+   "name_en": "Hotel Listel Inawashiro",
+   "lat": 37.54249,
+   "lng": 140.14953,
+   "intro": "位於猪苗代湖畔高地的度假飯店，Wing Tower 客房皆可眺望猪苗代湖，使用地下約 1,200 公尺湧出的溫泉，有露天展望風呂、Quahouse 八種浴池與室內泳池。館內有自助晚餐、法式餐廳與日式料理。飯店位在滑雪場區，周邊餐飲較少，晚餐多半直接在館內解決。",
+   "tips": [
+    "館外周邊餐飲稀疏，最近的便利商店在猪苗代站前，車程約 10 分鐘，建議先在他處採買宵夜",
+    "館內有湖景溫泉與 Quahouse 泳池設施，賞楓旺季住宿需求高，大浴場時段建議提早確認（飯店官網，2026 查）"
+   ],
+   "website": "https://www.listel-inawashiro.jp/",
+   "phone": "+81-242-66-2233",
+   "nearby": [
+    {
+     "name_zh": "法式餐廳 Phamnet（館內）",
+     "name_ja": "ファムネット",
+     "type": "餐廳",
+     "rating": 3.09,
+     "rating_source": "Tabelog",
+     "lat": 37.54249,
+     "lng": 140.14953,
+     "note": "飯店內的法式餐廳，適合不想外出的晚餐。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%A0%E3%83%8D%E3%83%83%E3%83%88"
+    },
+    {
+     "name_zh": "7-Eleven 猪苗代站前通店",
+     "name_ja": "セブンイレブン 猪苗代駅通り店",
+     "type": "其他",
+     "rating": null,
+     "rating_source": null,
+     "lat": 37.55405,
+     "lng": 140.10624,
+     "note": "最近查到的便利商店，離飯店約 4.5 公里，車程約 10 分鐘，適合買宵夜與飲料。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E9%A7%85%E9%80%9A%E3%82%8A%E5%BA%97"
+    },
+    {
+     "name_zh": "道之驛 猪苗代",
+     "name_ja": "道の駅 猪苗代",
+     "type": "伴手禮",
+     "rating": 3.26,
+     "rating_source": "Tabelog",
+     "lat": 37.53764,
+     "lng": 140.10736,
+     "note": "販賣猪苗代農產品與會津伴手禮。營業時間請以官方為準，可順路採買。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.54249,140.14953",
+   "kind": "hotel"
+  },
+  "lake-inawashiro": {
+   "id": "lake-inawashiro",
+   "name_zh": "猪苗代湖（天鏡閣・長浜）",
+   "name_ja": "猪苗代湖（天鏡閣・長浜）",
+   "name_en": "Lake Inawashiro",
+   "lat": 37.52132,
+   "lng": 140.04357,
+   "intro": "日本第四大湖，湖水清澈，有「天鏡湖」美稱，磐梯山倒映其上。此處以北岸長浜、天鏡閣一帶為代表座標：天鏡閣是 1908 年建造的文藝復興風格皇室別墅，被列為重要文化財。10 月上旬湖畔多為綠意，主要欣賞湖景與磐梯山。實際停留點以旅行社安排為準。",
+   "tips": [
+    "天鏡閣門票 370 日圓，5–10 月 8:30–17:00，最後入場為閉館前 30 分鐘（Rurubu 記載，建議確認）",
+    "代表座標為天鏡閣（長浜一帶），若行程改在志田浜，座標會不同"
+   ],
+   "website": "https://www.town.inawashiro.fukushima.jp/",
+   "nearby": [
+    {
+     "name_zh": "Taro Cafe",
+     "name_ja": "タロカフェ",
+     "type": "咖啡",
+     "rating": 3.58,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "猪苗代人氣咖啡店，茶壺咖啡 650 日圓起，提拉米蘇與蒙布朗蛋糕；週三公休。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%83%AD%E3%82%AB%E3%83%95%E3%82%A7"
+    },
+    {
+     "name_zh": "馬刺專門 大久保商店",
+     "name_ja": "馬刺し専門 大久保商店",
+     "type": "餐廳",
+     "rating": 3.42,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "馬肉專門店，兼營食堂與咖啡。營業日請先確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E5%88%BA%E3%81%97%E5%B0%82%E9%96%80%20%E5%A4%A7%E4%B9%85%E4%BF%9D%E5%95%86%E5%BA%97"
+    },
+    {
+     "name_zh": "河京拉麵館 猪苗代店",
+     "name_ja": "河京ラーメン館 猪苗代店",
+     "type": "餐廳",
+     "rating": 3.38,
+     "rating_source": "Tabelog",
+     "lat": 37.53599,
+     "lng": 140.07475,
+     "note": "喜多方拉麵、餃子與自助吧；週二公休，離天鏡閣約 2–3 公里。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E4%BA%AC%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%A4%A8%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97"
+    },
+    {
+     "name_zh": "道之驛 猪苗代",
+     "name_ja": "道の駅 猪苗代",
+     "type": "伴手禮",
+     "rating": 3.26,
+     "rating_source": "Tabelog",
+     "lat": 37.53764,
+     "lng": 140.10736,
+     "note": "販售猪苗代農產與會津伴手禮。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.52132,140.04357",
+   "kind": "spot"
+  },
+  "orchard-marusei": {
+   "id": "orchard-marusei",
+   "name_zh": "觀光果園採果（推測：丸清果樹園）",
+   "name_ja": "まるせい果樹園",
+   "name_en": "Marusei Orchard (Fukushima City)",
+   "lat": 37.82182,
+   "lng": 140.43148,
+   "inferred": true,
+   "intro": "行程只寫「觀光果園採果」，未指明果園；此處以福島市飯坂町「水果線」上的丸清果樹園為代表（推測）。園內依季節可採櫻桃、桃、梨、葡萄與蘋果，附設農園咖啡「森のガーデン」與直賣所。10 月上旬多為梨、葡萄或早生蘋果，實際果園與品種以旅行社公告為準。",
+   "tips": [
+    "推測地點：直賣所 8:00–17:00；蘋果早生品種約 9 月下旬至 10 月中旬開始，各來源說法不一",
+    "備選果園：曲屋果樹園（相距約 1 公里，9:00–17:00）"
+   ],
+   "website": "https://www.maruseifukushima.com/",
+   "nearby": [
+    {
+     "name_zh": "森のガーデン（農園咖啡）",
+     "name_ja": "まるせい果樹園 森のガーデン",
+     "type": "咖啡",
+     "rating": null,
+     "rating_source": null,
+     "lat": null,
+     "lng": null,
+     "note": "園方附設農園咖啡，10:00–16:00，季節水果聖代與甜點。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%8B%E3%81%9B%E3%81%84%E6%9E%9C%E6%A8%B9%E5%9C%92%20%E6%A3%AE%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3"
+    },
+    {
+     "name_zh": "鯖湖湯",
+     "name_ja": "鯖湖湯",
+     "type": "溫泉",
+     "rating": null,
+     "rating_source": null,
+     "lat": 37.83265,
+     "lng": 140.45218,
+     "note": "飯坂溫泉的共同浴場，離果園約 4 公里，泡湯費用與時間請以現場為準。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%AF%96%E6%B9%96%E6%B9%AF"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37.82182,140.43148",
+   "kind": "spot"
+  },
+  "genbikei-gorge": {
+   "id": "genbikei-gorge",
+   "name_zh": "嚴美溪（郭公糰子）",
+   "name_ja": "厳美渓",
+   "name_en": "Genbikei Gorge",
+   "lat": 38.9446,
+   "lng": 141.0457,
+   "intro": "嚴美溪位於一關市，是磐井川沿岸長約 2 公里的溪谷，由火山岩侵蝕出奇岩、瀑布、急流與圓形壺穴，1927 年起列為國家名勝。最有名的是溪谷對岸的「郭公屋」空飛ぶだんご：敲響木槌，竹籃沿繩索飛到對岸，再載著糰子與茶送回來，相當有趣。10 月上旬楓葉才剛開始變色，紅葉盛期通常要到 10 月底至 11 月初。",
+   "tips": [
+    "郭公屋空飛ぶだんご：約 9:30–15:00（賣完即收），3 串 600 日圓、5 串 900 日圓，不定休（一關市觀光 NAVI，2026 年查閱）",
+    "溪谷步道有高低差且岩石濕滑，建議穿防滑鞋；假日團客多，糰子需排隊"
+   ],
+   "website": "https://www.ichitabi.jp/",
+   "nearby": [
+    {
+     "name_zh": "郭公屋（空飛ぶだんご）",
+     "name_ja": "郭公屋",
+     "type": "伴手禮",
+     "rating": 3.59,
+     "rating_source": "Tabelog",
+     "lat": 38.9443,
+     "lng": 141.0443,
+     "note": "1868 年創業的空飛ぶだんご名店，3 串 600 日圓、5 串 900 日圓，約 9:30–15:00。現做糰子搭配茶，是嚴美溪必吃體驗。（座標為溪谷對岸推估）",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%83%AD%E5%85%AC%E5%B1%8B"
+    },
+    {
+     "name_zh": "Polano 冰淇淋",
+     "name_ja": "ポラーノ",
+     "type": "咖啡",
+     "rating": 3.43,
+     "rating_source": "Tabelog",
+     "lat": null,
+     "lng": null,
+     "note": "嚴美溪附近的義式冰淇淋店，適合逛完溪谷吃冰休息；營業時間請出發前確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9D%E3%83%A9%E3%83%BC%E3%83%8E"
+    },
+    {
+     "name_zh": "道の駅 厳美渓（ペッタンくん）",
+     "name_ja": "ペッタンくん",
+     "type": "餐廳",
+     "rating": 3.34,
+     "rating_source": "Tabelog",
+     "lat": 38.9454,
+     "lng": 141.0512,
+     "note": "嚴美溪附近道の駅內的餅料理食堂，午餐約 1,000–1,999 日圓，可買一關名物「餅」相關伴手禮。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9A%E3%83%83%E3%82%BF%E3%83%B3%E3%81%8F%E3%82%93"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.9446,141.0457",
+   "kind": "spot"
+  },
+  "chusonji": {
+   "id": "chusonji",
+   "name_zh": "中尊寺",
+   "name_ja": "中尊寺",
+   "name_en": "Chuson-ji",
+   "lat": 39.00145,
+   "lng": 141.09983,
+   "intro": "中尊寺位於岩手縣平泉町，天台宗東北大本山，是「平泉」世界文化遺產的核心。傳說由圓仁於 850 年開山，藤原清衡在 12 世紀初大規模興建。最大看點是金色堂，內外貼金箔，藏有奧州藤原三代遺體與國寶。2026 年適逢創建 900 年，有特別展與秘佛開帳。10 月上旬境內杉木參道仍偏綠，紅葉盛期預測約在 11 月中旬前後。",
+   "tips": [
+    "拜觀費大人 1,000 日圓；一張票含金色堂、讚衡藏、經藏、舊覆堂（2026 年）",
+    "開放時間 3/1–11/3 為 8:30–17:00；月見坂參道為坡道約 800 公尺，需預留體力，建議預留 1–2 小時",
+    "2026 年創建 900 年，7/17–11/15 有秘佛開帳與特別展，另收費"
+   ],
+   "website": "https://www.chusonji.or.jp/",
+   "nearby": [
+    {
+     "name_zh": "地水庵（古典蕎麥麵）",
+     "name_ja": "地水庵",
+     "type": "餐廳",
+     "rating": 3.6,
+     "rating_source": "Tabelog",
+     "lat": 38.99654,
+     "lng": 141.11122,
+     "note": "平泉町蕎麥麵名店，特色是手磨、口感粗獷的「古典そば」，並有店主推薦的日本酒。營業日請出發前確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E6%B0%B4%E5%BA%B5"
+    },
+    {
+     "name_zh": "夢乃風（わんこそば）",
+     "name_ja": "夢乃風",
+     "type": "餐廳",
+     "rating": 3.47,
+     "rating_source": "Tabelog",
+     "lat": 38.99534,
+     "lng": 141.11159,
+     "note": "以盛り出し式わんこそば與前沢牛相關餐點受注目，午餐約 2,000–2,999 日圓，約 10:00–18:00。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A2%E4%B9%83%E9%A2%A8"
+    },
+    {
+     "name_zh": "站前芭蕉館（わんこそば）",
+     "name_ja": "駅前芭蕉館",
+     "type": "餐廳",
+     "rating": 3.46,
+     "rating_source": "Tabelog",
+     "lat": 38.9884,
+     "lng": 141.11706,
+     "note": "盛り出し式わんこそば（約 24 碗）配料豐富，午餐約 1,000–1,999 日圓，位於平泉站前。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A7%85%E5%89%8D%E8%8A%AD%E8%95%89%E9%A4%A8"
+    },
+    {
+     "name_zh": "蕎麥處義家（月見坂）",
+     "name_ja": "そば処義家",
+     "type": "餐廳",
+     "rating": 3.41,
+     "rating_source": "Tabelog",
+     "lat": 38.9991,
+     "lng": 141.1065,
+     "note": "位於中尊寺月見坂參道旁，供應わんこそば（約 12 碗）與天丼套餐，約 10:30–15:00。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%E7%BE%A9%E5%AE%B6"
+    },
+    {
+     "name_zh": "平泉レストハウス（前沢牛午餐）",
+     "name_ja": "平泉レストハウス",
+     "type": "餐廳",
+     "rating": 3.09,
+     "rating_source": "Tabelog",
+     "lat": 38.99875,
+     "lng": 141.10863,
+     "note": "館內 Restaurant Gen 供應前沢牛午餐（約 9:30–16:30），美食廣場有三種わんこそば。評分偏低但方便。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E6%B3%89%E3%83%AC%E3%82%B9%E3%83%88%E3%83%8F%E3%82%A6%E3%82%B9"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39.00145,141.09983",
+   "kind": "spot"
+  },
+  "aeon-ezuriko": {
+   "id": "aeon-ezuriko",
+   "name_zh": "AEON MALL 永旺夢樂城（推測：イオン江釣子店）",
+   "name_ja": "イオン江釣子店",
+   "name_en": "AEON Ezuriko (Kitakami)",
+   "lat": 39.29323,
+   "lng": 141.09312,
+   "inferred": true,
+   "intro": "行程只寫「AEON MALL 永旺夢樂城」；平泉往花卷機場途中最合理的是北上市的イオン江釣子店（約 80 間專門店，2026 年 4 月改裝並新增電影院），此為推測，備選為イオンタウン北上。可補買零食、伴手禮與藥妝，提供免稅服務。",
+   "tips": [
+    "營業時間（イオン東北官網，2026 年查閱）：1F 8:00–22:00，2F 9:00–21:00，專門店 10:00–20:00；提供免稅與 Wi-Fi",
+    "此地點為推測，請以旅行社行程單為準"
+   ],
+   "website": "https://aeontohoku.co.jp/stores/ezuriko",
+   "nearby": [
+    {
+     "name_zh": "Troika 俄羅斯咖啡蛋糕",
+     "name_ja": "トロイカ",
+     "type": "咖啡",
+     "rating": 3.41,
+     "rating_source": "Tabelog",
+     "lat": 39.30092,
+     "lng": 141.07732,
+     "note": "位於上江釣子，供應俄羅斯料理、咖啡與起司蛋糕，約 2,000–2,999 日圓；營業日請確認。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AD%E3%82%A4%E3%82%AB"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39.29323,141.09312",
+   "kind": "spot"
+  },
+  "hanamaki-airport": {
+   "id": "hanamaki-airport",
+   "name_zh": "花卷機場（いわて花巻空港）",
+   "name_ja": "いわて花巻空港",
+   "name_en": "Iwate Hanamaki Airport",
+   "lat": 39.42861,
+   "lng": 141.13528,
+   "intro": "岩手花卷機場（HNA）位於花卷市，新航廈 2009 年啟用，由岩手縣管理，是前往岩手與平泉的空中門戶。館內有岩手花卷大食堂與伴手禮店，可買南部煎餅、岩手銘菓。",
+   "tips": [
+    "館內有いわて花巻大食堂與ハナ エアポート ショップ&カフェ，出境前可補買伴手禮；營業時間請看官網"
+   ],
+   "website": "https://www.hna-terminal.co.jp/",
+   "nearby": [
+    {
+     "name_zh": "岩手花卷大食堂",
+     "name_ja": "いわて花巻大食堂",
+     "type": "餐廳",
+     "rating": 3.36,
+     "rating_source": "Tabelog",
+     "lat": 39.42861,
+     "lng": 141.13528,
+     "note": "位於機場航廈內，午餐約 1,000–1,999 日圓，可吃到岩手鄉土料理與定食。候機最方便。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%A6%E8%8A%B1%E5%B7%BB%E5%A4%A7%E9%A3%9F%E5%A0%82"
+    },
+    {
+     "name_zh": "Hana Airport Shop&Cafe",
+     "name_ja": "ハナ エアポート ショップ&カフェ",
+     "type": "咖啡",
+     "rating": 3.1,
+     "rating_source": "Tabelog",
+     "lat": 39.42861,
+     "lng": 141.13528,
+     "note": "機場航廈內的咖啡與麵包店，適合候機時休息。",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%8A%20%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%20%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%26%E3%82%AB%E3%83%95%E3%82%A7"
+    }
+   ],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39.42861,141.13528",
+   "kind": "airport"
+  },
+  "taoyuan-t1": {
+   "id": "taoyuan-t1",
+   "name_zh": "桃園國際機場 第一航廈",
+   "name_ja": "桃園国際空港 第1ターミナル",
+   "name_en": "Taoyuan International Airport T1",
+   "lat": 25.0805,
+   "lng": 121.23697,
+   "intro": "出發集合點：桃園機場第一航廈 台灣虎航 7 號櫃台，集合時間 10/06 11:15。",
+   "tips": [
+    "集合時間 10/06 11:15，台灣虎航【7】號櫃台"
+   ],
+   "website": "https://www.taoyuan-airport.com/",
+   "nearby": [],
+   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25.0805,121.23697",
+   "kind": "airport"
+  }
+ }
+}

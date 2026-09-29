@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>花卷東北賞楓五日｜互動行程地圖</title>
+  <meta name="description" content="2026/10/06–10/10 花卷東北賞楓五日行程：互動地圖、景點介紹、路程、周邊推薦店家、天氣預報。">
+  <meta name="theme-color" content="#b23a2b">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">🍁</span>
+      <div>
+        <h1 id="trip-title">花卷東北賞楓五日</h1>
+        <p id="trip-dates" class="muted">2026/10/06（二）– 10/10（六）</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <button id="btn-info" class="btn ghost" type="button" aria-controls="info-drawer" aria-expanded="false">
+        ✈️ 航班・飯店・聯絡
+      </button>
+      <a id="source-link" class="btn ghost" href="#" target="_blank" rel="noopener">原始行程</a>
+    </div>
+  </header>
+
+  <nav class="daybar" aria-label="切換行程">
+    <div class="mode-toggle" role="group" aria-label="顯示模式">
+      <button id="mode-all" class="mode-btn active" type="button" aria-pressed="true">全部行程</button>
+      <button id="mode-day" class="mode-btn" type="button" aria-pressed="false">單日行程</button>
+    </div>
+    <div id="day-tabs" class="day-tabs" role="tablist"></div>
+    <label class="layer-toggle">
+      <input id="toggle-nearby" type="checkbox" checked>
+      <span>顯示推薦店家</span>
+    </label>
+  </nav>
+
+  <main class="layout">
+    <section class="panel" id="panel" aria-label="行程表">
+      <div id="itinerary"></div>
+    </section>
+
+    <section class="map-wrap" aria-label="地圖">
+      <div id="map" role="application" aria-label="行程互動地圖"></div>
+      <div class="legend" aria-label="圖例">
+        <button class="legend-toggle" id="legend-toggle" type="button" aria-expanded="false">圖例 ▾</button>
+        <div class="legend-row"><span class="lg pin pin-spot">1</span>預計景點（數字＝當日順序）</div>
+        <div class="legend-row"><span class="lg pin pin-hotel">🛏</span>住宿飯店</div>
+        <div class="legend-row"><span class="lg pin pin-airport">✈</span>機場</div>
+        <div class="legend-row"><span class="lg dot dot-食">🍴</span>推薦餐飲・店家（點擊看詳情）</div>
+        <div class="legend-row"><span class="lg line"></span>遊覽車路線（OSRM 估算）</div>
+      </div>
+    </section>
+  </main>
+
+  <aside id="detail" class="detail" aria-live="polite" hidden>
+    <button class="detail-close" id="detail-close" type="button" aria-label="關閉">✕</button>
+    <div id="detail-body"></div>
+  </aside>
+
+  <aside id="info-drawer" class="drawer" hidden>
+    <div class="drawer-head">
+      <h2>航班・飯店・聯絡資訊</h2>
+      <button class="detail-close" id="info-close" type="button" aria-label="關閉">✕</button>
+    </div>
+    <div id="info-body"></div>
+  </aside>
+  <div id="backdrop" class="backdrop" hidden></div>
+
+  <footer class="foot muted">
+    資料整理自旅行社行程頁與公開資料（座標／評分可能有誤，出發前請再確認）。地圖 © OpenStreetMap 貢獻者・路線 OSRM・天氣 Open-Meteo。
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
