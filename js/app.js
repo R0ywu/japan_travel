@@ -72,7 +72,7 @@
   function shopIcon(type) {
     return L.divIcon({
       className: 'marker-dot',
-      html: `<div class="dot shop shop-${esc(type)}">${SHOP_ICON[type] || '🛍'}</div>`,
+      html: `<div class="dot shopmark shop-${esc(type)}">${SHOP_ICON[type] || '🛍'}</div>`,
       iconSize: [0, 0], iconAnchor: [0, 0], popupAnchor: [0, -14]
     });
   }
@@ -359,7 +359,7 @@
       ${p.shopping && p.shopping.length ? `<h3>飯店周邊採購（依距離排序）</h3>
         ${p.shopping_note ? `<div class="shopnote">🛍 ${esc(p.shopping_note)}</div>` : ''}
         <div class="shops shopping">${p.shopping.map((sh, i) => `<div class="shop" data-shopping="${i}" title="在地圖上顯示">
-          <span class="dot shop shop-${esc(sh.type)}">${SHOP_ICON[sh.type] || '🛍'}</span>
+          <span class="dot shopmark shop-${esc(sh.type)}">${SHOP_ICON[sh.type] || '🛍'}</span>
           <div>
             <div class="nm">${esc(sh.name_zh)}<span class="dist">${fmtDist(sh.dist_m)}・步行約 ${sh.walk_min} 分</span></div>
             ${sh.note ? `<div class="nt">${esc(sh.note)}</div>` : ''}

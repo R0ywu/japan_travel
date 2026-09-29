@@ -142,7 +142,7 @@ button { font: inherit; cursor: pointer; }
 .dot-溫泉 { border-color: #2f8a86; }
 .dot-其他 { border-color: #7a6f68; }
 /* 採購地標：方形圓角，跟推薦店家的圓點區分 */
-.dot.shop { border-radius: 6px; width: 24px; height: 24px; }
+.dot.shopmark { border-radius: 6px; width: 24px; height: 24px; }
 .shop-便利商店 { border-color: #2e7d32; }
 .shop-超市 { border-color: #1565c0; }
 .shop-藥妝 { border-color: #c62828; }
