@@ -3,7 +3,7 @@
  * - 地圖圖磚：看過的區域快取起來（cache-first，最多 ~600 張）
  * - OSRM / Open-Meteo：network-first，離線時回傳快取
  */
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.1.0';
 const SHELL = `shell-${VERSION}`;
 const TILES = 'tiles-v1';
 const API = 'api-v1';
@@ -42,13 +42,22 @@ self.addEventListener('fetch', e => {
     e.respondWith(cacheFirst(TILES, e.request, TILE_LIMIT));
     return;
   }
+  if (url.hostname === 'upload.wikimedia.org') {
+    e.respondWith(cacheFirst(TILES, e.request, TILE_LIMIT));
+    return;
+  }
   if (url.hostname.includes('project-osrm.org') || url.hostname.includes('open-meteo.com')) {
     e.respondWith(networkFirst(API, e.request));
     return;
   }
+  // 同網域檔案：network-first，這樣每次部署都會拿到新版；離線時回退快取
+  if (url.origin === location.origin) {
+    e.respondWith(networkFirst(SHELL, e.request));
+    return;
+  }
   e.respondWith(
     caches.match(e.request).then(hit => hit || fetch(e.request).then(res => {
-      if (res.ok && (url.origin === location.origin || url.hostname === 'unpkg.com')) {
+      if (res.ok && url.hostname === 'unpkg.com') {
         const copy = res.clone();
         caches.open(SHELL).then(c => c.put(e.request, copy));
       }
