@@ -68,7 +68,7 @@
 
   /* ---------- init ---------- */
   async function init() {
-    const res = await fetch('data/itinerary.json');
+    const res = await fetch('data/itinerary.json', { cache: 'no-cache' }); // 每次重新驗證，部署後不必等 CDN 快取過期
     state.data = await res.json();
     const { meta } = state.data;
     $('#trip-title').textContent = meta.title;
