@@ -276,7 +276,9 @@
      "lng": 140.92999,
      "note": "航廈 2F 出境後區域，只有搭機旅客能進。招牌是雞高湯醬油拉麵與貝類鹽味拉麵，約 1,000-1,999 日圓，7:00-20:30 每日營業。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%81%97%E5%BB%8A%20-GoLD-%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999",
+     "dist_m": 0,
+     "far": false
     },
     {
      "name_zh": "菓匠三全 萩之月（機場店）",
@@ -288,7 +290,9 @@
      "lng": 140.92999,
      "note": "仙台代表伴手禮萩之月的機場店（ANA FESTA 資訊有列），適合離境前買。營業時間依航班而定，評分未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E8%90%A9%E3%81%AE%E6%9C%88%20%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999",
+     "dist_m": 0,
+     "far": false
     },
     {
      "name_zh": "閖上港朝市",
@@ -300,7 +304,9 @@
      "lng": 140.95327,
      "note": "名取市閖上的海鮮朝市，離機場車程約 10 分鐘，可吃海鮮丼、買海產。營業日與時間請查官網，評分未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%82%8A%E3%81%82%E3%81%92%E6%B8%AF%E6%9C%9D%E5%B8%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16938,140.95327"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16938,140.95327",
+     "dist_m": 4012,
+     "far": true
     },
     {
      "name_zh": "永旺夢樂城名取",
@@ -312,7 +318,9 @@
      "lng": 140.89543,
      "note": "機場附近最大的購物中心，有超市與餐飲，適合抵達日補給。營業時間約 10:00-21:00（未逐項查證），評分未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%90%8D%E5%8F%96",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16409,140.89543"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16409,140.89543",
+     "dist_m": 4167,
+     "far": true
     }
    ],
    "kind": "airport",
@@ -349,7 +357,9 @@
      "lng": 140.99244,
      "note": "位在麒麟啤酒仙台工廠內，可喝工廠現釀啤酒配豬肋排、西班牙燉飯。約 1,000-3,999 日圓，週一多公休，依工廠行事曆而異。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%AA%E3%83%B3%20%E3%83%93%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%99%E5%8F%B0",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26554,140.99244"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26554,140.99244",
+     "dist_m": 616,
+     "far": false
     },
     {
      "name_zh": "牛舌 港之小十郎",
@@ -361,7 +371,9 @@
      "lng": 140.988235,
      "note": "居酒屋風牛舌店，日本酒選擇不少，適合晚餐小酌。座標與營業日未查證，建議出發前用 Google 地圖確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E7%89%9B%E3%81%9F%E3%82%93%20%E6%B8%AF%E3%81%AE%E5%B0%8F%E5%8D%81%E9%83%8E",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.269997,140.988235"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.269997,140.988235",
+     "dist_m": 154,
+     "far": false
     },
     {
      "name_zh": "三井 Outlet Park 仙台港（美食區）",
@@ -373,7 +385,9 @@
      "lng": 140.99026,
      "note": "園區內有一風堂、味よし（拉麵，Tabelog 3.27）等餐廳，很適合下班後吃晚餐。營業時間約 10:00-20:00，餐飲較晚（未逐項查證）。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%20%E4%BB%99%E5%8F%B0%E6%B8%AF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27587,140.99026"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27587,140.99026",
+     "dist_m": 578,
+     "far": false
     },
     {
      "name_zh": "凱因茲廚房 仙台港",
@@ -385,7 +399,9 @@
      "lng": 140.990695,
      "note": "飯店步行約 300 公尺，輕食、拉麵、章魚燒，價位低。評分偏低，只當備案；座標未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%82%A4%E3%83%B3%E3%82%BA%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%20%E4%BB%99%E5%8F%B0%E6%B8%AF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.272424,140.990695"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.272424,140.990695",
+     "dist_m": 209,
+     "far": false
     }
    ],
    "phone": "+81-22-388-5489",
@@ -408,7 +424,8 @@
      "walk_min": 1,
      "note": "有現做冰淇淋與炸物",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9F%E3%83%8B%E3%82%B9%E3%83%88%E3%83%83%E3%83%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.270778,140.9910644&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.270778,140.9910644&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "7-Eleven（飯店旁）",
@@ -420,7 +437,8 @@
      "walk_min": 2,
      "note": "飯店步行 2 分",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E9%87%8E%E4%B8%89%E4%B8%81%E7%9B%AE",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2703309,140.987697&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2703309,140.987697&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "カワチ藥品 仙台ゆめタウン店",
@@ -432,7 +450,8 @@
      "walk_min": 3,
      "note": "大型藥妝，也賣食品飲料，適合補貨",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%AF%E3%83%81%E8%96%AC%E5%93%81%20%E4%BB%99%E5%8F%B0%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2706496,140.9867023&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2706496,140.9867023&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "三井 OUTLET PARK 仙台港（松本清 OUTLET・Grocer's 北野エース）",
@@ -444,7 +463,8 @@
      "walk_min": 6,
      "note": "Outlet 內有松本清與北野エース超市，一般營業至 20:00",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%E4%BB%99%E5%8F%B0%E6%B8%AF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2750395,140.9910228&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2750395,140.9910228&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "Lawson 仙台中野店",
@@ -456,7 +476,21 @@
      "walk_min": 6,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2696753,140.9841254&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2696753,140.9841254&travelmode=walking",
+     "far": false
+    },
+    {
+     "name_zh": "酒仙堂かとう",
+     "name_ja": "酒仙堂かとう",
+     "type": "地酒",
+     "lat": 38.2723019,
+     "lng": 140.9799391,
+     "dist_m": 877,
+     "walk_min": 11,
+     "note": "中野在地酒舖，Google 4.3（89 則），營業至 20:00，宮城地酒齊全",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E4%BB%99%E5%A0%82%E3%81%8B%E3%81%A8%E3%81%86",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2723019,140.9799391&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "FamilyMart 中野栄駅前店",
@@ -468,7 +502,8 @@
      "walk_min": 14,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E4%B8%AD%E9%87%8E%E6%A0%84%E9%A7%85%E5%89%8D%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.280318,140.9846836&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.280318,140.9846836&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "ヤマザワ 中野店",
@@ -480,7 +515,8 @@
      "walk_min": 18,
      "note": "在地連鎖超市，生鮮、便當、酒類",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A4%E3%83%9E%E3%82%B6%E3%83%AF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2819792,140.9811444&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2819792,140.9811444&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "西友 仙台高砂店",
@@ -492,7 +528,21 @@
      "walk_min": 22,
      "note": "24 小時超市（依店舖公告）",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%8F%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2710842,140.9694265&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2710842,140.9694265&travelmode=walking",
+     "far": true
+    },
+    {
+     "name_zh": "やまや 仙台港店",
+     "name_ja": "やまや",
+     "type": "地酒",
+     "lat": 38.2853818,
+     "lng": 141.0047257,
+     "dist_m": 2091,
+     "walk_min": 26,
+     "note": "連鎖酒類量販，Google 3.7（416 則），營業至 21:00",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%BE%E3%82%84",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2853818,141.0047257&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "唐吉訶德 六丁の目店",
@@ -504,7 +554,8 @@
      "walk_min": 51,
      "note": "離飯店約 4 km，需搭計程車或公車",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%20%E5%85%AD%E4%B8%81%E3%81%AE%E7%9B%AE%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2499741,140.9509864&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2499741,140.9509864&travelmode=walking",
+     "far": true
     }
    ],
    "shopping_note": "飯店旁就有 7-Eleven 與 Ministop，藥妝與超市步行 5–10 分；Outlet 通常 20:00 關門。"
@@ -534,7 +585,9 @@
      "lng": 140.60831,
      "note": "離瀑布約 1 公里的蕎麥麵店，約 1,000-1,999 日圓。營業日與時間請出發前確認，未逐項查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E4%BF%9D%E8%8D%89%E5%BA%B5",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27178,140.60831"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27178,140.60831",
+     "dist_m": 590,
+     "far": false
     },
     {
      "name_zh": "大瀑布 Restaurant House（義式廚房 M）",
@@ -546,7 +599,9 @@
      "lng": 140.60279,
      "note": "瀑布周邊的義大利麵、咖啡簡餐，走完步道後的休息處。營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BB%9D%E3%82%8C%E3%81%99%E3%81%A8%E3%81%AF%E3%81%86%E3%81%99%EF%BC%88%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E3%81%88%E3%82%80%EF%BC%89",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.273909,140.60279"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.273909,140.60279",
+     "dist_m": 108,
+     "far": false
     },
     {
      "name_zh": "主婦之店 佐一（秋保御萩）",
@@ -558,7 +613,9 @@
      "lng": 140.7222,
      "note": "秋保排隊名物手作御萩，1,000 日圓以下，9:00-19:00，每月第 2、4 個週三公休。只能外帶，常提早賣完。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BB%E5%A9%A6%E3%81%AE%E5%BA%97%20%E3%81%95%E3%81%84%E3%81%A1",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.22749,140.7222"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.22749,140.7222",
+     "dist_m": 11680,
+     "far": true
     },
     {
      "name_zh": "KOMOREBI gelato",
@@ -570,7 +627,9 @@
      "lng": 140.686594,
      "note": "柴田牧場直營，用低溫殺菌鮮乳做的冰淇淋，1,000 日圓以下。10:00-16:00，週一與週五至週日營業、週二至週四公休。座標未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=KOMOREBI%20gelato",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.24875,140.686594"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.24875,140.686594",
+     "dist_m": 7870,
+     "far": true
     }
    ],
    "kind": "spot",
@@ -607,7 +666,9 @@
      "lng": 140.670844,
      "note": "川崎町內的蕎麥麵與烏龍麵店，家常價位。營業日未查證，座標未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E8%88%8C%E3%81%A4%E3%81%A5%E3%81%BF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.186784,140.670844"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.186784,140.670844",
+     "dist_m": 391,
+     "far": false
     },
     {
      "name_zh": "Café Maru",
@@ -619,7 +680,9 @@
      "lng": 140.716143,
      "note": "川崎町的咖啡店，適合逛完公園休息。營業時間與座標未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%95%E3%82%A7%20%E3%83%9E%E3%83%AB",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.171952,140.716143"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.171952,140.716143",
+     "dist_m": 4061,
+     "far": true
     },
     {
      "name_zh": "大勝食堂",
@@ -631,7 +694,9 @@
      "lng": 140.643421,
      "note": "當地食堂兼蕎麥麵，價位低。此區 Tabelog 高分店少，評分皆偏低，請以 Google 評價再判斷。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%8B%9D%E9%A3%9F%E5%A0%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.17687,140.643421"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.17687,140.643421",
+     "dist_m": 2602,
+     "far": true
     },
     {
      "name_zh": "Shibale Hearts Land Factory Terrace",
@@ -643,7 +708,9 @@
      "lng": 140.702631,
      "note": "山形老牌西點 Shibale 的川崎工廠店，適合買伴手禮，營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B7%E3%83%99%E3%83%BC%E3%83%AB%20%E3%83%8F%E3%83%BC%E3%83%84%E3%83%A9%E3%83%B3%E3%83%89%20%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%83%86%E3%83%A9%E3%82%B9",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.202504,140.702631"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.202504,140.702631",
+     "dist_m": 3416,
+     "far": true
     }
    ],
    "kind": "spot",
@@ -680,7 +747,9 @@
      "lng": 140.40188,
      "note": "藏王溫泉代表性的大型露天浴場，位於溫泉街上方。營業期間與費用未查證，請洽官網。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16609,140.40188"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16609,140.40188",
+     "dist_m": 835,
+     "far": false
     },
     {
      "name_zh": "かしぇる（蕎麥／成吉思汗烤羊）",
@@ -692,7 +761,9 @@
      "lng": 140.39627,
      "note": "Tabelog 3.29，蕎麥麵與成吉思汗烤羊肉，位在蔵王溫泉 196。營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%97%E3%81%87%E3%82%8B%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16713,140.39627"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16713,140.39627",
+     "dist_m": 681,
+     "far": false
     },
     {
      "name_zh": "ろばた（成吉思汗烤羊）",
@@ -704,7 +775,9 @@
      "lng": 140.39697,
      "note": "藏王溫泉老店，成吉思汗烤羊肉為招牌，也提供住宿。評分未查證，營業時間請洽官網 t023.com。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%8D%E3%81%B0%E3%81%9F%20%E8%94%B5%E7%8E%8B%E6%B8%A9%E6%B3%89",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16766,140.39697"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16766,140.39697",
+     "dist_m": 753,
+     "far": false
     },
     {
      "name_zh": "三五郎小屋",
@@ -716,7 +789,9 @@
      "lng": 140.420552,
      "note": "Tabelog 3.30，咖哩、披薩、牛丼一類的簡餐，位於藏王高原一帶。營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%94%E9%83%8E%E5%B0%8F%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.168319,140.420552"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.168319,140.420552",
+     "dist_m": 2396,
+     "far": true
     }
    ],
    "kind": "spot",
@@ -753,7 +828,9 @@
      "lng": 140.57837,
      "note": "用當地湧泉水做的粗麵，冷鴨南蠻約 1,200 日圓。11:00-15:00、16:30-19:00，週三公休（遇假日營業）；離飯店車程約 5 分鐘。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E7%8E%8B%20%E6%89%8B%E6%89%93%E3%81%A1%E3%81%9D%E3%81%B0%20%E6%96%B0%E6%A5%BD",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12391,140.57837"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12391,140.57837",
+     "dist_m": 1763,
+     "far": true
     },
     {
      "name_zh": "賛久庵",
@@ -765,7 +842,9 @@
      "lng": 140.57241,
      "note": "蕎麥、炸豬排的定食食堂，也附咖啡。營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B3%9B%E4%B9%85%E5%BA%B5",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12437,140.57241"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12437,140.57241",
+     "dist_m": 1299,
+     "far": false
     },
     {
      "name_zh": "神の湯（遠刈田溫泉共同浴場）",
@@ -777,7 +856,9 @@
      "lng": 140.57724,
      "note": "遠刈田溫泉的共同浴場，泡溫泉順便逛溫泉街。費用與營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E3%81%AE%E6%B9%AF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12421,140.57724"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12421,140.57724",
+     "dist_m": 1661,
+     "far": true
     },
     {
      "name_zh": "ぶなの森",
@@ -789,7 +870,9 @@
      "lng": 140.58886,
      "note": "義式披薩與義大利麵，位在遠刈田溫泉旭町，評分偏低，僅當備選。營業時間未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%AA%E3%81%AE%E6%A3%AE",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12024,140.58886"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.12024,140.58886",
+     "dist_m": 2765,
+     "far": true
     }
    ],
    "phone": "+81-224-34-3600",
@@ -812,19 +895,21 @@
      "walk_min": 21,
      "note": "溫泉街上唯一便利商店，步行約 20 分、車程 4 分；建議下車前先確認要不要順路買",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E8%94%B5%E7%8E%8B%E9%81%A0%E5%88%88%E7%94%B0%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1235769,140.5765817&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1235769,140.5765817&travelmode=walking",
+     "far": true
     },
     {
-     "name_zh": "木村商店（雜貨）",
+     "name_zh": "木村商店（地酒・雜貨）",
      "name_ja": "㈲木村商店",
-     "type": "超市",
+     "type": "地酒",
      "lat": 38.1235203,
      "lng": 140.5786853,
      "dist_m": 1809,
      "walk_min": 23,
-     "note": "遠刈田溫泉街的在地雜貨店，營業時間不定",
+     "note": "遠刈田溫泉街的酒舖兼雜貨，Google 4.3（34 則），營業至 19:00",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%88%B2%E6%9C%A8%E6%9D%91%E5%95%86%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1235203,140.5786853&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1235203,140.5786853&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "FamilyMart 藏王町店",
@@ -836,7 +921,8 @@
      "walk_min": 52,
      "note": "約 4 km，車程",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1177467,140.6044146&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1177467,140.6044146&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "フレスコキクチ 藏王店",
@@ -848,7 +934,8 @@
      "walk_min": 113,
      "note": "約 9 km，車程",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%AC%E3%82%B9%E3%82%B3%E3%82%AD%E3%82%AF%E3%83%81",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.0993604,140.6560714&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.0993604,140.6560714&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "ツルハドラッグ 藏王店",
@@ -860,7 +947,8 @@
      "walk_min": 114,
      "note": "約 9 km，車程；附近有 フレスコキクチ 超市",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%84%E3%83%AB%E3%83%8F%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.0980888,140.6554808&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.0980888,140.6554808&travelmode=walking",
+     "far": true
     }
    ],
    "shopping_note": "溫泉區，飯店周邊沒有商店，最近的 7-Eleven 在溫泉街步行約 20 分。建議在前一站（陸奧公園／藏王）或遊覽車停靠時先買好。"
@@ -890,7 +978,9 @@
      "lng": 141.06131,
      "note": "特上海鮮丼約 2,600 日圓，晚餐可到 21:00，週三、週四公休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%20%E5%AF%BF%E5%8F%B8%E5%B9%B8",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37064,141.06131"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37064,141.06131",
+     "dist_m": 272,
+     "far": false
     },
     {
      "name_zh": "丼松島",
@@ -902,7 +992,9 @@
      "lng": 141.05956,
      "note": "松島海岸站步行 1 分鐘，海鮮丼與在地料理，約 1,000-1,999 日圓，每日營業。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BC%E6%9D%BE%E5%B3%B6",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.36846,141.05956"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.36846,141.05956",
+     "dist_m": 428,
+     "far": false
     },
     {
      "name_zh": "松島魚市場",
@@ -914,7 +1006,9 @@
      "lng": 141.06357,
      "note": "鮪魚蔥花丼約 950 日圓、海鮮散壽司 1,900 日圓，2 樓 120 席，每日營業，午餐尖峰易排隊。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E3%81%95%E3%81%8B%E3%81%AA%E5%B8%82%E5%A0%B4",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37208,141.06357"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37208,141.06357",
+     "dist_m": 268,
+     "far": false
     },
     {
      "name_zh": "三取茶屋",
@@ -926,7 +1020,9 @@
      "lng": 141.06559,
      "note": "限量松島穴子丼約 1,780 日圓，也有牡蠣，晚餐 17:00-21:00，週三公休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%82%93%E3%81%A8%E3%82%8A%E8%8C%B6%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.3703,141.06559"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.3703,141.06559",
+     "dist_m": 136,
+     "far": false
     },
     {
      "name_zh": "洗心庵",
@@ -938,7 +1034,79 @@
      "lng": 141.060275,
      "note": "位在寺院附近，提供甜點、蕎麥與天婦羅丼，約 1,000-1,999 日圓，每日營業。座標未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%97%E5%BF%83%E5%BA%B5",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.371071,141.060275"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.371071,141.060275",
+     "dist_m": 374,
+     "far": false
+    },
+    {
+     "name_zh": "むとう屋 松島店",
+     "name_ja": "むとう屋 松島店",
+     "type": "地酒",
+     "rating": 4.4,
+     "rating_source": "Google",
+     "lat": 38.3709892,
+     "lng": 141.0652677,
+     "note": "宮城地酒專門店松島本店，Google 4.4（315 則），營業至 17:30，可試飲",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%80%E3%81%A8%E3%81%86%E5%B1%8B%20%E6%9D%BE%E5%B3%B6%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.3709892,141.0652677",
+     "dist_m": 168,
+     "far": false
+    },
+    {
+     "name_zh": "伊藤登喜男酒店",
+     "name_ja": "伊藤登喜男酒店",
+     "type": "地酒",
+     "rating": 4.5,
+     "rating_source": "Google",
+     "lat": 38.3701145,
+     "lng": 141.062049,
+     "note": "松島町內的老酒舖，Google 4.5（15 則），10:00 開門",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%97%A4%E7%99%BB%E5%96%9C%E7%94%B7%E9%85%92%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.3701145,141.062049",
+     "dist_m": 193,
+     "far": false
+    },
+    {
+     "name_zh": "松島蒲鉾本舗 總本店（笹魚板手燒體驗）",
+     "name_ja": "松島蒲鉾本舗 総本店",
+     "type": "伴手禮",
+     "rating": 3.22,
+     "rating_source": "Tabelog",
+     "lat": 38.370402,
+     "lng": 141.063477,
+     "note": "松島本地魚板店，官網有笹魚板手燒體驗，可替代仙貝 DIY。約 999 日圓以下，座標與體驗費用未查證。（若手燒仙貝改在松島進行，可順路）",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E8%92%B2%E9%89%BE%E6%9C%AC%E8%88%97%20%E7%B7%8F%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.370402,141.063477",
+     "dist_m": 99,
+     "far": false
+    },
+    {
+     "name_zh": "阿部蒲鉾店 松島寺町店",
+     "name_ja": "阿部蒲鉾店 松島寺町店",
+     "type": "伴手禮",
+     "rating": 3.18,
+     "rating_source": "Tabelog",
+     "lat": 38.370312,
+     "lng": 141.060693,
+     "note": "松島本地魚板店，可買笹魚板，1,000 日圓以下，座標未查證。（若手燒仙貝改在松島進行，可順路）",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%83%A8%E8%92%B2%E9%89%BE%E5%BA%97%20%E6%9D%BE%E5%B3%B6%E5%AF%BA%E7%94%BA%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.370312,141.060693",
+     "dist_m": 313,
+     "far": false
+    },
+    {
+     "name_zh": "菓匠三全 松島",
+     "name_ja": "菓匠三全 松島",
+     "type": "伴手禮",
+     "rating": null,
+     "rating_source": null,
+     "lat": 38.37022,
+     "lng": 141.06051,
+     "note": "萩之月品牌的松島店，適合買伴手禮。營業時間與評分未查證。（若手燒仙貝改在松島進行，可順路）",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E6%9D%BE%E5%B3%B6",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37022,141.06051",
+     "dist_m": 327,
+     "far": false
     }
    ],
    "kind": "spot",
@@ -975,7 +1143,9 @@
      "lng": 140.87268,
      "note": "サンモール一番町內的麵包咖啡，1,000 日圓以下。麵包 7:30-19:00、咖啡 7:30-18:00，不定休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%AB%E3%83%99%E3%83%83%E3%83%88",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25825,140.87268"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25825,140.87268",
+     "dist_m": 317,
+     "far": false
     },
     {
      "name_zh": "牛たん けやき 仙台一番町本店",
@@ -987,7 +1157,9 @@
      "lng": 140.87166,
      "note": "厚切牛舌定食，約 3,000-3,999 日圓。平日 11:00-15:00、17:00-22:00，全年無休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%20%E3%81%91%E3%82%84%E3%81%8D%20%E4%BB%99%E5%8F%B0%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26096,140.87166"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26096,140.87166",
+     "dist_m": 5,
+     "far": false
     },
     {
      "name_zh": "牛たん徳茂 一番町店",
@@ -999,7 +1171,9 @@
      "lng": 140.87126,
      "note": "炭火厚切牛舌，午餐 1,000-1,999、晚餐 2,000-2,999 日圓；週一至週六 11:00-22:30，週日至 21:30。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%E5%BE%B3%E8%8C%82%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26313,140.87126"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26313,140.87126",
+     "dist_m": 239,
+     "far": false
     },
     {
      "name_zh": "蕎麥神田 東一屋 一番町店",
@@ -1011,7 +1185,9 @@
      "lng": 140.871,
      "note": "站食蕎麥，冷狐狸蕎麥有免費天婦羅屑，1,000 日圓以下。Tabelog 載平日 7:00-01:00、週日與假日休，出發前再確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E3%81%AE%E7%A5%9E%E7%94%B0%20%E6%9D%B1%E4%B8%80%E5%B1%8B%20%E4%B8%80%E7%95%AA%E7%94%BA%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26249,140.871"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26249,140.871",
+     "dist_m": 176,
+     "far": false
     },
     {
      "name_zh": "蔵の庄 一番町本店",
@@ -1023,7 +1199,23 @@
      "lng": 140.8718,
      "note": "爐端燒與宮城地酒居酒屋，約 4,000-4,999 日圓，16:00-23:30，適合晚餐。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26138,140.8718"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26138,140.8718",
+     "dist_m": 43,
+     "far": false
+    },
+    {
+     "name_zh": "錦本店",
+     "name_ja": "錦本店",
+     "type": "地酒",
+     "rating": 4.0,
+     "rating_source": "Google",
+     "lat": 38.2675524,
+     "lng": 140.8765464,
+     "note": "定禪寺通附近的酒舖，Google 4.0（94 則），營業至 20:00",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%8C%A6%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2675524,140.8765464",
+     "dist_m": 842,
+     "far": false
     }
    ],
    "kind": "spot",
@@ -1060,7 +1252,9 @@
      "lng": 140.88066,
      "note": "炭火厚切牛舌，晚餐約 3,000-3,999 日圓。11:00-23:00、最後點餐 22:30，全年無休，飯店步行約 8-10 分鐘。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E6%9C%AC%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26189,140.88066"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26189,140.88066",
+     "dist_m": 512,
+     "far": false
     },
     {
      "name_zh": "たんや善治郎 牛たん通り店",
@@ -1072,7 +1266,9 @@
      "lng": 140.881901,
      "note": "仙台站 3F 牛たん通り，10:00-21:30（最後點餐 21:00），不接受訂位。座標未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E7%89%9B%E3%81%9F%E3%82%93%E9%80%9A%E3%82%8A%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.261069,140.881901"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.261069,140.881901",
+     "dist_m": 470,
+     "far": false
     },
     {
      "name_zh": "仙台朝市",
@@ -1084,7 +1280,9 @@
      "lng": 140.87851,
      "note": "飯店附近的傳統市場，生鮮與小吃，適合隔天早晨逛。營業時間各店不同，評分未查證。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E5%8F%B0%E6%9C%9D%E5%B8%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25862,140.87851"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25862,140.87851",
+     "dist_m": 141,
+     "far": false
     },
     {
      "name_zh": "蔵の庄 一番町本店",
@@ -1096,7 +1294,9 @@
      "lng": 140.8718,
      "note": "爐端燒居酒屋，16:00-23:30，適合晚餐小酌，飯店步行約 10 分鐘。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E3%81%AE%E5%BA%84%20%E4%B8%80%E7%95%AA%E7%94%BA%E6%9C%AC%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26138,140.8718"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.26138,140.8718",
+     "dist_m": 775,
+     "far": false
     },
     {
      "name_zh": "7-Eleven 仙台中央4丁目店",
@@ -1108,7 +1308,9 @@
      "lng": 140.879646,
      "note": "4travel 有提到飯店步行 30 秒有便利商店，店名未確認，建議入住時詢問櫃台。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE4%E4%B8%81%E7%9B%AE%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25758,140.879646"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25758,140.879646",
+     "dist_m": 47,
+     "far": false
     }
    ],
    "phone": "+81-22-266-8873",
@@ -1122,6 +1324,19 @@
    },
    "shopping": [
     {
+     "name_zh": "酒屋はくさん 仙台中央店",
+     "name_ja": "酒屋はくさん 仙台中央店",
+     "type": "地酒",
+     "lat": 38.2576025,
+     "lng": 140.8789328,
+     "dist_m": 24,
+     "walk_min": 1,
+     "note": "飯店旁的酒舖，Google 3.9（150 則），營業至 19:30",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E5%B1%8B%E3%81%AF%E3%81%8F%E3%81%95%E3%82%93%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2576025,140.8789328&travelmode=walking",
+     "far": false
+    },
+    {
      "name_zh": "7-Eleven 仙台中央4丁目店",
      "name_ja": "セブンイレブン 仙台中央4丁目店",
      "type": "便利商店",
@@ -1131,7 +1346,8 @@
      "walk_min": 1,
      "note": "飯店正旁邊，24 小時",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE4%E4%B8%81%E7%9B%AE%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2575797,140.8796457&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2575797,140.8796457&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "FamilyMart 仙台駅前店",
@@ -1143,7 +1359,8 @@
      "walk_min": 3,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2595165,140.8798148&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2595165,140.8798148&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "Lawson 仙台柳町通店",
@@ -1155,7 +1372,8 @@
      "walk_min": 3,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%20%E4%BB%99%E5%8F%B0%E6%9F%B3%E7%94%BA%E9%80%9A%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2571142,140.8763699&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2571142,140.8763699&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "Lawson 仙台中央三丁目店",
@@ -1167,7 +1385,8 @@
      "walk_min": 3,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE%E4%B8%89%E4%B8%81%E7%9B%AE%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2597437,140.8795436&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2597437,140.8795436&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "松本清 仙台駅前店",
@@ -1179,7 +1398,8 @@
      "walk_min": 3,
      "note": "藥妝，免稅",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%83%84%E3%83%A2%E3%83%88%E3%82%AD%E3%83%A8%E3%82%B7%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2597901,140.8796871&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2597901,140.8796871&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "FamilyMart 仙台中央3丁目店",
@@ -1191,7 +1411,34 @@
      "walk_min": 4,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE%E4%B8%89%E4%B8%81%E7%9B%AE%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.260013,140.878586&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.260013,140.878586&travelmode=walking",
+     "far": false
+    },
+    {
+     "name_zh": "むとう屋 仙台駅店（tekute 仙台 1F）",
+     "name_ja": "むとう屋 仙台駅店",
+     "type": "地酒",
+     "lat": 38.2599231,
+     "lng": 140.8818443,
+     "dist_m": 363,
+     "walk_min": 5,
+     "note": "宮城地酒專門店，Google 4.2（70 則），仙台站 1F tekute 內，營業至 20:00；可試飲、有小瓶裝好帶",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%80%E3%81%A8%E3%81%86%E5%B1%8B%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2599231,140.8818443&travelmode=walking",
+     "far": false
+    },
+    {
+     "name_zh": "藤原屋 みちのく酒紀行 S-PAL 仙台店",
+     "name_ja": "藤原屋 みちのく酒紀行 エスパル仙台店",
+     "type": "地酒",
+     "lat": 38.2599263,
+     "lng": 140.8825829,
+     "dist_m": 409,
+     "walk_min": 5,
+     "note": "東北六縣地酒都有，Google 3.9（89 則），S-PAL 東館 2F，營業至 20:00",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%97%A4%E5%8E%9F%E5%B1%8B%20%E3%81%BF%E3%81%A1%E3%81%AE%E3%81%8F%E9%85%92%E7%B4%80%E8%A1%8C%20%E3%82%A8%E3%82%B9%E3%83%91%E3%83%AB%E4%BB%99%E5%8F%B0%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2599263,140.8825829&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "唐吉訶德 仙台駅西口本店",
@@ -1203,7 +1450,8 @@
      "walk_min": 6,
      "note": "仙台站旁最方便的驚安殿堂，零食、藥妝、伴手禮一次買齊；一般營業至深夜，免稅",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%20%E4%BB%99%E5%8F%B0%E9%A7%85%E8%A5%BF%E5%8F%A3%E6%9C%AC%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2616362,140.8792339&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2616362,140.8792339&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "Tomod's 仙台店",
@@ -1215,7 +1463,8 @@
      "walk_min": 6,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%A2%E3%82%BA",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2602397,140.8834627&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2602397,140.8834627&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "北野エース S-PAL 仙台店",
@@ -1227,7 +1476,8 @@
      "walk_min": 6,
      "note": "仙台站樓下的高級超市，各地咖哩、調味料、伴手禮",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E9%87%8E%E3%82%A8%E3%83%BC%E3%82%B9%20%E3%82%A8%E3%82%B9%E3%83%91%E3%83%AB%E4%BB%99%E5%8F%B0%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2611979,140.8823019&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2611979,140.8823019&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "AEON 仙台店",
@@ -1239,7 +1489,21 @@
      "walk_min": 7,
      "note": "一般超市，生鮮與日用品",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E4%BB%99%E5%8F%B0%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2578072,140.8731221&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2578072,140.8731221&travelmode=walking",
+     "far": false
+    },
+    {
+     "name_zh": "櫻井商店",
+     "name_ja": "櫻井商店",
+     "type": "地酒",
+     "lat": 38.2594594,
+     "lng": 140.8848266,
+     "dist_m": 545,
+     "walk_min": 7,
+     "note": "Google 4.2（85 則），營業至 22:00，晚上逛完街也來得及",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%AB%BB%E4%BA%95%E5%95%86%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2594594,140.8848266&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "Lopia ヨドバシ仙台店",
@@ -1251,7 +1515,34 @@
      "walk_min": 7,
      "note": "以便宜大份量聞名的超市，在 Yodobashi 仙台 1F，買水果、熟食、零食好去處",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%94%E3%82%A2%20%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E4%BB%99%E5%8F%B0",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2591236,140.8852795&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2591236,140.8852795&travelmode=walking",
+     "far": false
+    },
+    {
+     "name_zh": "梅津酒店",
+     "name_ja": "梅津酒店",
+     "type": "地酒",
+     "lat": 38.2613455,
+     "lng": 140.8842397,
+     "dist_m": 622,
+     "walk_min": 8,
+     "note": "老字號酒舖，Google 4.4（54 則），營業至 20:00",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E6%B4%A5%E9%85%92%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2613455,140.8842397&travelmode=walking",
+     "far": false
+    },
+    {
+     "name_zh": "酒やイイジマ",
+     "name_ja": "酒やイイジマ",
+     "type": "地酒",
+     "lat": 38.264442,
+     "lng": 140.8736306,
+     "dist_m": 914,
+     "walk_min": 11,
+     "note": "小型精選酒舖，Google 4.5（31 則），營業至 21:00",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E3%82%84%E3%82%A4%E3%82%A4%E3%82%B8%E3%83%9E",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.264442,140.8736306&travelmode=walking",
+     "far": false
     },
     {
      "name_zh": "唐吉訶德 晚翠通店",
@@ -1263,7 +1554,8 @@
      "walk_min": 16,
      "note": "離站稍遠但人較少",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%20%E6%99%A9%E7%BF%A0%E9%80%9A%E3%82%8A%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2638099,140.8668951&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2638099,140.8668951&travelmode=walking",
+     "far": false
     }
    ],
    "shopping_note": "仙台站周邊什麼都有，走路 5 分內就有便利商店、唐吉訶德與超市。"
@@ -1282,44 +1574,7 @@
    ],
    "website": "https://www.kaisen-shiogama.com/",
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84%E5%A1%A9%E7%AB%88",
-   "nearby": [
-    {
-     "name_zh": "松島蒲鉾本舗 總本店（笹魚板手燒體驗）",
-     "name_ja": "松島蒲鉾本舗 総本店",
-     "type": "伴手禮",
-     "rating": 3.22,
-     "rating_source": "Tabelog",
-     "lat": 38.370402,
-     "lng": 141.063477,
-     "note": "松島本地魚板店，官網有笹魚板手燒體驗，可替代仙貝 DIY。約 999 日圓以下，座標與體驗費用未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E8%92%B2%E9%89%BE%E6%9C%AC%E8%88%97%20%E7%B7%8F%E6%9C%AC%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.370402,141.063477"
-    },
-    {
-     "name_zh": "阿部蒲鉾店 松島寺町店",
-     "name_ja": "阿部蒲鉾店 松島寺町店",
-     "type": "伴手禮",
-     "rating": 3.18,
-     "rating_source": "Tabelog",
-     "lat": 38.370312,
-     "lng": 141.060693,
-     "note": "松島本地魚板店，可買笹魚板，1,000 日圓以下，座標未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%83%A8%E8%92%B2%E9%89%BE%E5%BA%97%20%E6%9D%BE%E5%B3%B6%E5%AF%BA%E7%94%BA%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.370312,141.060693"
-    },
-    {
-     "name_zh": "菓匠三全 松島",
-     "name_ja": "菓匠三全 松島",
-     "type": "伴手禮",
-     "rating": null,
-     "rating_source": null,
-     "lat": 38.37022,
-     "lng": 141.06051,
-     "note": "萩之月品牌的松島店，適合買伴手禮。營業時間與評分未查證。",
-     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%8C%A0%E4%B8%89%E5%85%A8%20%E6%9D%BE%E5%B3%B6",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.37022,141.06051"
-    }
-   ],
+   "nearby": [],
    "inferred": true,
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.33467,141.04904",
@@ -1355,7 +1610,9 @@
      "lng": 140.08905,
      "note": "五色沼入口附近的義式餐廳，午餐義大利麵、牛排約 1,000–1,999 日圓，Tabelog 3.42（該區最高）。週二公休，旺季建議先確認營業時間。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%AB%20%E3%83%AC%E3%82%AC%E3%83%BC%E3%83%AD",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.65763,140.08905"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.65763,140.08905",
+     "dist_m": 666,
+     "far": false
     },
     {
      "name_zh": "諸橋近代美術館 Museum Cafe",
@@ -1367,7 +1624,9 @@
      "lng": 140.096529,
      "note": "北鹽原村的咖啡店，Tabelog 3.26，價位約 999 日圓內，適合走完步道後喝杯咖啡休息。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%AB%B8%E6%A9%8B%E8%BF%91%E4%BB%A3%E7%BE%8E%E8%A1%93%E9%A4%A8%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%E3%82%AB%E3%83%95%E3%82%A7",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.653838,140.096529"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.653838,140.096529",
+     "dist_m": 710,
+     "far": false
     },
     {
      "name_zh": "Taka 食堂",
@@ -1379,7 +1638,9 @@
      "lng": 140.082055,
      "note": "當地定食食堂，午餐約 1,000–1,999 日圓；週一至週三公休，走訪前務必確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%82%AB%E9%A3%9F%E5%A0%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.659971,140.082055"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.659971,140.082055",
+     "dist_m": 1107,
+     "far": false
     },
     {
      "name_zh": "山之驛食堂",
@@ -1391,7 +1652,9 @@
      "lng": 140.099103,
      "note": "招牌為拉麵與炸豬排，午餐約 1,000–1,999 日圓；週四公休。裏磐梯一帶評價 3.5 以上的店很少，此為實用備選。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E3%81%AE%E9%A7%85%E9%A3%9F%E5%A0%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.642199,140.099103"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.642199,140.099103",
+     "dist_m": 1378,
+     "far": false
     },
     {
      "name_zh": "7-Eleven（五色沼入口附近）",
@@ -1403,7 +1666,9 @@
      "lng": 140.08292,
      "note": "五色沼入口附近的便利商店，可補給飲料點心與上廁所。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.66029,140.08292"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.66029,140.08292",
+     "dist_m": 1098,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E8%89%B2%E6%B2%BC%E5%85%A5%E5%8F%A3",
@@ -1440,7 +1705,9 @@
      "lng": 139.9308,
      "note": "位於城內的茶室，可品嚐抹茶與和菓子，約 999 日圓內。8:30–17:00（最後受理 16:30），需另購共通券進場。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AE%A4%E9%BA%9F%E9%96%A3",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.48692,139.9308"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.48692,139.9308",
+     "dist_m": 128,
+     "far": false
     },
     {
      "name_zh": "田季野",
@@ -1452,7 +1719,9 @@
      "lng": 139.93095,
      "note": "會津鄉土料理名店，招牌蒸籠飯（わっぱ飯）與山菜料理，午晚餐約 2,000–2,999 日圓。離鶴ヶ城約 1 公里，用餐時段常排隊。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49623,139.93095"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49623,139.93095",
+     "dist_m": 949,
+     "far": false
     },
     {
      "name_zh": "櫻鍋 鶴我",
@@ -1464,7 +1733,9 @@
      "lng": 139.9307,
      "note": "馬肉專門店，馬刺與櫻鍋拼盤是招牌，午餐約 1,000–1,999、晚餐約 5,000–5,999 日圓。營業日與座位請先確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%8F%E3%82%89%E9%8D%8B%20%E9%B6%B4%E6%88%91",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49491,139.9307"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49491,139.9307",
+     "dist_m": 801,
+     "far": false
     },
     {
      "name_zh": "籠太",
@@ -1476,7 +1747,9 @@
      "lng": 139.93254,
      "note": "以雞高湯的鄉土蒸籠飯聞名，晚餐約 5,000–5,999 日圓。屬居酒屋型態，建議事先預約。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B1%A0%E5%A4%AA",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49492,139.93254"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49492,139.93254",
+     "dist_m": 834,
+     "far": false
     },
     {
      "name_zh": "喜多方拉麵專門店 喜鈴",
@@ -1488,7 +1761,9 @@
      "lng": 139.930345,
      "note": "喜多方風格拉麵，午餐約 1,000–1,999 日圓；週二公休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E5%A4%9A%E6%96%B9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%B0%82%E9%96%80%E5%BA%97%20%E5%96%9C%E9%88%B4",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.491537,139.930345"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.491537,139.930345",
+     "dist_m": 425,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E3%83%B6%E5%9F%8E",
@@ -1526,7 +1801,9 @@
      "lng": 139.92318,
      "note": "位於嘉永藏內的酒藏咖啡，提供咖啡與日本酒甜點，約 1,000–1,999 日圓。10:00–16:30，週三及第 1、3 個週四公休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%94%B5%E5%96%AB%E8%8C%B6%20%E6%9D%8F",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49793,139.92318"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49793,139.92318",
+     "dist_m": 0,
+     "far": false
     },
     {
      "name_zh": "太郎庵 七日町菓房",
@@ -1538,7 +1815,9 @@
      "lng": 139.92069,
      "note": "會津知名和菓子店，可買饅頭、羊羹等伴手禮，離末廣約 500 公尺。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%83%8E%E5%BA%B5%20%E4%B8%83%E6%97%A5%E7%94%BA%E8%8F%93%E6%88%BF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5004,139.92069"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5004,139.92069",
+     "dist_m": 351,
+     "far": false
     },
     {
      "name_zh": "田季野",
@@ -1550,7 +1829,9 @@
      "lng": 139.93095,
      "note": "鄉土料理蒸籠飯、馬肉料理名店，約 2,000–2,999 日圓。離嘉永藏步行約 15 分鐘。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%AD%A3%E9%87%8E",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49623,139.93095"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49623,139.93095",
+     "dist_m": 711,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0%20%E5%98%89%E6%B0%B8%E8%94%B5",
@@ -1587,7 +1868,9 @@
      "lng": 139.86049,
      "note": "蔥蕎麥名店，高遠蕎麥約 1,500 日圓；另有水蕎麥。官網營業約 9:30–16:00，尖峰需排隊。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%BE%A4%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.3325,139.86049"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.3325,139.86049",
+     "dist_m": 126,
+     "far": false
     },
     {
      "name_zh": "蕎麥處 米屋",
@@ -1599,7 +1882,9 @@
      "lng": 139.860291,
      "note": "手拉蔥蕎麥，冷熱皆有，使用當地蕎麥粉，約 1,000–1,999 日圓。位於大內宿街道上。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF%20%E7%B1%B3%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.333315,139.860291"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.333315,139.860291",
+     "dist_m": 47,
+     "far": false
     },
     {
      "name_zh": "山本屋",
@@ -1611,7 +1896,9 @@
      "lng": 139.86039,
      "note": "以核桃蕎麥（くるみそば）聞名，約 1,000–1,999 日圓；週四、五公休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E6%9C%AC%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33338,139.86039"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33338,139.86039",
+     "dist_m": 36,
+     "far": false
     },
     {
      "name_zh": "本家 玉屋",
@@ -1623,7 +1910,9 @@
      "lng": 139.86129,
      "note": "位於約 400 年歷史的老屋，提供蔥蕎麥，約 1,000–1,999 日圓，位置靠近見晴台方向。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E6%9C%AC%E5%AE%B6%E7%8E%89%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33476,139.86129"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33476,139.86129",
+     "dist_m": 137,
+     "far": false
     },
     {
      "name_zh": "大內宿町並み展示館",
@@ -1635,7 +1924,9 @@
      "lng": 139.86077,
      "note": "館內展示宿場町歷史與茅葺建築資料，適合吃完蕎麥後補充背景知識。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF%E7%94%BA%E4%B8%A6%E3%81%BF%E5%B1%95%E7%A4%BA%E9%A4%A8",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33419,139.86077"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33419,139.86077",
+     "dist_m": 63,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%86%85%E5%AE%BF",
@@ -1673,7 +1964,9 @@
      "lng": 140.14953,
      "note": "飯店內的法式餐廳，適合不想外出的晚餐。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%A0%E3%83%8D%E3%83%83%E3%83%88",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.54249,140.14953"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.54249,140.14953",
+     "dist_m": 0,
+     "far": false
     },
     {
      "name_zh": "7-Eleven 猪苗代站前通店",
@@ -1685,7 +1978,9 @@
      "lng": 140.10624,
      "note": "最近查到的便利商店，離飯店約 4.5 公里，車程約 10 分鐘，適合買宵夜與飲料。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E9%A7%85%E9%80%9A%E3%82%8A%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.55405,140.10624"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.55405,140.10624",
+     "dist_m": 4027,
+     "far": true
     },
     {
      "name_zh": "道之驛 猪苗代",
@@ -1697,7 +1992,9 @@
      "lng": 140.10736,
      "note": "販賣猪苗代農產品與會津伴手禮。營業時間請以官方為準，可順路採買。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53764,140.10736"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53764,140.10736",
+     "dist_m": 3757,
+     "far": true
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%86%E3%83%AB%E3%83%AA%E3%82%B9%E3%83%86%E3%83%AB%E7%8C%AA%E8%8B%97%E4%BB%A3",
@@ -1720,7 +2017,8 @@
      "walk_min": 44,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%84%E3%83%AB%E3%83%8F%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575633,140.1139086&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575633,140.1139086&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "7-Eleven 猪苗代バイパス店",
@@ -1732,7 +2030,21 @@
      "walk_min": 45,
      "note": "離飯店最近的便利商店，約 3.5 km，走路不可行",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%83%90%E3%82%A4%E3%83%91%E3%82%B9%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5564411,140.1126863&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5564411,140.1126863&travelmode=walking",
+     "far": true
+    },
+    {
+     "name_zh": "ぷちショップつるや",
+     "name_ja": "ぷちショップつるや",
+     "type": "地酒",
+     "lat": 37.556882,
+     "lng": 140.108924,
+     "dist_m": 3921,
+     "walk_min": 49,
+     "note": "猪苗代市區的小酒舖，Google 3.8（42 則），營業至 20:00；需搭車",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B7%E3%81%A1%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%81%A4%E3%82%8B%E3%82%84",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.556882,140.108924&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "リオン・ドール 猪苗代店",
@@ -1744,7 +2056,8 @@
      "walk_min": 50,
      "note": "會津在地連鎖超市，同一區還有 Sun Drug、ツルハ、TSUTAYA",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%82%AA%E3%83%B3%E3%83%BB%E3%83%89%E3%83%BC%E3%83%AB%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575109,140.1086066&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575109,140.1086066&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "Sun Drug 猪苗代店",
@@ -1756,7 +2069,8 @@
      "walk_min": 50,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575852,140.1085129&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575852,140.1085129&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "7-Eleven 猪苗代駅通り店",
@@ -1768,7 +2082,21 @@
      "walk_min": 50,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E9%A7%85%E9%80%9A%E3%82%8A%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5540328,140.1062236&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5540328,140.1062236&travelmode=walking",
+     "far": true
+    },
+    {
+     "name_zh": "稲川酒造店（直賣）",
+     "name_ja": "稲川酒造店",
+     "type": "地酒",
+     "lat": 37.5642982,
+     "lng": 140.1077544,
+     "dist_m": 4409,
+     "walk_min": 55,
+     "note": "猪苗代在地酒藏「七重郎」，Google 4.3（110 則），營業至 17:00；需搭車",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A8%B2%E5%B7%9D%E9%85%92%E9%80%A0%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5642982,140.1077544&travelmode=walking",
+     "far": true
     },
     {
      "name_zh": "Lawson 猪苗代三郷店",
@@ -1780,7 +2108,8 @@
      "walk_min": 59,
      "note": "",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E4%B8%89%E9%83%B7%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5803704,140.1262637&travelmode=walking"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5803704,140.1262637&travelmode=walking",
+     "far": true
     }
    ],
    "shopping_note": "滑雪場區，飯店周邊 3 km 內沒有商店，只能靠館內販賣部。建議在大內宿或遊覽車回程停靠猪苗代市區時先採買。"
@@ -1809,7 +2138,9 @@
      "lng": 140.109657,
      "note": "猪苗代人氣咖啡店，茶壺咖啡 650 日圓起，提拉米蘇與蒙布朗蛋糕；週三公休。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%83%AD%E3%82%AB%E3%83%95%E3%82%A7",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.533543,140.109657"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.533543,140.109657",
+     "dist_m": 5984,
+     "far": true
     },
     {
      "name_zh": "馬刺專門 大久保商店",
@@ -1821,7 +2152,9 @@
      "lng": 140.076162,
      "note": "馬肉專門店，兼營食堂與咖啡。營業日請先確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E5%88%BA%E3%81%97%E5%B0%82%E9%96%80%20%E5%A4%A7%E4%B9%85%E4%BF%9D%E5%95%86%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.536132,140.076162"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.536132,140.076162",
+     "dist_m": 3312,
+     "far": true
     },
     {
      "name_zh": "河京拉麵館 猪苗代店",
@@ -1833,7 +2166,9 @@
      "lng": 140.07475,
      "note": "喜多方拉麵、餃子與自助吧；週二公休，離天鏡閣約 2–3 公里。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E4%BA%AC%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%A4%A8%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53599,140.07475"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53599,140.07475",
+     "dist_m": 3197,
+     "far": true
     },
     {
      "name_zh": "道之驛 猪苗代",
@@ -1845,7 +2180,9 @@
      "lng": 140.10736,
      "note": "販售猪苗代農產與會津伴手禮。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%8C%AA%E8%8B%97%E4%BB%A3",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53764,140.10736"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.53764,140.10736",
+     "dist_m": 5910,
+     "far": true
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E9%8F%A1%E9%96%A3",
@@ -1883,7 +2220,9 @@
      "lng": 140.432244,
      "note": "園方附設農園咖啡，10:00–16:00，季節水果聖代與甜點。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%8B%E3%81%9B%E3%81%84%E6%9E%9C%E6%A8%B9%E5%9C%92%20%E6%A3%AE%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.820723,140.432244"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.820723,140.432244",
+     "dist_m": 139,
+     "far": false
     },
     {
      "name_zh": "鯖湖湯",
@@ -1895,7 +2234,9 @@
      "lng": 140.45218,
      "note": "飯坂溫泉的共同浴場，離果園約 4 公里，泡湯費用與時間請以現場為準。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%AF%96%E6%B9%96%E6%B9%AF",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.83265,140.45218"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.83265,140.45218",
+     "dist_m": 2180,
+     "far": true
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%8B%E3%81%9B%E3%81%84%E6%9E%9C%E6%A8%B9%E5%9C%92",
@@ -1932,7 +2273,9 @@
      "lng": 141.0443,
      "note": "1868 年創業的空飛ぶだんご名店，3 串 600 日圓、5 串 900 日圓，約 9:30–15:00。現做糰子搭配茶，是嚴美溪必吃體驗。（座標為溪谷對岸推估）",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%83%AD%E5%85%AC%E5%B1%8B",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9443,141.0443"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9443,141.0443",
+     "dist_m": 125,
+     "far": false
     },
     {
      "name_zh": "Polano 冰淇淋",
@@ -1944,7 +2287,9 @@
      "lng": 141.000545,
      "note": "嚴美溪附近的義式冰淇淋店，適合逛完溪谷吃冰休息；營業時間請出發前確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9D%E3%83%A9%E3%83%BC%E3%83%8E",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.967103,141.000545"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.967103,141.000545",
+     "dist_m": 4637,
+     "far": true
     },
     {
      "name_zh": "道の駅 厳美渓（ペッタンくん）",
@@ -1956,7 +2301,9 @@
      "lng": 141.0512,
      "note": "嚴美溪附近道の駅內的餅料理食堂，午餐約 1,000–1,999 日圓，可買一關名物「餅」相關伴手禮。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9A%E3%83%83%E3%82%BF%E3%83%B3%E3%81%8F%E3%82%93",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9454,141.0512"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9454,141.0512",
+     "dist_m": 483,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8E%B3%E7%BE%8E%E6%B8%93",
@@ -1994,7 +2341,9 @@
      "lng": 141.11122,
      "note": "平泉町蕎麥麵名店，特色是手磨、口感粗獷的「古典そば」，並有店主推薦的日本酒。營業日請出發前確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E6%B0%B4%E5%BA%B5",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99654,141.11122"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99654,141.11122",
+     "dist_m": 1125,
+     "far": false
     },
     {
      "name_zh": "夢乃風（わんこそば）",
@@ -2006,7 +2355,9 @@
      "lng": 141.11159,
      "note": "以盛り出し式わんこそば與前沢牛相關餐點受注目，午餐約 2,000–2,999 日圓，約 10:00–18:00。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A2%E4%B9%83%E9%A2%A8",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99534,141.11159"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99534,141.11159",
+     "dist_m": 1222,
+     "far": false
     },
     {
      "name_zh": "站前芭蕉館（わんこそば）",
@@ -2018,7 +2369,9 @@
      "lng": 141.11706,
      "note": "盛り出し式わんこそば（約 24 碗）配料豐富，午餐約 1,000–1,999 日圓，位於平泉站前。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A7%85%E5%89%8D%E8%8A%AD%E8%95%89%E9%A4%A8",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9884,141.11706"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9884,141.11706",
+     "dist_m": 2079,
+     "far": true
     },
     {
      "name_zh": "蕎麥處義家（月見坂）",
@@ -2030,7 +2383,9 @@
      "lng": 141.1065,
      "note": "位於中尊寺月見坂參道旁，供應わんこそば（約 12 碗）與天丼套餐，約 10:30–15:00。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%E7%BE%A9%E5%AE%B6",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9991,141.1065"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9991,141.1065",
+     "dist_m": 632,
+     "far": false
     },
     {
      "name_zh": "平泉レストハウス（前沢牛午餐）",
@@ -2042,7 +2397,9 @@
      "lng": 141.10863,
      "note": "館內 Restaurant Gen 供應前沢牛午餐（約 9:30–16:30），美食廣場有三種わんこそば。評分偏低但方便。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E6%B3%89%E3%83%AC%E3%82%B9%E3%83%88%E3%83%8F%E3%82%A6%E3%82%B9",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99875,141.10863"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.99875,141.10863",
+     "dist_m": 817,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B0%8A%E5%AF%BA",
@@ -2080,7 +2437,9 @@
      "lng": 141.07732,
      "note": "位於上江釣子，供應俄羅斯料理、咖啡與起司蛋糕，約 2,000–2,999 日圓；營業日請確認。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AD%E3%82%A4%E3%82%AB",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.30092,141.07732"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.30092,141.07732",
+     "dist_m": 1606,
+     "far": true
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E6%B1%9F%E9%87%A3%E5%AD%90%E5%BA%97",
@@ -2116,7 +2475,9 @@
      "lng": 141.13528,
      "note": "位於機場航廈內，午餐約 1,000–1,999 日圓，可吃到岩手鄉土料理與定食。候機最方便。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%A6%E8%8A%B1%E5%B7%BB%E5%A4%A7%E9%A3%9F%E5%A0%82",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528",
+     "dist_m": 0,
+     "far": false
     },
     {
      "name_zh": "Hana Airport Shop&Cafe",
@@ -2128,7 +2489,9 @@
      "lng": 141.13528,
      "note": "機場航廈內的咖啡與麵包店，適合候機時休息。",
      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%8A%20%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%20%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%26%E3%82%AB%E3%83%95%E3%82%A7",
-     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528"
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528",
+     "dist_m": 0,
+     "far": false
     }
    ],
    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%A6%E8%8A%B1%E5%B7%BB%E7%A9%BA%E6%B8%AF",
