@@ -318,7 +318,7 @@
    "kind": "airport",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13828,140.92999",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sendai_Airport_Building_front.jpg/800px-Sendai_Airport_Building_front.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sendai_Airport_Building_front.jpg/960px-Sendai_Airport_Building_front.jpg",
     "credit": "ブルーノ・プラス / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Sendai_Airport_Building_front.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E7%A9%BA%E6%B8%AF"
@@ -390,7 +390,7 @@
    "kind": "hotel",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27068,140.98978",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Shiogama_and_sendai_from_an_aeroplane.jpg/800px-Shiogama_and_sendai_from_an_aeroplane.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Shiogama_and_sendai_from_an_aeroplane.jpg/960px-Shiogama_and_sendai_from_an_aeroplane.jpg",
     "credit": "Prosperosity / CC BY-SA 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Shiogama_and_sendai_from_an_aeroplane.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E6%B8%AF"
@@ -461,7 +461,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.27488,140.60282",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Akiu_Falls_2008.jpg/800px-Akiu_Falls_2008.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Akiu_Falls_2008.jpg/960px-Akiu_Falls_2008.jpg",
     "credit": "Crown of Lenten rose / CC BY 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Akiu_Falls_2008.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E4%BF%9D%E5%A4%A7%E6%BB%9D"
@@ -530,7 +530,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.18339,140.67202",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg/800px-Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg/960px-Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg",
     "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%96%B6%E3%81%BF%E3%81%A1%E3%81%AE%E3%81%8F%E6%9D%9C%E3%81%AE%E6%B9%96%E7%95%94%E5%85%AC%E5%9C%92"
@@ -602,7 +602,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.16112,140.39472",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Yamagata-zao_ski_1_%28200712%29.jpg/800px-Yamagata-zao_ski_1_%28200712%29.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Yamagata-zao_ski_1_%28200712%29.jpg",
     "credit": "E-190 / CC BY-SA 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Yamagata-zao_ski_1_%28200712%29.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E8%94%B5%E7%8E%8B%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4"
@@ -676,7 +676,7 @@
    "kind": "hotel",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.13157,140.56071",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg/800px-%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg",
     "credit": "Piccolo / CC BY 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89"
@@ -760,7 +760,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.36972,141.06421",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Matsushima_miyagi_z.JPG/800px-Matsushima_miyagi_z.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Matsushima_miyagi_z.JPG/960px-Matsushima_miyagi_z.JPG",
     "credit": "Chensiyuan / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Matsushima_miyagi_z.JPG",
     "wiki": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B3%B6"
@@ -845,7 +845,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.261,140.8717",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Vlandome_Ichibancho_in_September_2022.jpg/800px-Vlandome_Ichibancho_in_September_2022.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Vlandome_Ichibancho_in_September_2022.jpg/960px-Vlandome_Ichibancho_in_September_2022.jpg",
     "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Vlandome_Ichibancho_in_September_2022.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%80%E7%95%AA%E7%94%BA%20%28%E4%BB%99%E5%8F%B0%E5%B8%82%29"
@@ -929,7 +929,7 @@
    "kind": "hotel",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.25744,140.87913",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sendai_Station_20230806.jpg/800px-Sendai_Station_20230806.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Sendai_Station_20230806.jpg/960px-Sendai_Station_20230806.jpg",
     "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Sendai_Station_20230806.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E9%A7%85"
@@ -989,7 +989,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.33467,141.04904",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Marine_Gate_Shiogama_2022-10-31.jpg/800px-Marine_Gate_Shiogama_2022-10-31.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Marine_Gate_Shiogama_2022-10-31.jpg/960px-Marine_Gate_Shiogama_2022-10-31.jpg",
     "credit": "七厩拓 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Marine_Gate_Shiogama_2022-10-31.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%88%E5%A1%A9%E9%87%9C"
@@ -1072,7 +1072,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.65164,140.08895",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mt.Bandai.jpg/800px-Mt.Bandai.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mt.Bandai.jpg/960px-Mt.Bandai.jpg",
     "credit": "EXECUTOR / Public domain / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Mt.Bandai.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E7%A3%90%E6%A2%AF%E9%AB%98%E5%8E%9F"
@@ -1156,7 +1156,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.48774,139.92977",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg/800px-%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg/960px-%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg",
     "credit": "くろふね / CC BY 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E6%9D%BE%E5%9F%8E"
@@ -1218,7 +1218,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.49793,139.92318",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg/800px-%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg/960px-%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg",
     "credit": "皓月旗 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0_2020_P3.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%AB%E5%BB%A3%E9%85%92%E9%80%A0"
@@ -1302,7 +1302,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.33363,139.86066",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ja-fukushima-ohuchijuku-4.jpg/800px-Ja-fukushima-ohuchijuku-4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ja-fukushima-ohuchijuku-4.jpg",
     "credit": "ja:User:Fluffy nns. Uploaded by 百楽兎 / Public domain / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Ja-fukushima-ohuchijuku-4.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%86%85%E5%AE%BF"
@@ -1364,7 +1364,7 @@
    "kind": "hotel",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.54249,140.14953",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg/800px-%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg/960px-%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg",
     "credit": "Go.n2020 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4"
@@ -1435,7 +1435,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.52132,140.04357",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tenkyokaku.jpg/800px-Tenkyokaku.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tenkyokaku.jpg/960px-Tenkyokaku.jpg",
     "credit": "DCyokohama at Japanese Wikipedia / CC BY 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Tenkyokaku.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E9%8F%A1%E9%96%A3"
@@ -1484,7 +1484,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.82182,140.43148",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Iizaka_Onsen_26-Aug-2018.jpg/800px-Iizaka_Onsen_26-Aug-2018.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Iizaka_Onsen_26-Aug-2018.jpg/960px-Iizaka_Onsen_26-Aug-2018.jpg",
     "credit": "皓月旗 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Iizaka_Onsen_26-Aug-2018.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%9D%82%E6%B8%A9%E6%B3%89"
@@ -1544,7 +1544,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.9446,141.0457",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg/800px-230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg/960px-230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg",
     "credit": "663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%8E%B3%E7%BE%8E%E6%B8%93"
@@ -1630,7 +1630,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.00145,141.09983",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg/800px-230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg/960px-230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
     "credit": "663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B0%8A%E5%AF%BA"
@@ -1668,7 +1668,7 @@
    "kind": "spot",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.29323,141.09312",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg/800px-Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg/960px-Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg",
     "credit": "Yoshi Canopus / CC BY-SA 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Oni_Kenbai_1%2C_Kitakami%2C_Iwate.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B8%8A%E5%B8%82"
@@ -1716,7 +1716,7 @@
    "kind": "airport",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=39.42861,141.13528",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hanamaki_airport_terminal.jpg/800px-Hanamaki_airport_terminal.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hanamaki_airport_terminal.jpg/960px-Hanamaki_airport_terminal.jpg",
     "credit": "ブルーノ・プラス / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Hanamaki_airport_terminal.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E5%B7%BB%E7%A9%BA%E6%B8%AF"
@@ -1739,7 +1739,7 @@
    "kind": "airport",
    "nav_url": "https://www.google.com/maps/dir/?api=1&destination=25.0805,121.23697",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Taoyuan_International_Airport.jpg/800px-Taoyuan_International_Airport.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Taoyuan_International_Airport.jpg/960px-Taoyuan_International_Airport.jpg",
     "credit": "毛貓大少爺 / CC BY-SA 2.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Taoyuan_International_Airport.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%A1%83%E5%9C%92%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF"

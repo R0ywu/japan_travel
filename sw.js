@@ -42,7 +42,7 @@ self.addEventListener('fetch', e => {
     e.respondWith(cacheFirst(TILES, e.request, TILE_LIMIT));
     return;
   }
-  if (url.hostname === 'upload.wikimedia.org') {
+  if (url.hostname.endsWith('wikimedia.org')) {
     e.respondWith(cacheFirst(TILES, e.request, TILE_LIMIT));
     return;
   }
