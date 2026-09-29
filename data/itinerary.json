@@ -396,7 +396,118 @@
     "credit": "Prosperosity / CC BY-SA 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Shiogama_and_sendai_from_an_aeroplane.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E6%B8%AF"
-   }
+   },
+   "shopping": [
+    {
+     "name_zh": "Ministop 仙台港店",
+     "name_ja": "ミニストップ",
+     "type": "便利商店",
+     "lat": 38.270778,
+     "lng": 140.9910644,
+     "dist_m": 112,
+     "walk_min": 1,
+     "note": "有現做冰淇淋與炸物",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9F%E3%83%8B%E3%82%B9%E3%83%88%E3%83%83%E3%83%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.270778,140.9910644&travelmode=walking"
+    },
+    {
+     "name_zh": "7-Eleven（飯店旁）",
+     "name_ja": "セブンイレブン 仙台中野三丁目",
+     "type": "便利商店",
+     "lat": 38.2703309,
+     "lng": 140.987697,
+     "dist_m": 185,
+     "walk_min": 2,
+     "note": "飯店步行 2 分",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E9%87%8E%E4%B8%89%E4%B8%81%E7%9B%AE",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2703309,140.987697&travelmode=walking"
+    },
+    {
+     "name_zh": "カワチ藥品 仙台ゆめタウン店",
+     "name_ja": "カワチ薬品 仙台ゆめタウン店",
+     "type": "藥妝",
+     "lat": 38.2706496,
+     "lng": 140.9867023,
+     "dist_m": 268,
+     "walk_min": 3,
+     "note": "大型藥妝，也賣食品飲料，適合補貨",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%AF%E3%83%81%E8%96%AC%E5%93%81%20%E4%BB%99%E5%8F%B0%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2706496,140.9867023&travelmode=walking"
+    },
+    {
+     "name_zh": "三井 OUTLET PARK 仙台港（松本清 OUTLET・Grocer's 北野エース）",
+     "name_ja": "三井アウトレットパーク仙台港",
+     "type": "超市",
+     "lat": 38.2750395,
+     "lng": 140.9910228,
+     "dist_m": 496,
+     "walk_min": 6,
+     "note": "Outlet 內有松本清與北野エース超市，一般營業至 20:00",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%E4%BB%99%E5%8F%B0%E6%B8%AF",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2750395,140.9910228&travelmode=walking"
+    },
+    {
+     "name_zh": "Lawson 仙台中野店",
+     "name_ja": "ローソン",
+     "type": "便利商店",
+     "lat": 38.2696753,
+     "lng": 140.9841254,
+     "dist_m": 506,
+     "walk_min": 6,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2696753,140.9841254&travelmode=walking"
+    },
+    {
+     "name_zh": "FamilyMart 中野栄駅前店",
+     "name_ja": "ファミリーマート 中野栄駅前店",
+     "type": "便利商店",
+     "lat": 38.280318,
+     "lng": 140.9846836,
+     "dist_m": 1160,
+     "walk_min": 14,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E4%B8%AD%E9%87%8E%E6%A0%84%E9%A7%85%E5%89%8D%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.280318,140.9846836&travelmode=walking"
+    },
+    {
+     "name_zh": "ヤマザワ 中野店",
+     "name_ja": "ヤマザワ",
+     "type": "超市",
+     "lat": 38.2819792,
+     "lng": 140.9811444,
+     "dist_m": 1465,
+     "walk_min": 18,
+     "note": "在地連鎖超市，生鮮、便當、酒類",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A4%E3%83%9E%E3%82%B6%E3%83%AF",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2819792,140.9811444&travelmode=walking"
+    },
+    {
+     "name_zh": "西友 仙台高砂店",
+     "name_ja": "西友",
+     "type": "超市",
+     "lat": 38.2710842,
+     "lng": 140.9694265,
+     "dist_m": 1777,
+     "walk_min": 22,
+     "note": "24 小時超市（依店舖公告）",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%8F%8B",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2710842,140.9694265&travelmode=walking"
+    },
+    {
+     "name_zh": "唐吉訶德 六丁の目店",
+     "name_ja": "ドン・キホーテ 六丁の目店",
+     "type": "唐吉訶德",
+     "lat": 38.2499741,
+     "lng": 140.9509864,
+     "dist_m": 4095,
+     "walk_min": 51,
+     "note": "離飯店約 4 km，需搭計程車或公車",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%20%E5%85%AD%E4%B8%81%E3%81%AE%E7%9B%AE%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2499741,140.9509864&travelmode=walking"
+    }
+   ],
+   "shopping_note": "飯店旁就有 7-Eleven 與 Ministop，藥妝與超市步行 5–10 分；Outlet 通常 20:00 關門。"
   },
   "akiu-otaki": {
    "id": "akiu-otaki",
@@ -689,7 +800,70 @@
     "credit": "Piccolo / CC BY 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E3%81%AE%E6%B9%AF_-_panoramio.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E9%81%A0%E5%88%88%E7%94%B0%E6%B8%A9%E6%B3%89"
-   }
+   },
+   "shopping": [
+    {
+     "name_zh": "7-Eleven 藏王遠刈田店",
+     "name_ja": "セブンイレブン 蔵王遠刈田店",
+     "type": "便利商店",
+     "lat": 38.1235769,
+     "lng": 140.5765817,
+     "dist_m": 1648,
+     "walk_min": 21,
+     "note": "溫泉街上唯一便利商店，步行約 20 分、車程 4 分；建議下車前先確認要不要順路買",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E8%94%B5%E7%8E%8B%E9%81%A0%E5%88%88%E7%94%B0%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1235769,140.5765817&travelmode=walking"
+    },
+    {
+     "name_zh": "木村商店（雜貨）",
+     "name_ja": "㈲木村商店",
+     "type": "超市",
+     "lat": 38.1235203,
+     "lng": 140.5786853,
+     "dist_m": 1809,
+     "walk_min": 23,
+     "note": "遠刈田溫泉街的在地雜貨店，營業時間不定",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%88%B2%E6%9C%A8%E6%9D%91%E5%95%86%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1235203,140.5786853&travelmode=walking"
+    },
+    {
+     "name_zh": "FamilyMart 藏王町店",
+     "name_ja": "ファミリーマート",
+     "type": "便利商店",
+     "lat": 38.1177467,
+     "lng": 140.6044146,
+     "dist_m": 4120,
+     "walk_min": 52,
+     "note": "約 4 km，車程",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.1177467,140.6044146&travelmode=walking"
+    },
+    {
+     "name_zh": "フレスコキクチ 藏王店",
+     "name_ja": "フレスコキクチ",
+     "type": "超市",
+     "lat": 38.0993604,
+     "lng": 140.6560714,
+     "dist_m": 9078,
+     "walk_min": 113,
+     "note": "約 9 km，車程",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%AC%E3%82%B9%E3%82%B3%E3%82%AD%E3%82%AF%E3%83%81",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.0993604,140.6560714&travelmode=walking"
+    },
+    {
+     "name_zh": "ツルハドラッグ 藏王店",
+     "name_ja": "ツルハドラッグ",
+     "type": "藥妝",
+     "lat": 38.0980888,
+     "lng": 140.6554808,
+     "dist_m": 9088,
+     "walk_min": 114,
+     "note": "約 9 km，車程；附近有 フレスコキクチ 超市",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%84%E3%83%AB%E3%83%8F%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.0980888,140.6554808&travelmode=walking"
+    }
+   ],
+   "shopping_note": "溫泉區，飯店周邊沒有商店，最近的 7-Eleven 在溫泉街步行約 20 分。建議在前一站（陸奧公園／藏王）或遊覽車停靠時先買好。"
   },
   "matsushima": {
    "id": "matsushima",
@@ -945,7 +1119,154 @@
     "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Sendai_Station_20230806.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E9%A7%85"
-   }
+   },
+   "shopping": [
+    {
+     "name_zh": "7-Eleven 仙台中央4丁目店",
+     "name_ja": "セブンイレブン 仙台中央4丁目店",
+     "type": "便利商店",
+     "lat": 38.2575797,
+     "lng": 140.8796457,
+     "dist_m": 47,
+     "walk_min": 1,
+     "note": "飯店正旁邊，24 小時",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE4%E4%B8%81%E7%9B%AE%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2575797,140.8796457&travelmode=walking"
+    },
+    {
+     "name_zh": "FamilyMart 仙台駅前店",
+     "name_ja": "ファミリーマート 仙台駅前店",
+     "type": "便利商店",
+     "lat": 38.2595165,
+     "lng": 140.8798148,
+     "dist_m": 238,
+     "walk_min": 3,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2595165,140.8798148&travelmode=walking"
+    },
+    {
+     "name_zh": "Lawson 仙台柳町通店",
+     "name_ja": "ローソン 仙台柳町通店",
+     "type": "便利商店",
+     "lat": 38.2571142,
+     "lng": 140.8763699,
+     "dist_m": 243,
+     "walk_min": 3,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%20%E4%BB%99%E5%8F%B0%E6%9F%B3%E7%94%BA%E9%80%9A%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2571142,140.8763699&travelmode=walking"
+    },
+    {
+     "name_zh": "Lawson 仙台中央三丁目店",
+     "name_ja": "ローソン 仙台中央三丁目店",
+     "type": "便利商店",
+     "lat": 38.2597437,
+     "lng": 140.8795436,
+     "dist_m": 258,
+     "walk_min": 3,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE%E4%B8%89%E4%B8%81%E7%9B%AE%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2597437,140.8795436&travelmode=walking"
+    },
+    {
+     "name_zh": "松本清 仙台駅前店",
+     "name_ja": "マツモトキヨシ 仙台駅前",
+     "type": "藥妝",
+     "lat": 38.2597901,
+     "lng": 140.8796871,
+     "dist_m": 265,
+     "walk_min": 3,
+     "note": "藥妝，免稅",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%83%84%E3%83%A2%E3%83%88%E3%82%AD%E3%83%A8%E3%82%B7%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2597901,140.8796871&travelmode=walking"
+    },
+    {
+     "name_zh": "FamilyMart 仙台中央3丁目店",
+     "name_ja": "ファミリーマート 仙台中央三丁目店",
+     "type": "便利商店",
+     "lat": 38.260013,
+     "lng": 140.878586,
+     "dist_m": 290,
+     "walk_min": 4,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E4%BB%99%E5%8F%B0%E4%B8%AD%E5%A4%AE%E4%B8%89%E4%B8%81%E7%9B%AE%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.260013,140.878586&travelmode=walking"
+    },
+    {
+     "name_zh": "唐吉訶德 仙台駅西口本店",
+     "name_ja": "ドン・キホーテ 仙台駅西口本店",
+     "type": "唐吉訶德",
+     "lat": 38.2616362,
+     "lng": 140.8792339,
+     "dist_m": 466,
+     "walk_min": 6,
+     "note": "仙台站旁最方便的驚安殿堂，零食、藥妝、伴手禮一次買齊；一般營業至深夜，免稅",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%20%E4%BB%99%E5%8F%B0%E9%A7%85%E8%A5%BF%E5%8F%A3%E6%9C%AC%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2616362,140.8792339&travelmode=walking"
+    },
+    {
+     "name_zh": "Tomod's 仙台店",
+     "name_ja": "トモズ",
+     "type": "藥妝",
+     "lat": 38.2602397,
+     "lng": 140.8834627,
+     "dist_m": 489,
+     "walk_min": 6,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%A2%E3%82%BA",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2602397,140.8834627&travelmode=walking"
+    },
+    {
+     "name_zh": "北野エース S-PAL 仙台店",
+     "name_ja": "北野エース エスパル仙台店",
+     "type": "超市",
+     "lat": 38.2611979,
+     "lng": 140.8823019,
+     "dist_m": 501,
+     "walk_min": 6,
+     "note": "仙台站樓下的高級超市，各地咖哩、調味料、伴手禮",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E9%87%8E%E3%82%A8%E3%83%BC%E3%82%B9%20%E3%82%A8%E3%82%B9%E3%83%91%E3%83%AB%E4%BB%99%E5%8F%B0%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2611979,140.8823019&travelmode=walking"
+    },
+    {
+     "name_zh": "AEON 仙台店",
+     "name_ja": "イオン仙台店",
+     "type": "超市",
+     "lat": 38.2578072,
+     "lng": 140.8731221,
+     "dist_m": 526,
+     "walk_min": 7,
+     "note": "一般超市，生鮮與日用品",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%AA%E3%83%B3%E4%BB%99%E5%8F%B0%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2578072,140.8731221&travelmode=walking"
+    },
+    {
+     "name_zh": "Lopia ヨドバシ仙台店",
+     "name_ja": "ロピア ヨドバシ仙台",
+     "type": "超市",
+     "lat": 38.2591236,
+     "lng": 140.8852795,
+     "dist_m": 568,
+     "walk_min": 7,
+     "note": "以便宜大份量聞名的超市，在 Yodobashi 仙台 1F，買水果、熟食、零食好去處",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%94%E3%82%A2%20%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E4%BB%99%E5%8F%B0",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2591236,140.8852795&travelmode=walking"
+    },
+    {
+     "name_zh": "唐吉訶德 晚翠通店",
+     "name_ja": "ドン・キホーテ 晩翠通り店",
+     "type": "唐吉訶德",
+     "lat": 38.2638099,
+     "lng": 140.8668951,
+     "dist_m": 1281,
+     "walk_min": 16,
+     "note": "離站稍遠但人較少",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%20%E6%99%A9%E7%BF%A0%E9%80%9A%E3%82%8A%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=38.2638099,140.8668951&travelmode=walking"
+    }
+   ],
+   "shopping_note": "仙台站周邊什麼都有，走路 5 分內就有便利商店、唐吉訶德與超市。"
   },
   "senbei-diy": {
    "id": "senbei-diy",
@@ -1387,7 +1708,82 @@
     "credit": "Go.n2020 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%E5%85%A8%E6%99%AF.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4"
-   }
+   },
+   "shopping": [
+    {
+     "name_zh": "ツルハドラッグ 猪苗代店",
+     "name_ja": "ツルハドラッグ 猪苗代店",
+     "type": "藥妝",
+     "lat": 37.5575633,
+     "lng": 140.1139086,
+     "dist_m": 3559,
+     "walk_min": 44,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%84%E3%83%AB%E3%83%8F%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575633,140.1139086&travelmode=walking"
+    },
+    {
+     "name_zh": "7-Eleven 猪苗代バイパス店",
+     "name_ja": "セブンイレブン 猪苗代バイパス店",
+     "type": "便利商店",
+     "lat": 37.5564411,
+     "lng": 140.1126863,
+     "dist_m": 3599,
+     "walk_min": 45,
+     "note": "離飯店最近的便利商店，約 3.5 km，走路不可行",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E3%83%90%E3%82%A4%E3%83%91%E3%82%B9%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5564411,140.1126863&travelmode=walking"
+    },
+    {
+     "name_zh": "リオン・ドール 猪苗代店",
+     "name_ja": "リオン・ドール 猪苗代店",
+     "type": "超市",
+     "lat": 37.5575109,
+     "lng": 140.1086066,
+     "dist_m": 3975,
+     "walk_min": 50,
+     "note": "會津在地連鎖超市，同一區還有 Sun Drug、ツルハ、TSUTAYA",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%82%AA%E3%83%B3%E3%83%BB%E3%83%89%E3%83%BC%E3%83%AB%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575109,140.1086066&travelmode=walking"
+    },
+    {
+     "name_zh": "Sun Drug 猪苗代店",
+     "name_ja": "サンドラッグ 猪苗代店",
+     "type": "藥妝",
+     "lat": 37.5575852,
+     "lng": 140.1085129,
+     "dist_m": 3986,
+     "walk_min": 50,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5575852,140.1085129&travelmode=walking"
+    },
+    {
+     "name_zh": "7-Eleven 猪苗代駅通り店",
+     "name_ja": "セブンイレブン 猪苗代駅通り店",
+     "type": "便利商店",
+     "lat": 37.5540328,
+     "lng": 140.1062236,
+     "dist_m": 4027,
+     "walk_min": 50,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E9%A7%85%E9%80%9A%E3%82%8A%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5540328,140.1062236&travelmode=walking"
+    },
+    {
+     "name_zh": "Lawson 猪苗代三郷店",
+     "name_ja": "ローソン 猪苗代三郷店",
+     "type": "便利商店",
+     "lat": 37.5803704,
+     "lng": 140.1262637,
+     "dist_m": 4684,
+     "walk_min": 59,
+     "note": "",
+     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%20%E7%8C%AA%E8%8B%97%E4%BB%A3%E4%B8%89%E9%83%B7%E5%BA%97",
+     "nav_url": "https://www.google.com/maps/dir/?api=1&destination=37.5803704,140.1262637&travelmode=walking"
+    }
+   ],
+   "shopping_note": "滑雪場區，飯店周邊 3 km 內沒有商店，只能靠館內販賣部。建議在大內宿或遊覽車回程停靠猪苗代市區時先採買。"
   },
   "lake-inawashiro": {
    "id": "lake-inawashiro",
