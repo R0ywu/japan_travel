@@ -6,6 +6,7 @@
 
   const DAY_COLORS = ['#b23a2b', '#d9742b', '#c98a2b', '#4f7d5a', '#3e6a8a'];
   const TYPE_ICON = { '餐廳': '🍴', '咖啡': '☕', '伴手禮': '🎁', '溫泉': '♨', '其他': '📍' };
+  const SHOP_ICON = { '便利商店': '🏪', '超市': '🛒', '藥妝': '💊', '唐吉訶德': '🐧' };
   const OSRM = 'https://router.project-osrm.org/route/v1/driving/';
   const METEO = 'https://api.open-meteo.com/v1/forecast';
   const WMO = {
@@ -22,6 +23,8 @@
     mode: 'all',      // 'all' | 'day'
     day: 1,
     showNearby: true,
+    showShopping: true,
+    shopMarkersS: {}, // shoppingKey -> marker
     layers: {},       // day -> { spots, route, nearby, bounds }
     markers: {},      // `${day}:${idx}` -> marker
     shopMarkers: {},  // shopKey -> marker
@@ -66,6 +69,15 @@
     });
   }
 
+  function shopIcon(type) {
+    return L.divIcon({
+      className: 'marker-dot',
+      html: `<div class="dot shop shop-${esc(type)}">${SHOP_ICON[type] || '🛍'}</div>`,
+      iconSize: [0, 0], iconAnchor: [0, 0], popupAnchor: [0, -14]
+    });
+  }
+  const fmtDist = m => m >= 1000 ? (m / 1000).toFixed(1) + ' km' : m + ' m';
+
   /* ---------- init ---------- */
   async function init() {
     const res = await fetch('data/itinerary.json', { cache: 'no-cache' }); // 每次重新驗證，部署後不必等 CDN 快取過期
@@ -99,7 +111,17 @@
   function buildLayers() {
     const { days, places } = state.data;
     days.forEach(d => {
-      const spots = L.layerGroup(), route = L.layerGroup(), nearby = L.layerGroup();
+      const spots = L.layerGroup(), route = L.layerGroup(), nearby = L.layerGroup(), shopping = L.layerGroup();
+      const hotel = d.hotel ? places[d.hotel] : null;
+      if (hotel && hotel.shopping) {
+        hotel.shopping.forEach(sh => {
+          const key = `${hotel.id}|${sh.name_ja}`;
+          const sm = L.marker([sh.lat, sh.lng], { icon: shopIcon(sh.type), title: sh.name_zh });
+          sm.bindPopup(popupShopping(sh, hotel));
+          sm.addTo(shopping);
+          state.shopMarkersS[key] = { marker: sm, day: d.day };
+        });
+      }
       const pts = [];
       let n = 0;
       d.stops.forEach((s, i) => {
@@ -126,7 +148,7 @@
       // 先畫直線（OSRM 回來後替換成真實路線）
       const straight = busSegments(d).map(seg => L.polyline(seg.latlngs, { color: color(d.day), weight: 4, opacity: .55, dashArray: '6 8' }));
       straight.forEach(l => l.addTo(route));
-      state.layers[d.day] = { spots, route, nearby, bounds: pts.length ? L.latLngBounds(pts) : null, straight };
+      state.layers[d.day] = { spots, route, nearby, shopping, bounds: pts.length ? L.latLngBounds(pts) : null, straight };
     });
   }
 
@@ -160,13 +182,20 @@
       <div class="pop-actions"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps</a>${sh.nav_url ? `<a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">導航</a>` : ''}</div>`;
   }
 
+  function popupShopping(sh, hotel) {
+    return `<b>${SHOP_ICON[sh.type] || ''} ${esc(sh.name_zh)}</b><span class="muted">${esc(sh.name_ja)}</span>
+      <div>${esc(sh.type)}・離 ${esc(hotel.name_zh)} ${fmtDist(sh.dist_m)}（步行約 ${sh.walk_min} 分）</div>
+      ${sh.note ? `<div style="margin-top:4px">${esc(sh.note)}</div>` : ''}
+      <div class="pop-actions"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps</a><a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">步行導航</a></div>`;
+  }
+
   /* ---------- view switching ---------- */
   function applyView(fit) {
     const { days } = state.data;
     days.forEach(d => {
       const L_ = state.layers[d.day];
       const on = state.mode === 'all' || state.day === d.day;
-      toggle(L_.spots, on); toggle(L_.route, on); toggle(L_.nearby, on && state.showNearby);
+      toggle(L_.spots, on); toggle(L_.route, on); toggle(L_.nearby, on && state.showNearby); toggle(L_.shopping, on && state.showShopping);
     });
     // UI
     $('#mode-all').classList.toggle('active', state.mode === 'all');
@@ -327,9 +356,32 @@
         ${p.phone ? `<a class="btn" href="tel:${esc(p.phone.replace(/[^+\d]/g, ''))}">📞 ${esc(p.phone)}</a>` : ''}
       </div>
       ${p.tips && p.tips.length ? `<h3>實用提醒</h3><ul>${p.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+      ${p.shopping && p.shopping.length ? `<h3>飯店周邊採購（依距離排序）</h3>
+        ${p.shopping_note ? `<div class="shopnote">🛍 ${esc(p.shopping_note)}</div>` : ''}
+        <div class="shops shopping">${p.shopping.map((sh, i) => `<div class="shop" data-shopping="${i}" title="在地圖上顯示">
+          <span class="dot shop shop-${esc(sh.type)}">${SHOP_ICON[sh.type] || '🛍'}</span>
+          <div>
+            <div class="nm">${esc(sh.name_zh)}<span class="dist">${fmtDist(sh.dist_m)}・步行約 ${sh.walk_min} 分</span></div>
+            ${sh.note ? `<div class="nt">${esc(sh.note)}</div>` : ''}
+            <div class="lk"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps ↗</a> <a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">步行導航 ↗</a></div>
+          </div></div>`).join('')}</div>` : ''}
       ${p.nearby.length ? `<h3>周邊推薦餐飲・店家（${p.nearby.length}）</h3><div class="shops">${shops}</div>` : ''}
     `;
-    body.querySelectorAll('.shop').forEach(el => el.addEventListener('click', e => {
+    body.querySelectorAll('.shop[data-shopping]').forEach(el => el.addEventListener('click', e => {
+      if (e.target.tagName === 'A') return;
+      const sh = p.shopping[+el.dataset.shopping];
+      const rec = state.shopMarkersS[`${p.id}|${sh.name_ja}`];
+      if (!rec) return;
+      if (!state.showShopping) { $('#toggle-shopping').checked = true; state.showShopping = true; applyView(false); }
+      if (state.mode === 'day' && state.day !== rec.day) { state.mode = 'all'; applyView(false); }
+      body.querySelectorAll('.shop.active').forEach(x => x.classList.remove('active'));
+      el.classList.add('active');
+      focusMarker(rec.marker);
+      map.flyTo([sh.lat, sh.lng], 16, { duration: .8 });
+      setTimeout(() => rec.marker.openPopup(), 850);
+      if (window.innerWidth <= 860) closeDetail();
+    }));
+    body.querySelectorAll('.shop[data-shop]').forEach(el => el.addEventListener('click', e => {
       if (e.target.tagName === 'A') return;
       const sh = p.nearby[+el.dataset.shop];
       if (sh.lat == null) return;
@@ -455,6 +507,7 @@
     $('#mode-all').addEventListener('click', () => { state.mode = 'all'; closeDetail(); applyView(true); });
     $('#mode-day').addEventListener('click', () => { state.mode = 'day'; closeDetail(); applyView(true); });
     $('#toggle-nearby').addEventListener('change', e => { state.showNearby = e.target.checked; applyView(false); });
+    $('#toggle-shopping').addEventListener('change', e => { state.showShopping = e.target.checked; applyView(false); });
     $('#detail-close').addEventListener('click', closeDetail);
     $('#sheet-toggle').addEventListener('click', () => {
       const on = $('#detail').classList.toggle('expanded');

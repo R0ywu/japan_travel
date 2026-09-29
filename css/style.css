@@ -141,6 +141,14 @@ button { font: inherit; cursor: pointer; }
 .dot-伴手禮 { border-color: #c2418a; }
 .dot-溫泉 { border-color: #2f8a86; }
 .dot-其他 { border-color: #7a6f68; }
+/* 採購地標：方形圓角，跟推薦店家的圓點區分 */
+.dot.shop { border-radius: 6px; width: 24px; height: 24px; }
+.shop-便利商店 { border-color: #2e7d32; }
+.shop-超市 { border-color: #1565c0; }
+.shop-藥妝 { border-color: #c62828; }
+.shop-唐吉訶德 { border-color: #f9a825; background: #fff8e1; }
+.shopnote { background: #fff4d6; border: 1px solid #f0d9a0; border-radius: 10px; padding: 8px 12px; font-size: 13px; margin: 8px 0; }
+.shop .dist { font-size: 11px; color: var(--muted); font-weight: 400; margin-left: 6px; }
 .legend { position: absolute; left: 10px; bottom: 10px; z-index: 500; background: rgba(255,255,255,.92); border-radius: 10px; padding: 8px 12px; font-size: 12px; box-shadow: var(--shadow); }
 .legend-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
 .legend-toggle { display: none; border: 0; background: transparent; padding: 0; font-size: 12px; color: var(--accent); font-weight: 600; }
