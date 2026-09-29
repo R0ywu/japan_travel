@@ -1,0 +1,16 @@
+{
+  "name": "花卷東北賞楓五日 互動行程地圖",
+  "short_name": "東北賞楓",
+  "description": "2026/10/06–10/10 花卷東北賞楓五日：互動地圖、景點介紹、路程、周邊店家、天氣。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#b23a2b",
+  "lang": "zh-Hant",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
