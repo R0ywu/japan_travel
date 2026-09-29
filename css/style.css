@@ -153,7 +153,12 @@ button { font: inherit; cursor: pointer; }
 .marker-pin { position: relative; }
 .marker-pin .pin { position: absolute; left: -13px; top: -26px; }
 .marker-dot .dot { position: absolute; left: -11px; top: -11px; }
-.marker-pin.focus .pin { transform: rotate(-45deg) scale(1.25); z-index: 2; }
+.marker-pin.focus .pin { transform: rotate(-45deg) scale(1.35); box-shadow: 0 0 0 4px rgba(178,58,43,.35), 0 3px 10px rgba(0,0,0,.4); animation: bounce .6s ease-out; }
+.marker-dot.focus .dot { transform: scale(1.4); box-shadow: 0 0 0 5px rgba(201,138,43,.35), 0 2px 8px rgba(0,0,0,.35); animation: pulse 1.2s ease-out 2; }
+.marker-pin.focus, .marker-dot.focus { z-index: 1000 !important; }
+@keyframes bounce { 0% { transform: rotate(-45deg) scale(1.35) translate(0,0); } 40% { transform: rotate(-45deg) scale(1.35) translate(-10px,-10px); } 100% { transform: rotate(-45deg) scale(1.35) translate(0,0); } }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(201,138,43,.6); } 100% { box-shadow: 0 0 0 16px rgba(201,138,43,0); } }
+.shop.active { background: var(--accent-soft); }
 .leaflet-popup-content { margin: 10px 12px; font-size: 13px; }
 .leaflet-popup-content b { display: block; font-size: 14px; }
 .leaflet-popup-content .pop-actions { margin-top: 6px; display: flex; gap: 8px; }
@@ -166,7 +171,13 @@ button { font: inherit; cursor: pointer; }
   background: var(--panel); box-shadow: var(--shadow); z-index: 880; overflow-y: auto; padding: 18px 18px 40px;
   border-right: 1px solid var(--line);
 }
-.detail-close { position: absolute; right: 12px; top: 12px; border: 0; background: var(--bg); width: 32px; height: 32px; border-radius: 50%; }
+.detail.in { animation: slideIn .3s ease-out; }
+@keyframes slideIn { from { transform: translateX(-24px); opacity: 0; } to { transform: none; opacity: 1; } }
+.photo { margin: -18px -18px 12px; position: relative; }
+.photo img { display: block; width: 100%; height: 200px; object-fit: cover; background: var(--line); }
+.photo figcaption { position: absolute; right: 0; bottom: 0; font-size: 10px; color: #fff; background: rgba(0,0,0,.45); padding: 2px 8px; border-top-left-radius: 6px; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.photo figcaption a { color: #fff; text-decoration: none; }
+.detail-close { position: absolute; right: 12px; top: 12px; z-index: 2; border: 0; background: rgba(255,255,255,.9); width: 32px; height: 32px; border-radius: 50%; }
 .detail h2 { margin: 6px 40px 2px 0; font-size: 20px; line-height: 1.25; }
 .detail .ja { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
 .detail .badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-right: 6px; }
@@ -219,5 +230,9 @@ button { font: inherit; cursor: pointer; }
   .legend:not(.open) .legend-row { display: none; }
   .legend-toggle { display: inline-block; }
   .detail { top: auto; bottom: 0; width: 100%; max-height: 78vh; border-radius: 16px 16px 0 0; z-index: 950; }
+  .detail.in { animation: slideUp .3s ease-out; }
+  @keyframes slideUp { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+  .photo { margin: -18px -18px 12px; border-radius: 16px 16px 0 0; overflow: hidden; }
+  .photo img { height: 160px; }
   .layer-toggle span { display: none; }
 }

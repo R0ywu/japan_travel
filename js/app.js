@@ -148,6 +148,7 @@
       <div class="pop-actions">
         <button type="button" onclick="TripApp.openDetail(${day},${idx})">看介紹・周邊店家</button>
         <a href="${esc(p.google_maps_url)}" target="_blank" rel="noopener">Google Maps</a>
+        ${p.nav_url ? `<a href="${esc(p.nav_url)}" target="_blank" rel="noopener">導航</a>` : ''}
       </div>`;
   }
   function popupShop(sh, near) {
@@ -156,7 +157,7 @@
       <div>${rate}</div>
       <div style="margin-top:4px">${esc(sh.note)}</div>
       <div class="muted" style="margin-top:4px;font-size:11px">鄰近：${esc(near.name_zh)}</div>
-      <div class="pop-actions"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps</a></div>`;
+      <div class="pop-actions"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps</a>${sh.nav_url ? `<a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">導航</a>` : ''}</div>`;
   }
 
   /* ---------- view switching ---------- */
@@ -205,6 +206,7 @@
     el.addEventListener('click', e => {
       const t = e.target.closest('.day-tab'); if (!t) return;
       state.day = +t.dataset.day; state.mode = 'day';
+      closeDetail();
       applyView(true);
       $('#panel').scrollTo({ top: 0, behavior: 'smooth' });
     });
@@ -267,11 +269,22 @@
     if (row) { row.classList.add('active'); if (!fly) row.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
     const m = state.markers[`${day}:${idx}`];
     const p = state.data.places[state.data.days[day - 1].stops[idx].place];
+    focusMarker(m);
     if (fly && m) {
       map.flyTo(m.getLatLng(), Math.max(map.getZoom(), p.kind === 'airport' ? 11 : 14), { duration: .8 });
       setTimeout(() => m.openPopup(), 850);
+    } else if (m) {
+      map.panTo(m.getLatLng(), { animate: true, duration: .5 });
     }
     openDetail(day, idx);
+  }
+
+  // 讓被選中的標記明顯：放大 + 跳動一次；其餘恢復
+  function focusMarker(m) {
+    document.querySelectorAll('.marker-pin.focus, .marker-dot.focus').forEach(el => el.classList.remove('focus'));
+    if (!m) return;
+    const el = m.getElement();
+    if (el) { el.classList.add('focus'); m.setZIndexOffset(1000); }
   }
 
   /* ---------- detail panel ---------- */
@@ -289,12 +302,16 @@
         <div>
           <div class="nm">${esc(sh.name_zh)} ${rate}</div>
           <div class="nt">${esc(sh.note)}</div>
-          <div class="lk"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps ↗</a>${hasPos ? '' : ' <span class="muted">（座標未查到，請用連結搜尋）</span>'}</div>
+          <div class="lk"><a href="${esc(sh.google_maps_url)}" target="_blank" rel="noopener">Google Maps ↗</a>${sh.nav_url ? ` <a href="${esc(sh.nav_url)}" target="_blank" rel="noopener">導航 ↗</a>` : ''}${hasPos ? ' <span class="muted">・點此列在地圖定位</span>' : ' <span class="muted">（座標未查到，請用連結搜尋）</span>'}</div>
         </div>
       </div>`;
     }).join('');
 
+    const photo = p.image ? `<figure class="photo"><img src="${esc(p.image.url)}" alt="${esc(p.name_zh)}" loading="lazy"
+        onerror="this.closest('figure').style.display='none'">
+        <figcaption>照片：<a href="${esc(p.image.page)}" target="_blank" rel="noopener">${esc(p.image.credit)}</a></figcaption></figure>` : '';
     body.innerHTML = `
+      ${photo}
       <span class="badge">Day ${day}・${kindLabel}</span>${p.inferred ? '<span class="badge warn">推測地點，以旅行社為準</span>' : ''}
       <h2>${esc(p.name_zh)}</h2>
       <p class="ja">${esc(p.name_ja)}${p.name_en ? ' / ' + esc(p.name_en) : ''}</p>
@@ -304,6 +321,8 @@
       <p>${esc(p.intro)}</p>
       <div class="actions">
         <a class="btn" href="${esc(p.google_maps_url)}" target="_blank" rel="noopener">📍 Google Maps</a>
+        ${p.nav_url ? `<a class="btn" href="${esc(p.nav_url)}" target="_blank" rel="noopener">🧭 導航</a>` : ''}
+        ${p.image && p.image.wiki ? `<a class="btn" href="${esc(p.image.wiki)}" target="_blank" rel="noopener">📖 Wikipedia</a>` : ''}
         ${p.website ? `<a class="btn" href="${esc(p.website)}" target="_blank" rel="noopener">🌐 官方網站</a>` : ''}
         ${p.phone ? `<a class="btn" href="tel:${esc(p.phone.replace(/[^+\d]/g, ''))}">📞 ${esc(p.phone)}</a>` : ''}
       </div>
@@ -318,14 +337,24 @@
       if (!rec) return;
       if (!state.showNearby) { $('#toggle-nearby').checked = true; state.showNearby = true; applyView(false); }
       if (state.mode === 'day' && state.day !== rec.day) { state.mode = 'all'; applyView(false); }
+      body.querySelectorAll('.shop.active').forEach(x => x.classList.remove('active'));
+      el.classList.add('active');
+      focusMarker(rec.marker);
       map.flyTo([sh.lat, sh.lng], 16, { duration: .8 });
       setTimeout(() => rec.marker.openPopup(), 850);
       if (window.innerWidth <= 860) closeDetail();
     }));
-    $('#detail').hidden = false;
+    const panel = $('#detail');
+    panel.hidden = false;
+    panel.scrollTop = 0;
+    panel.classList.remove('in'); void panel.offsetWidth; panel.classList.add('in');
     loadWeather(p, d.date);
   }
-  function closeDetail() { $('#detail').hidden = true; }
+  function closeDetail() {
+    $('#detail').hidden = true;
+    focusMarker(null);
+    document.querySelectorAll('.stop.active').forEach(x => x.classList.remove('active'));
+  }
 
   /* ---------- weather (Open-Meteo) ---------- */
   async function loadWeather(p, date) {
@@ -416,8 +445,8 @@
 
   /* ---------- UI binding ---------- */
   function bindUI() {
-    $('#mode-all').addEventListener('click', () => { state.mode = 'all'; applyView(true); });
-    $('#mode-day').addEventListener('click', () => { state.mode = 'day'; applyView(true); });
+    $('#mode-all').addEventListener('click', () => { state.mode = 'all'; closeDetail(); applyView(true); });
+    $('#mode-day').addEventListener('click', () => { state.mode = 'day'; closeDetail(); applyView(true); });
     $('#toggle-nearby').addEventListener('change', e => { state.showNearby = e.target.checked; applyView(false); });
     $('#detail-close').addEventListener('click', closeDetail);
     const openInfo = () => { $('#info-drawer').hidden = false; $('#backdrop').hidden = false; $('#btn-info').setAttribute('aria-expanded', 'true'); };
