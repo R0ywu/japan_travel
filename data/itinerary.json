@@ -39,7 +39,19 @@
    "行李加購（單程每人）：5kg 350 元、10kg 700 元、15kg 1,050 元、20kg 1,400 元",
    "若藏王纜車無法搭乘，將改前往白石城或金蛇水神社，並退費 ¥1,000",
    "出團人數：最低 16 人、最高 41 人；含旅行業責任保險（意外死殘 250 萬、意外醫療 10 萬）"
-  ]
+  ],
+  "foliage": {
+   "source": "NAVITIME 日本紅葉預測 2026",
+   "url": "https://japantravel.navitime.com/zh-tw/area/jp/feature/autumn/",
+   "checked": "2026-10-05",
+   "scale": [
+    "黃綠",
+    "轉紅",
+    "賞楓最佳時機",
+    "開始凋零",
+    "落盡"
+   ]
+  }
  },
  "days": [
   {
@@ -639,7 +651,15 @@
     "credit": "Crown of Lenten rose / CC BY 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Akiu_Falls_2008.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E4%BF%9D%E5%A4%A7%E6%BB%9D"
-   }
+   },
+   "foliage": [
+    {
+     "name": "秋保大瀧",
+     "status": "黃綠",
+     "period": "10月下旬-11月上旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-32551/"
+    }
+   ]
   },
   "michinoku-lakewood-park": {
    "id": "michinoku-lakewood-park",
@@ -720,7 +740,15 @@
     "credit": "掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Irodori-no-hiroba_of_Michinoku_Lakewood_National_Government_Park_20181007b.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%96%B6%E3%81%BF%E3%81%A1%E3%81%AE%E3%81%8F%E6%9D%9C%E3%81%AE%E6%B9%96%E7%95%94%E5%85%AC%E5%9C%92"
-   }
+   },
+   "foliage": [
+    {
+     "name": "みちのく杜湖畔公園",
+     "status": "轉紅",
+     "period": "10/10-10/31",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-34689/"
+    }
+   ]
   },
   "zao-ropeway": {
    "id": "zao-ropeway",
@@ -801,7 +829,42 @@
     "credit": "E-190 / CC BY-SA 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Yamagata-zao_ski_1_%28200712%29.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E8%94%B5%E7%8E%8B%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4"
-   }
+   },
+   "foliage": [
+    {
+     "name": "藏王溫泉",
+     "status": "黃綠",
+     "period": "9月下旬-10月中旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90011-al00135/",
+     "note": "山麓溫泉街"
+    },
+    {
+     "name": "藏王 Eco-Line（Zao Liza World 附近）",
+     "status": "轉紅",
+     "period": "10月上旬-10月中旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-32590/",
+     "note": "山形側，纜車周邊"
+    },
+    {
+     "name": "宮城藏王（Eco-Line・賽之磧）",
+     "status": "轉紅",
+     "period": "10月上旬-10月中旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-30078/",
+     "note": "宮城側高處，遊覽車可能經過"
+    }
+   ],
+   "livecams": [
+    {
+     "name": "藏王溫泉官方即時影像（含樹氷高原駅）",
+     "url": "https://zaomountainresort.com/livecamera/",
+     "note": "以滑雪季為主，秋季部分鏡頭可能未更新"
+    },
+    {
+     "name": "藏王山 御釜（宮城側山頂）",
+     "url": "https://livecam.asia/miyagi/zao/oakma-zao.html",
+     "note": "彙整網站，可看山頂天氣與能見度"
+    }
+   ]
   },
   "mercure-miyagi-zao": {
    "id": "mercure-miyagi-zao",
@@ -1116,7 +1179,29 @@
     "credit": "Chensiyuan / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Matsushima_miyagi_z.JPG",
     "wiki": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B3%B6"
-   }
+   },
+   "foliage": [
+    {
+     "name": "松島（觀瀾亭松島博物館）",
+     "status": "黃綠",
+     "period": "10月下旬-11月下旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-32584/"
+    },
+    {
+     "name": "圓通院",
+     "status": "黃綠",
+     "period": "11月中旬-11月下旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-34694/",
+     "note": "夜間點燈名所"
+    }
+   ],
+   "livecams": [
+    {
+     "name": "松島灣（中央觀光棧橋，島巡觀光船）",
+     "url": "https://camera-map.com/miyagi/matsushimamachi/livecamera-4941.html",
+     "note": "彙整網站轉載，可看海況與遊覽船碼頭"
+    }
+   ]
   },
   "sendai-ichibancho": {
    "id": "sendai-ichibancho",
@@ -1679,7 +1764,22 @@
     "credit": "EXECUTOR / Public domain / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Mt.Bandai.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E7%A3%90%E6%A2%AF%E9%AB%98%E5%8E%9F"
-   }
+   },
+   "foliage": [
+    {
+     "name": "五色沼湖沼群",
+     "status": "黃綠",
+     "period": "10月中旬-11月上旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-32560/"
+    }
+   ],
+   "livecams": [
+    {
+     "name": "五色沼入口觀光廣場（裏磐梯觀光協會）",
+     "url": "https://www.urabandai-inf.com/livecamera/",
+     "note": "定時更新照片"
+    }
+   ]
   },
   "tsuruga-castle": {
    "id": "tsuruga-castle",
@@ -1774,7 +1874,15 @@
     "credit": "くろふね / CC BY 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:%E8%8B%A5%E6%9D%BE%E5%9F%8E%EF%BC%88%E9%B6%B4%E3%83%B6%E5%9F%8E%EF%BC%8920220917-P1003471.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E6%9D%BE%E5%9F%8E"
-   }
+   },
+   "foliage": [
+    {
+     "name": "鶴ヶ城址",
+     "status": "黃綠",
+     "period": "10月下旬-11月中旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-30745/"
+    }
+   ]
   },
   "suehiro-kaeigura": {
    "id": "suehiro-kaeigura",
@@ -1937,7 +2045,22 @@
     "credit": "ja:User:Fluffy nns. Uploaded by 百楽兎 / Public domain / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Ja-fukushima-ohuchijuku-4.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%86%85%E5%AE%BF"
-   }
+   },
+   "foliage": [
+    {
+     "name": "大內宿",
+     "status": "黃綠",
+     "period": "10月下旬-11月上旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-32591/"
+    }
+   ],
+   "livecams": [
+    {
+     "name": "大內宿（下鄉町官方）",
+     "url": "https://shimogo-livecamera.jp/",
+     "note": "下鄉町 5 台攝影機之一"
+    }
+   ]
   },
   "hotel-listel-inawashiro": {
    "id": "hotel-listel-inawashiro",
@@ -2112,7 +2235,14 @@
      "far": true
     }
    ],
-   "shopping_note": "滑雪場區，飯店周邊 3 km 內沒有商店，只能靠館內販賣部。建議在大內宿或遊覽車回程停靠猪苗代市區時先採買。"
+   "shopping_note": "滑雪場區，飯店周邊 3 km 內沒有商店，只能靠館內販賣部。建議在大內宿或遊覽車回程停靠猪苗代市區時先採買。",
+   "livecams": [
+    {
+     "name": "飯店 18F 湖景攝影機",
+     "url": "https://www.listel-inawashiro.jp/stay/camera.php",
+     "note": "每分鐘更新照片"
+    }
+   ]
   },
   "lake-inawashiro": {
    "id": "lake-inawashiro",
@@ -2193,7 +2323,19 @@
     "credit": "DCyokohama at Japanese Wikipedia / CC BY 3.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:Tenkyokaku.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E9%8F%A1%E9%96%A3"
-   }
+   },
+   "livecams": [
+    {
+     "name": "猪苗代湖・磐梯山（Hotel Listel 18F）",
+     "url": "https://www.listel-inawashiro.jp/stay/camera.php",
+     "note": "每分鐘更新照片"
+    },
+    {
+     "name": "磐梯山（猪苗代町官方）",
+     "url": "https://www.town.inawashiro.fukushima.jp/site/bousai/1867.html",
+     "note": "可操作鏡頭"
+    }
+   ]
   },
   "orchard-marusei": {
    "id": "orchard-marusei",
@@ -2314,7 +2456,15 @@
     "credit": "663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:230727_Genbikei_Ichinoseki_Iwate_pref_Japan03s3.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E5%8E%B3%E7%BE%8E%E6%B8%93"
-   }
+   },
+   "foliage": [
+    {
+     "name": "嚴美溪",
+     "status": "黃綠",
+     "period": "10月下旬-11月上旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90011-al00194/"
+    }
+   ]
   },
   "chusonji": {
    "id": "chusonji",
@@ -2410,7 +2560,22 @@
     "credit": "663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "page": "https://commons.wikimedia.org/wiki/File:230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
     "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B0%8A%E5%AF%BA"
-   }
+   },
+   "foliage": [
+    {
+     "name": "中尊寺",
+     "status": "黃綠",
+     "period": "10月中旬-11月中旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-30604/"
+    },
+    {
+     "name": "毛越寺",
+     "status": "轉紅",
+     "period": "10月下旬-11月中旬",
+     "url": "https://japantravel.navitime.com/zh-tw/area/jp/spot/90007-30603/",
+     "note": "附近（不在行程內）"
+    }
+   ]
   },
   "aeon-ezuriko": {
    "id": "aeon-ezuriko",
