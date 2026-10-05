@@ -7,7 +7,18 @@
   const DAY_COLORS = ['#b23a2b', '#d9742b', '#c98a2b', '#4f7d5a', '#3e6a8a'];
   const TYPE_ICON = { '餐廳': '🍴', '咖啡': '☕', '伴手禮': '🎁', '溫泉': '♨', '其他': '📍', '地酒': '🍶' };
   const SHOP_ICON = { '便利商店': '🏪', '超市': '🛒', '藥妝': '💊', '唐吉訶德': '🐧', '地酒': '🍶' };
-  const NEAR_LIMIT = 1500; // 公尺；超過的視為「較遠」，預設不顯示
+  const NEAR_LIMIT = 1500;
+  // NAVITIME 紅葉狀況五階段 → 顯示用顏色與說明
+  const FOLIAGE = {
+    '黃綠': { c: '#7cb342', label: '黃綠（尚未變色）', step: 1 },
+    '轉紅': { c: '#f39c12', label: '轉紅中', step: 2 },
+    '賞楓最佳時機': { c: '#d32f2f', label: '賞楓最佳時機', step: 3 },
+    '開始凋零': { c: '#8d6e63', label: '開始凋零', step: 4 },
+    '落盡': { c: '#9e9e9e', label: '落盡', step: 5 }
+  };
+  const folInfo = s => FOLIAGE[s] || { c: '#bdbdbd', label: s || '無資料', step: 0 };
+  const folBadge = f => `<span class="fol-badge" style="--fc:${folInfo(f.status).c}">🍁 ${esc(folInfo(f.status).label)}</span>`;
+  const folBar = s => { const st = folInfo(s).step; return `<span class="fol-bar">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= st ? 'on' : ''}" style="--fc:${folInfo(s).c}"></i>`).join('')}</span>`; }; // 公尺；超過的視為「較遠」，預設不顯示
   const OSRM = 'https://router.project-osrm.org/route/v1/driving/';
   const METEO = 'https://api.open-meteo.com/v1/forecast';
   const WMO = {
@@ -92,6 +103,7 @@
     initMap();
     buildDayTabs();
     buildInfoDrawer();
+    buildFoliageDrawer();
     buildLayers();
     renderItinerary();
     applyView(true);
@@ -269,6 +281,7 @@
               <div class="name">${esc(p.name_zh)}${p.inferred ? ' <span class="muted" style="font-weight:400;font-size:11px">（推測）</span>' : ''}</div>
               ${s.time ? `<div class="time">${esc(s.time)}</div>` : ''}
               ${s.note ? `<div class="sub">${esc(s.note)}</div>` : ''}
+              ${p.foliage && p.kind === 'spot' ? `<div class="sub">${folBadge(p.foliage[0])}${p.livecams ? ' <span class="cam-dot" title="有即時影像">📹</span>' : ''}</div>` : (p.livecams && p.kind === 'spot' ? '<div class="sub"><span class="cam-dot">📹 即時影像</span></div>' : '')}
             </div>
           </div>${seg}`;
       }).join('');
@@ -322,6 +335,20 @@
   }
 
   /* ---------- detail panel ---------- */
+  function foliageBlock(p) {
+    if (!p.foliage) return '';
+    const m = state.data.meta.foliage;
+    return `<div class="fol-box"><div class="fol-head">🍁 楓葉狀況 <small>NAVITIME・${esc(m.checked.slice(5).replace('-', '/'))} 查詢</small></div>
+      ${p.foliage.map(f => `<div class="fol-row">
+        <div><b>${esc(f.name)}</b>${f.note ? ` <small class="muted">${esc(f.note)}</small>` : ''}<br><small class="muted">歷年最佳 ${esc(f.period)}</small></div>
+        <div class="fol-right">${folBadge(f)}${folBar(f.status)}<a href="${esc(f.url)}" target="_blank" rel="noopener">最新 ↗</a></div>
+      </div>`).join('')}</div>`;
+  }
+  function camsBlock(p) {
+    if (!p.livecams) return '';
+    return `<div class="cam-box"><div class="fol-head">📹 即時影像</div>${p.livecams.map(c => `<a class="cam-link" href="${esc(c.url)}" target="_blank" rel="noopener"><b>${esc(c.name)} ↗</b>${c.note ? `<small>${esc(c.note)}</small>` : ''}</a>`).join('')}</div>`;
+  }
+
   function openDetail(day, idx) {
     const d = state.data.days[day - 1];
     const s = d.stops[idx];
@@ -354,6 +381,8 @@
       ${s.time ? `<p><b>${esc(s.time)}</b></p>` : ''}
       ${s.note ? `<p class="muted">${esc(s.note)}</p>` : ''}
       <div id="weather-box" class="weather"><span class="ico">⏳</span><div>天氣預報載入中…<small>${d.date}・Open-Meteo</small></div></div>
+      ${foliageBlock(p)}
+      ${camsBlock(p)}
       <p>${esc(p.intro)}</p>
       <div class="actions">
         <a class="btn" href="${esc(p.google_maps_url)}" target="_blank" rel="noopener">📍 Google Maps</a>
@@ -604,6 +633,29 @@
       <p class="wx-legend">資料：Open-Meteo 每日預報（每天更新，出發前 3 天內最準）。每日氣溫取當天所有停留點的最低／最高；降雨機率取最高值（保守）。藏王山頂為海拔 1,661 m 的估算，比山麓低約 8–10°C。</p>`;
   }
 
+  /* ---------- 紅葉・即時影像總覽 ---------- */
+  function buildFoliageDrawer() {
+    const { days, places, meta } = state.data;
+    const m = meta.foliage;
+    const rows = days.map(d => {
+      const items = d.stops.map(s => places[s.place]).filter((p, i, a) => (p.foliage || p.livecams) && a.indexOf(p) === i);
+      if (!items.length) return '';
+      return `<div class="wx-day" style="--c:${color(d.day)}">
+        <div class="wx-day-head" style="grid-template-columns:64px 1fr"><div class="d">Day ${d.day}<small>${d.date.slice(5).replace('-', '/')}（${d.weekday}）</small></div><div class="t">${esc(d.title)}</div></div>
+        <div class="wx-rows">${items.map(p => `<div class="fol-ov">
+          <div class="nm"><b>${esc(p.name_zh)}</b></div>
+          ${(p.foliage || []).map(f => `<div class="fol-line"><span>${esc(f.name)}${f.note ? ` <small class="muted">${esc(f.note)}</small>` : ''}</span><span class="fol-right">${folBadge(f)}<small class="muted">最佳 ${esc(f.period)}</small><a href="${esc(f.url)}" target="_blank" rel="noopener">↗</a></span></div>`).join('')}
+          ${(p.livecams || []).map(c => `<div class="fol-line"><span>📹 <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a></span><small class="muted">${esc(c.note || '')}</small></div>`).join('')}
+          ${!p.foliage ? '<div class="fol-line muted"><small>NAVITIME 無此地點的紅葉資料</small></div>' : ''}
+        </div>`).join('')}</div></div>`;
+    }).join('');
+    $('#foliage-body').innerHTML = `
+      <div class="shopnote">🍁 狀態是 <b>${esc(m.checked)}</b> 從 <a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.source)}</a> 抓下來的快照，不會自動更新；要看最新請點各地點的 ↗。<br>
+      階段：${m.scale.map(s => `<span class="fol-badge" style="--fc:${folInfo(s).c}">${esc(s)}</span>`).join(' → ')}</div>
+      ${rows}
+      <p class="wx-legend">即時影像多為觀光協會或地方政府的定點攝影機，有些是每分鐘更新的照片而非串流；鶴ヶ城、秋保大瀧、嚴美溪、中尊寺目前查無公開可用的攝影機。</p>`;
+  }
+
   /* ---------- info drawer ---------- */
   function buildInfoDrawer() {
     const { meta, days, places } = state.data;
@@ -641,6 +693,12 @@
     const openWx = () => { $('#weather-drawer').hidden = false; $('#backdrop').hidden = false; $('#btn-weather').setAttribute('aria-expanded', 'true'); loadWeatherOverview(); };
     const closeWx = () => { $('#weather-drawer').hidden = true; $('#backdrop').hidden = true; $('#btn-weather').setAttribute('aria-expanded', 'false'); };
     $('#btn-weather').addEventListener('click', openWx);
+    const openFol = () => { $('#foliage-drawer').hidden = false; $('#backdrop').hidden = false; $('#btn-foliage').setAttribute('aria-expanded', 'true'); };
+    const closeFol = () => { $('#foliage-drawer').hidden = true; $('#backdrop').hidden = true; $('#btn-foliage').setAttribute('aria-expanded', 'false'); };
+    $('#btn-foliage').addEventListener('click', openFol);
+    $('#foliage-close').addEventListener('click', closeFol);
+    $('#backdrop').addEventListener('click', closeFol);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeFol(); });
     $('#weather-close').addEventListener('click', closeWx);
     $('#backdrop').addEventListener('click', closeWx);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeWx(); });

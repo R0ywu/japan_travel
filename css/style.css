@@ -228,6 +228,27 @@ button { font: inherit; cursor: pointer; }
 .card a { text-decoration: none; }
 .card ul { margin: 0; padding-left: 16px; }
 
+/* 紅葉・即時影像 */
+.fol-badge { display: inline-block; font-size: 11px; font-weight: 600; color: var(--fc); background: color-mix(in srgb, var(--fc) 12%, white); border: 1px solid color-mix(in srgb, var(--fc) 40%, white); border-radius: 999px; padding: 0 8px; white-space: nowrap; }
+.fol-bar { display: inline-flex; gap: 2px; vertical-align: middle; }
+.fol-bar i { width: 10px; height: 6px; border-radius: 2px; background: var(--line); }
+.fol-bar i.on { background: var(--fc); }
+.fol-box, .cam-box { border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; margin: 10px 0; background: #fffdf8; }
+.fol-head { font-weight: 700; font-size: 13px; margin-bottom: 4px; }
+.fol-head small { font-weight: 400; color: var(--muted); margin-left: 6px; }
+.fol-row { display: flex; flex-direction: column; gap: 4px; font-size: 13px; padding: 6px 0; border-top: 1px dashed var(--line); }
+.fol-row:first-of-type { border-top: 0; }
+.fol-right { display: inline-flex; gap: 6px; align-items: center; flex-shrink: 0; font-size: 12px; }
+.cam-link { display: block; text-decoration: none; padding: 5px 0; border-top: 1px dashed var(--line); font-size: 13px; }
+.cam-link:first-of-type { border-top: 0; }
+.cam-link small { display: block; color: var(--muted); font-size: 11px; }
+.cam-dot { font-size: 11px; }
+.fol-ov { padding: 6px 0; border-top: 1px solid var(--line); }
+.fol-ov:first-child { border-top: 0; }
+.fol-line { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; padding: 2px 0 2px 10px; flex-wrap: wrap; }
+#btn-foliage { white-space: nowrap; }
+@media (max-width: 860px) { .topbar-actions .lbl { display: none; } .topbar-actions .btn { padding: 5px 9px; font-size: 15px; } }
+
 /* 天氣總覽 */
 .wx-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
 .wx-summary .card .big { font-size: 20px; }
